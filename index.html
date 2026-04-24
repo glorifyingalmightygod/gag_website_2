@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Glorifying Almighty GOD — A Bible teaching website exploring Old Testament, New Testament, and Bible Doctrine surveys." />
+  <title>Glorifying Almighty GOD</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&family=Open+Sans:ital,wght@1,700&family=Lato:wght@300;400;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ====================== HEADER ====================== -->
+  <header id="site-header" role="banner">
+    <!-- Mobile hamburger -->
+    <button id="hamburger" aria-label="Toggle navigation menu">☰</button>
+
+    <!-- Logo (top-left) -->
+    <img src="logo.png" alt="Glorifying Almighty GOD Logo" class="header-logo" />
+
+    <!-- Title & verse -->
+    <h1 class="header-title">
+      <span>Glorifying </span>Almighty GOD
+    </h1>
+    <p class="header-verse">
+      "So whether you eat or drink or whatever you do, do it all for the glory of God."
+      <cite>— 1 Corinthians 10:31</cite>
+    </p>
+
+    <!-- Controls -->
+    <div class="header-controls">
+      <button id="dark-toggle" aria-label="Toggle dark mode">🌙 Dark</button>
+    </div>
+  </header>
+
+  <!-- ====================== SIDEBAR TOGGLE (Desktop) ====================== -->
+  <button
+    id="sidebar-toggle"
+    title="Toggle sidebar"
+    aria-label="Toggle sidebar"
+    aria-expanded="true"
+  >◀</button>
+
+  <!-- ====================== LAYOUT ====================== -->
+  <div id="layout">
+
+    <!-- ───── SIDEBAR ───── -->
+    <nav id="sidebar" aria-label="Bible navigation">
+
+      <!-- Search -->
+      <div class="sidebar-search">
+        <div class="search-wrapper">
+          <input
+            type="search"
+            id="sidebar-search"
+            placeholder="Search books &amp; topics…"
+            aria-label="Search sidebar"
+            autocomplete="off"
+          />
+        </div>
+      </div>
+
+      <!-- Navigation tree (built by JS) -->
+      <div class="sidebar-nav" id="sidebar-nav"></div>
+
+    </nav>
+
+    <!-- Mobile overlay -->
+    <div id="overlay" class="overlay" role="presentation"></div>
+
+    <!-- ───── MAIN ───── -->
+    <main id="main" role="main">
+
+      <!-- HERO -->
+      <section id="hero" aria-label="Welcome banner">
+        <div class="hero-content">
+          <span class="hero-cross">✦ ✝ ✦</span>
+          <h2 class="hero-title">
+            Welcome to Glorifying Almighty GOD
+          </h2>
+          <p class="hero-subtitle">
+            A place to grow in the knowledge of His Word — exploring Scripture
+            from Genesis to Revelation, doctrine by doctrine, book by book.
+          </p>
+          <div class="hero-verse">
+            "Your word is a lamp to my feet and a light to my path."
+            <br><strong>— Psalm 119:105</strong>
+          </div>
+
+          <div class="vc-wrapper">
+            <div class="visit-counter">
+              <span class="vc-icon">👁</span>
+              <span class="vc-label">Page Visits</span>
+              <span class="vc-count" id="visit-count">—</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- CONTENT WRAPPER -->
+      <div id="content-wrapper">
+
+        <!-- Breadcrumb -->
+        <nav id="breadcrumb" aria-label="Breadcrumb navigation">
+          <span class="current">Home</span>
+        </nav>
+
+        <!-- Dynamic content -->
+        <div id="content-area" aria-live="polite"></div>
+
+      </div><!-- /#content-wrapper -->
+
+    </main><!-- /#main -->
+
+  </div><!-- /#layout -->
+
+  <!-- ====================== FOOTER ====================== -->
+  <footer id="site-footer" role="contentinfo">
+    <p>
+      &copy; <strong>Glorifying Almighty GOD</strong>
+      &nbsp;|&nbsp; All glory to God
+    </p>
+  </footer>
+
+  <!-- ====================== SUCCESS MODAL ====================== -->
+  <div id="success-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-box">
+      <div class="modal-cross">✝</div>
+      <h3 id="modal-title">Thank You!</h3>
+      <p class="modal-body-text">
+        Thank you for submitting your request, please allow us a week to get back to you.
+      </p>
+      <p class="modal-praise">
+        Praise the LORD!! &nbsp; GOD Bless You 🙏
+      </p>
+      <button class="modal-close-btn" onclick="hideModal()">Close &nbsp; ✕</button>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
