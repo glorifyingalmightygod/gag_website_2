@@ -148,6 +148,20 @@ const NAV_STRUCTURE = [
     ]
   },
   {
+    id: 'gospel-section',
+    label: 'Gospel Presentation',
+    icon: '📖',
+    subsections: [
+      {
+        id: 'gospel-sub',
+        label: 'The Good News',
+        items: [
+          { id: 'gospel-presentation', label: 'What Must I Do to Be Saved?' }
+        ]
+      }
+    ]
+  },
+  {
     id: 'doctrines',
     label: 'Bible Doctrine Survey',
     icon: '🕊',
@@ -386,6 +400,20 @@ function loadContent(id, sectionLabel, subsectionLabel, itemLabel) {
     return;
   }
 
+  // Video podcast — loads dynamically from Firebase, uses full width
+  if (id === 'video-podcast') {
+    document.getElementById('content-wrapper').classList.add('vp-wide');
+    const pg = CONTENT[id];
+    contentArea.innerHTML = pg ? pg.body : '<div class="content-card"><p>Loading…</p></div>';
+    setTimeout(loadVideoPodcastContent, 0);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (window.innerWidth <= 768) closeMobileSidebar();
+    return;
+  }
+
+  // Remove wide layout when navigating away from video podcast
+  document.getElementById('content-wrapper').classList.remove('vp-wide');
+
   if (!data) {
     contentArea.innerHTML = `
       <div class="content-card">
@@ -414,8 +442,32 @@ function loadContent(id, sectionLabel, subsectionLabel, itemLabel) {
   }
 }
 
+function getDailyVerse() {
+  if (typeof DAILY_VERSES === 'undefined' || !DAILY_VERSES.length) return null;
+  const now = new Date();
+  const start = new Date(now.getFullYear(), 0, 0);
+  const dayOfYear = Math.floor((now - start) / 86400000);
+  return DAILY_VERSES[(dayOfYear - 1) % DAILY_VERSES.length];
+}
+
 function renderHome() {
-  contentArea.innerHTML = `
+  const v = getDailyVerse();
+  const dateStr = new Date().toLocaleDateString('en-IN', { weekday: 'long', day: 'numeric', month: 'long' });
+  const dvHTML = v ? `
+    <div class="dv-card">
+      <div class="dv-header">
+        <span class="dv-cross">✝</span>
+        <span class="dv-label">Daily Bible Verse</span>
+        <span class="dv-date">${dateStr}</span>
+      </div>
+      <blockquote class="dv-en">"${v.en}"</blockquote>
+      <div class="dv-ref-en">${v.ref}</div>
+      <div class="dv-divider"></div>
+      <blockquote class="dv-te">"${v.te}"</blockquote>
+      <div class="dv-ref-te">${v.refTe}</div>
+    </div>` : '';
+
+  contentArea.innerHTML = dvHTML + `
     <div class="content-card">
       <h2>Welcome</h2>
       ${CONTENT.home.body}
@@ -638,6 +690,12 @@ function init() {
   initSearch();
   initVisitCounter();
 
+  // Admin page routing — triggered by #admin in URL
+  if (location.hash === '#admin') showAdminPage();
+  window.addEventListener('hashchange', () => {
+    if (location.hash === '#admin') showAdminPage();
+  });
+
   // Handle resize
   window.addEventListener('resize', () => {
     if (window.innerWidth > 768) {
@@ -704,36 +762,38 @@ function initSermonForm() {
     btn.disabled = true;
     btn.innerHTML = '<span>⏳</span>&nbsp; Sending…';
 
-    const payload = {
-      name:              form.querySelector('#f-name').value.trim(),
-      email:             form.querySelector('#f-email').value.trim(),
-      'Sermon Topic':    form.querySelector('#f-topic').value.trim(),
-      'Video Duration':  form.querySelector('#f-duration').value.trim(),
-      'Has YouTube':     ytSelect.value === 'yes' ? 'Yes' : (ytSelect.value === 'no' ? 'No' : 'Not specified'),
-      'YouTube Link':    ytSelect.value === 'yes' ? form.querySelector('#f-yt-link').value.trim() : 'N/A',
-      'Video File Size': form.querySelector('#f-filesize').value.trim(),
-      _subject:          'New Sermon Video Submission — Glorifying Almighty GOD'
-    };
+    const formData = new FormData();
+    formData.append('name',            form.querySelector('#f-name').value.trim());
+    formData.append('email',           form.querySelector('#f-email').value.trim());
+    formData.append('_replyto',        form.querySelector('#f-email').value.trim());
+    formData.append('Sermon Topic',    form.querySelector('#f-topic').value.trim());
+    formData.append('Video Duration',  form.querySelector('#f-duration').value.trim());
+    formData.append('Has YouTube',     ytSelect.value === 'yes' ? 'Yes' : (ytSelect.value === 'no' ? 'No' : 'Not specified'));
+    formData.append('YouTube Link',    ytSelect.value === 'yes' ? form.querySelector('#f-yt-link').value.trim() : 'N/A');
+    formData.append('Video File Size', form.querySelector('#f-filesize').value.trim());
+    formData.append('_subject',        'New Sermon Video Submission — Glorifying Almighty GOD');
+    formData.append('_captcha',        'false');
+    formData.append('_template',       'table');
 
     try {
       const res = await fetch('https://formsubmit.co/ajax/glorifyingalmightygod@gmail.com', {
         method:  'POST',
-        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-        body:    JSON.stringify(payload)
+        headers: { 'Accept': 'application/json' },
+        body:    formData
       });
-      const json = await res.json();
-      if (json.success === 'true' || json.success === true || res.ok) {
+      if (res.ok) {
         form.reset();
         ytGroup.style.display = 'none';
         showSuccessModal();
       } else {
-        throw new Error('FormSubmit returned failure');
+        throw new Error('Server error: ' + res.status);
       }
-    } catch (_) {
-      // Network/local — still show success modal so the UX is complete
-      form.reset();
-      ytGroup.style.display = 'none';
-      showSuccessModal();
+    } catch (err) {
+      btn.disabled = false;
+      btn.innerHTML = '<span>✉</span>&nbsp; Submit Request';
+      errorMsg.textContent = 'Submission failed — please check your internet connection and try again.';
+      errorMsg.style.display = 'block';
+      console.error('FormSubmit error:', err);
     }
 
     btn.disabled = false;
@@ -757,4 +817,266 @@ function hideModal() {
     modal.classList.remove('active');
     document.body.style.overflow = '';
   }
+}
+
+// ─── Firebase ──────────────────────────────────────────────────────────────────
+// ⚠ FILL IN your Firebase project values below after setting up Firebase console
+
+const FIREBASE_CONFIG = {
+  apiKey:      'AIzaSyDVihi2JGW5Z-2tio_vB0cwun9Un4XXt_Q',
+  authDomain:  'gag-website-b330d.firebaseapp.com',
+  databaseURL: 'https://gag-website-b330d-default-rtdb.firebaseio.com',
+  projectId:   'gag-website-b330d'
+};
+
+// SHA-256 hash of the admin password — actual password never stored in code
+const ADMIN_PASSWORD_HASH = '5eb5df1656cb18513cd435ff330d116b8739fdaf303d564c69f9191f38036932';
+
+async function hashStr(str) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+let _db = null;
+function getDB() {
+  if (_db) return _db;
+  if (!firebase.apps.length) firebase.initializeApp(FIREBASE_CONFIG);
+  _db = firebase.database();
+  return _db;
+}
+
+// ─── Admin Page ────────────────────────────────────────────────────────────────
+
+function showAdminPage() {
+  heroSection.style.display = 'none';
+  if (breadcrumbEl) breadcrumbEl.innerHTML = '<span class="current">Admin</span>';
+  if (!sessionStorage.getItem('gag-admin')) {
+    renderAdminLogin();
+  } else {
+    renderAdminDashboard();
+  }
+}
+
+function renderAdminLogin() {
+  contentArea.innerHTML = `
+    <div class="content-card admin-card">
+      <h2 class="admin-title">🔐 Admin Login</h2>
+      <p style="color:var(--text-light);margin-bottom:20px">This page is for site administrators only.</p>
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" id="admin-pw" placeholder="Enter admin password" />
+      </div>
+      <button onclick="checkAdminPw()" class="form-submit-btn" style="margin-top:12px">Login</button>
+      <p id="admin-pw-err" style="color:#cc2200;display:none;margin-top:10px">Incorrect password. Try again.</p>
+    </div>`;
+  setTimeout(() => {
+    const pw = document.getElementById('admin-pw');
+    if (pw) pw.addEventListener('keydown', e => { if (e.key === 'Enter') checkAdminPw(); });
+  }, 0);
+}
+
+async function checkAdminPw() {
+  const pw = document.getElementById('admin-pw');
+  if (!pw) return;
+  const hash = await hashStr(pw.value);
+  if (hash === ADMIN_PASSWORD_HASH) {
+    sessionStorage.setItem('gag-admin', '1');
+    renderAdminDashboard();
+  } else {
+    document.getElementById('admin-pw-err').style.display = 'block';
+    pw.value = '';
+    pw.focus();
+  }
+}
+
+function renderAdminDashboard() {
+  contentArea.innerHTML = `
+    <div class="content-card admin-card">
+      <div class="admin-header-row">
+        <h2 class="admin-title">🎬 Video Podcast Manager</h2>
+        <button onclick="adminLogout()" class="admin-logout-btn">Logout</button>
+      </div>
+
+      <div class="admin-add-section">
+        <h3>Add New Video</h3>
+        <div class="form-group">
+          <label>Sermon Title <span class="req">*</span></label>
+          <input type="text" id="adm-title" placeholder="e.g. The Grace of God — Part 1" />
+        </div>
+        <div class="form-group">
+          <label>YouTube URL <span class="req">*</span></label>
+          <input type="url" id="adm-url" placeholder="https://youtube.com/watch?v=..." />
+          <small style="color:var(--text-light);margin-top:4px;display:block">Upload your video to YouTube first, then paste the link here.</small>
+        </div>
+        <button onclick="adminAddVideo()" class="form-submit-btn">➕ Add Video</button>
+        <p id="adm-msg" style="display:none;margin-top:10px"></p>
+      </div>
+
+      <div class="admin-list-section">
+        <h3>Published Videos</h3>
+        <div id="adm-list"><p style="color:var(--text-light)">Loading…</p></div>
+      </div>
+    </div>`;
+  adminLoadList();
+}
+
+function adminLogout() {
+  sessionStorage.removeItem('gag-admin');
+  renderAdminLogin();
+}
+
+function extractYouTubeId(url) {
+  const m = url.match(/(?:v=|youtu\.be\/|embed\/|shorts\/)([A-Za-z0-9_-]{11})/);
+  return m ? m[1] : null;
+}
+
+async function adminAddVideo() {
+  const title = (document.getElementById('adm-title').value || '').trim();
+  const url   = (document.getElementById('adm-url').value || '').trim();
+  const msg   = document.getElementById('adm-msg');
+
+  if (!title || !url) {
+    msg.textContent = 'Both fields are required.';
+    msg.style.cssText = 'display:block;color:#cc2200';
+    return;
+  }
+  const ytId = extractYouTubeId(url);
+  if (!ytId) {
+    msg.textContent = 'Could not recognise a YouTube URL. Please check the link.';
+    msg.style.cssText = 'display:block;color:#cc2200';
+    return;
+  }
+  try {
+    msg.textContent = 'Saving…';
+    msg.style.cssText = 'display:block;color:var(--text-light)';
+    await getDB().ref('gag_videos').push({
+      title,
+      ytId,
+      addedAt: new Date().toISOString()
+    });
+    document.getElementById('adm-title').value = '';
+    document.getElementById('adm-url').value = '';
+    msg.textContent = '✅ Video added! It is now live on the Video Podcast page.';
+    msg.style.cssText = 'display:block;color:green';
+    adminLoadList();
+  } catch (err) {
+    msg.textContent = '❌ Error saving. Check that your Firebase config values are filled in correctly.';
+    msg.style.cssText = 'display:block;color:#cc2200';
+    console.error(err);
+  }
+}
+
+function adminLoadList() {
+  const listEl = document.getElementById('adm-list');
+  if (!listEl) return;
+  listEl.innerHTML = '<p style="color:var(--text-light)">Loading…</p>';
+  getDB().ref('gag_videos').once('value', snap => {
+    const data = snap.val();
+    if (!data) {
+      listEl.innerHTML = '<p style="color:var(--text-light)">No videos yet. Add your first one above.</p>';
+      return;
+    }
+    const entries = Object.entries(data).reverse();
+    listEl.innerHTML = entries.map(([key, v]) => `
+      <div class="adm-video-row">
+        <img class="adm-thumb" src="https://img.youtube.com/vi/${v.ytId}/mqdefault.jpg" alt="${v.title}" />
+        <div class="adm-video-info">
+          <strong>${v.title}</strong>
+          <span>${v.addedAt ? v.addedAt.slice(0,10) : ''}</span>
+        </div>
+        <div class="adm-action-btns">
+          <button class="adm-edit-btn" onclick="adminEditTitle('${key}', this)">✏ Edit</button>
+          <button class="adm-del-btn" onclick="adminDeleteVideo('${key}', this)">🗑 Delete</button>
+        </div>
+      </div>
+    `).join('');
+  });
+}
+
+async function adminDeleteVideo(key, btn) {
+  const row = btn.closest('.adm-video-row');
+  const title = row.querySelector('strong').textContent;
+  if (!confirm(`Delete "${title}"?`)) return;
+  await getDB().ref('gag_videos/' + key).remove();
+  row.remove();
+}
+
+function adminEditTitle(key, btn) {
+  const row = btn.closest('.adm-video-row');
+  const titleEl = row.querySelector('strong');
+  const currentTitle = titleEl.textContent;
+
+  // Swap title text for an editable input
+  titleEl.outerHTML = `<input class="adm-edit-input" type="text" value="${currentTitle.replace(/"/g, '&quot;')}" />`;
+  row.querySelector('.adm-edit-input').focus();
+
+  // Swap Edit button to Save
+  btn.textContent = '💾 Save';
+  btn.className = 'adm-save-btn';
+  btn.onclick = () => adminSaveTitle(key, btn);
+}
+
+async function adminSaveTitle(key, btn) {
+  const row = btn.closest('.adm-video-row');
+  const input = row.querySelector('.adm-edit-input');
+  const newTitle = input.value.trim();
+
+  if (!newTitle) {
+    input.style.borderColor = '#cc2200';
+    input.focus();
+    return;
+  }
+
+  btn.textContent = 'Saving…';
+  btn.disabled = true;
+
+  try {
+    await getDB().ref('gag_videos/' + key + '/title').set(newTitle);
+    // Swap input back to title text
+    input.outerHTML = `<strong>${newTitle}</strong>`;
+    btn.textContent = '✏ Edit';
+    btn.className = 'adm-edit-btn';
+    btn.disabled = false;
+    btn.onclick = () => adminEditTitle(key, btn);
+  } catch (err) {
+    btn.textContent = '💾 Save';
+    btn.disabled = false;
+    console.error(err);
+  }
+}
+
+// ─── Video Podcast — Public View ───────────────────────────────────────────────
+
+function loadVideoPodcastContent() {
+  const grid = document.getElementById('vp-grid');
+  if (!grid) return;
+  getDB().ref('gag_videos').once('value', snap => {
+    const data = snap.val();
+    if (!data) {
+      grid.innerHTML = `
+        <div class="vp-empty">
+          <p>Video sermons are being prepared. Please check back soon!</p>
+          <blockquote>"Preach the word; be ready in season and out of season." — 2 Timothy 4:2</blockquote>
+        </div>`;
+      return;
+    }
+    const entries = Object.entries(data).reverse();
+    grid.innerHTML = entries.map(([, v]) => `
+      <div class="vp-card">
+        <div class="vp-embed-wrap">
+          <iframe
+            src="https://www.youtube.com/embed/${v.ytId}"
+            title="${v.title}"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            loading="lazy">
+          </iframe>
+        </div>
+        <div class="vp-card-body">
+          <h3 class="vp-card-title">${v.title}</h3>
+        </div>
+      </div>
+    `).join('');
+  });
 }

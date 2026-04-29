@@ -6,6 +6,131 @@ const CONTENT = {
     <blockquote>"Your word is a lamp to my feet and a light to my path." — Psalm 119:105</blockquote>`
   },
 
+  // GOSPEL PRESENTATION
+  'gospel-presentation': {
+    title: "What Must I Do to Be Saved?",
+    body: `
+    <p class="gp-intro">The Bible has the answer to life's most important question. Here it is — explained simply, honestly, and straight from God's Word. Read through each question below.</p>
+
+    <div class="gp-qa">
+      <div class="gp-question"><span class="gp-q-num">Q 1</span> Does God really love me?</div>
+      <div class="gp-answer">
+        <p><strong>Yes — more than you can ever imagine.</strong> God created you, knows you by name, and has a wonderful plan for your life. His love is not based on how good you are or what you have done. He loves you just as you are, right now.</p>
+        <blockquote>"For God so loved the world that He gave His one and only Son, that whoever believes in Him shall not perish but have eternal life." <cite>— John 3:16</cite></blockquote>
+        <p class="gp-telugu">"దేవుడు లోకమును ఎంతో ప్రేమించెను కాబట్టి తన అద్వితీయ కుమారుని అనుగ్రహించెను; ఆయనయందు విశ్వాసముంచు ప్రతివాడు నశింపక నిత్యజీవమును పొందునట్లు అనుగ్రహించెను." — యోహాను 3:16</p>
+      </div>
+    </div>
+
+    <div class="gp-qa">
+      <div class="gp-question"><span class="gp-q-num">Q 2</span> Then why do I feel so far from God?</div>
+      <div class="gp-answer">
+        <p>If God loves us so much, why does life feel empty or broken sometimes? The Bible tells us there is a wall between us and God — and that wall is called <strong>sin</strong>.</p>
+        <blockquote>"But your iniquities have separated you from your God; your sins have hidden His face from you, so that He will not hear." <cite>— Isaiah 59:2</cite></blockquote>
+        <p class="gp-telugu">"అయితే మీ దోషములు మీకును మీ దేవునికిని అడ్డుగా వచ్చి మీ పాపములు ఆయన మొగము మీకు కనబడకుండ చేయుచున్నవి." — యెషయా 59:2</p>
+      </div>
+    </div>
+
+    <div class="gp-qa">
+      <div class="gp-question"><span class="gp-q-num">Q 3</span> What exactly is sin?</div>
+      <div class="gp-answer">
+        <p>Sin is simply <strong>going our own way instead of God's way.</strong> Lying, hatred, pride, greed, jealousy — but also just ignoring God in your daily life. And here is the honest truth — every single one of us has sinned. There are no exceptions.</p>
+        <blockquote>"For all have sinned and fall short of the glory of God." <cite>— Romans 3:23</cite></blockquote>
+        <p class="gp-telugu">"అందరు పాపము చేసి దేవుని మహిమకు తక్కువవారైరి." — రోమీయులకు 3:23</p>
+      </div>
+    </div>
+
+    <div class="gp-qa">
+      <div class="gp-question"><span class="gp-q-num">Q 4</span> What happens because of sin?</div>
+      <div class="gp-answer">
+        <p>Sin has a price. The Bible calls it <strong>death</strong> — not just physical death, but eternal separation from God. That is serious. But read the same verse carefully — it also holds the greatest news you will ever hear!</p>
+        <blockquote>"For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord." <cite>— Romans 6:23</cite></blockquote>
+        <p class="gp-telugu">"పాపము వలన వచ్చు జీతము మరణము; అయితే దేవుని కృపావరము మన ప్రభువైన క్రీస్తుయేసునందు నిత్యజీవము." — రోమీయులకు 6:23</p>
+      </div>
+    </div>
+
+    <div class="gp-qa">
+      <div class="gp-question"><span class="gp-q-num">Q 5</span> Did God just leave us like that?</div>
+      <div class="gp-answer">
+        <p><strong>Absolutely not!</strong> This is where the Good News truly begins. Even while we were deep in sin, God did something incredible — He sent His own Son, Jesus Christ, to rescue us. Not because we deserved it. Simply because He loves us.</p>
+        <blockquote>"But God demonstrates His own love for us in this: while we were still sinners, Christ died for us." <cite>— Romans 5:8</cite></blockquote>
+        <p class="gp-telugu">"అయితే మనమింకను పాపులుగా ఉండగా క్రీస్తు మనకొరకు మృతిపొందెను; ఇందులో దేవుడు మనయెడల తన ప్రేమను వ్యక్తపరచుచున్నాడు." — రోమీయులకు 5:8</p>
+      </div>
+    </div>
+
+    <div class="gp-qa">
+      <div class="gp-question"><span class="gp-q-num">Q 6</span> Who is Jesus Christ?</div>
+      <div class="gp-answer">
+        <p>Jesus is not just a good teacher or a prophet. He is <strong>God who became a man</strong> — born of a virgin, lived a perfect sinless life, and is the only bridge between you and God the Father. No other person in history has made this claim and proved it.</p>
+        <blockquote>"Jesus answered, 'I am the way and the truth and the life. No one comes to the Father except through Me.'" <cite>— John 14:6</cite></blockquote>
+        <p class="gp-telugu">"యేసు — నేనే మార్గమును సత్యమును జీవమును అయి ఉన్నాను; నా ద్వారా తప్ప ఎవడును తండ్రియొద్దకు రాడు అని చెప్పెను." — యోహాను 14:6</p>
+      </div>
+    </div>
+
+    <div class="gp-qa">
+      <div class="gp-question"><span class="gp-q-num">Q 7</span> Why did Jesus have to die for me?</div>
+      <div class="gp-answer">
+        <p>Sin demands a penalty — death. Jesus, who had no sin of His own, stepped in and took that penalty in our place. He died on the cross so that we would not have to face God's judgment. It was the greatest act of love in all of human history.</p>
+        <blockquote>"Christ died for our sins according to the Scriptures, He was buried, and He was raised on the third day." <cite>— 1 Corinthians 15:3–4</cite></blockquote>
+        <p class="gp-telugu">"లేఖనముల ప్రకారము క్రీస్తు మన పాపముల నిమిత్తము మృతిపొందెను; సమాధిచేయబడెను; లేఖనముల ప్రకారము మూడవ దినమున లేపబడెను." — 1 కొరింథీయులకు 15:3-4</p>
+      </div>
+    </div>
+
+    <div class="gp-qa">
+      <div class="gp-question"><span class="gp-q-num">Q 8</span> Did Jesus stay dead?</div>
+      <div class="gp-answer">
+        <p><strong>No! Jesus rose from the dead on the third day.</strong> This is called the Resurrection — the most important event in all of history. Because He is alive today, He can give us life too. No other religious leader in history has risen from the dead.</p>
+        <blockquote>"I am the resurrection and the life. The one who believes in Me will live, even though they die." <cite>— John 11:25</cite></blockquote>
+        <p class="gp-telugu">"పునరుత్థానమును జీవమును నేనే; నందు విశ్వాసముంచువాడు చనిపోయినను బ్రదుకును." — యోహాను 11:25</p>
+      </div>
+    </div>
+
+    <div class="gp-qa gp-qa-highlight">
+      <div class="gp-question"><span class="gp-q-num">Q 9</span> So what must I do to be saved?</div>
+      <div class="gp-answer">
+        <p>This is the most important question of your life — and the answer is beautifully simple:</p>
+        <ul class="gp-steps-list">
+          <li><strong>Believe</strong> — Trust that Jesus died for your sins and rose again</li>
+          <li><strong>Confess</strong> — Admit to God that you are a sinner and need His forgiveness</li>
+          <li><strong>Receive</strong> — Accept Jesus as your Lord and Saviour into your heart</li>
+        </ul>
+        <blockquote>"If you declare with your mouth 'Jesus is Lord,' and believe in your heart that God raised Him from the dead, you will be saved." <cite>— Romans 10:9</cite></blockquote>
+        <p class="gp-telugu">"యేసు ప్రభువని నీ నోటితో అంగీకరించి, దేవుడు మృతులలో నుండి ఆయనను లేపెనని నీ హృదయమందు విశ్వసించినయెడల నీవు రక్షింపబడుదువు." — రోమీయులకు 10:9</p>
+      </div>
+    </div>
+
+    <div class="gp-qa">
+      <div class="gp-question"><span class="gp-q-num">Q 10</span> How can I be sure I am really saved?</div>
+      <div class="gp-answer">
+        <p>Salvation is not a feeling — it is a <strong>promise directly from God.</strong> Once you trust Jesus sincerely, His Word gives you full assurance. You do not need to wonder or doubt. God does not break His promises.</p>
+        <blockquote>"I write these things to you who believe in the name of the Son of God so that you may know that you have eternal life." <cite>— 1 John 5:13</cite></blockquote>
+        <p class="gp-telugu">"దేవుని కుమారుని నామమున విశ్వాసముంచు మీకు నిత్యజీవముండెనని మీరు తెలిసికొనుటకై ఈ సంగతులు మీకు వ్రాయుచున్నాను." — 1 యోహాను 5:13</p>
+      </div>
+    </div>
+
+    <div class="gp-prayer-box">
+      <div class="gp-prayer-title">🙏 A Simple Prayer to Receive Jesus</div>
+      <p class="gp-prayer-note">If you are ready to accept Jesus as your Saviour, you can pray this prayer sincerely from your heart right now. God hears every honest prayer.</p>
+      <div class="gp-prayer-text">
+        <p>"Lord Jesus, I know I am a sinner. I believe You died for my sins and rose from the dead. Please forgive me of all my sins. I open my heart and receive You as my Lord and Saviour. Thank You for saving me. Help me to live for You from this day forward. Amen."</p>
+      </div>
+      <p class="gp-prayer-te">ప్రభువైన యేసు క్రీస్తూ, నేను పాపిని అని నాకు తెలుసు. నీవు నా పాపముల కోసం మరణించి మూడవ దినమున లేచితివని నమ్ముచున్నాను. నా పాపములన్నిటిని క్షమించుము. నేను నా హృదయమును తెరచి నిన్ను నా ప్రభువుగా స్వీకరించుచున్నాను. నన్ను రక్షించినందుకు కృతజ్ఞతలు. ఇప్పటి నుండి నీ కొరకు జీవించుటకు సహాయపడుము. ఆమెన్.</p>
+    </div>
+
+    <h3>What Do You Do Next?</h3>
+    <p>If you prayed that prayer sincerely — <strong>welcome to God's family!</strong> Here are four simple steps to begin your new life:</p>
+    <div class="gp-next-steps">
+      <div class="gp-step"><span class="gp-step-icon">📖</span><div><strong>Read the Bible</strong><p>Start with the Gospel of John. Read a little every day and let God speak to you.</p></div></div>
+      <div class="gp-step"><span class="gp-step-icon">🙏</span><div><strong>Pray Every Day</strong><p>Talk to God morning and night. He is always listening and He loves to hear from you.</p></div></div>
+      <div class="gp-step"><span class="gp-step-icon">⛪</span><div><strong>Join a Church</strong><p>Find a Bible-believing church near you and grow together with other believers.</p></div></div>
+      <div class="gp-step"><span class="gp-step-icon">💬</span><div><strong>Tell Someone</strong><p>Share what happened to you. Your testimony is powerful and can change lives.</p></div></div>
+    </div>
+
+    <div class="gp-closing">
+      <p>"Therefore, if anyone is in Christ, the new creation has come: the old has gone, the new is here!"</p>
+      <strong>— 2 Corinthians 5:17</strong>
+    </div>`
+  },
+
   // OLD TESTAMENT
   genesis: { title: "Genesis", body: `<p><strong>Author:</strong> Moses | <strong>Date:</strong> ~1445–1405 BC</p><p>Genesis is the book of beginnings — the creation of the universe, mankind, sin, and the covenant promises of God. It traces the origins of Israel through the patriarchs: Abraham, Isaac, Jacob, and Joseph.</p><p><em>Key Themes:</em> Creation, Fall, Flood, Tower of Babel, the Abrahamic Covenant.</p>` },
   exodus: { title: "Exodus", body: `<p><strong>Author:</strong> Moses | <strong>Date:</strong> ~1445–1405 BC</p><p>Exodus records God's deliverance of Israel from Egyptian slavery through Moses, the institution of the Passover, the giving of the Law at Sinai, and instructions for the Tabernacle.</p><p><em>Key Themes:</em> Redemption, the Law, God's presence, worship.</p>` },
@@ -237,8 +362,18 @@ const CONTENT = {
   'video-podcast': {
     title: 'Video Podcast Sermons',
     body: `
-      <p>Video sermon podcasts will be available here soon. Stay tuned as we upload teachings from the Word of God.</p>
-      <blockquote>"Preach the word; be ready in season and out of season." — 2 Timothy 4:2</blockquote>`
+<div class="content-card">
+  <div class="page-header-bar">
+    <span class="page-icon-lg">📺</span>
+    <div>
+      <h2>Video Podcast Sermons</h2>
+      <p class="page-intro-sub">Biblical teachings from the Word of God</p>
+    </div>
+  </div>
+  <div id="vp-grid" class="vp-grid">
+    <p class="vp-loading">Loading sermons…</p>
+  </div>
+</div>`
   },
 
   // AUDIO PODCAST SERMONS
@@ -479,7 +614,7 @@ const CONTENT = {
           <h4 class="wa-card-title">GAG — Glorifying Almighty GOD</h4>
           <p class="wa-card-desc">Join our WhatsApp community for ministry updates, Bible teachings, and fellowship with believers worldwide.</p>
           <div class="wa-qr-wrap">
-            <img src="qr-community.png" alt="Scan QR to join GAG Community" class="wa-qr-img" />
+            <img src="images/qr-community.png" alt="Scan QR to join GAG Community" class="wa-qr-img" />
           </div>
           <p class="wa-scan-note">📷 Scan with your WhatsApp camera to join</p>
           <div class="wa-divider"></div>
@@ -501,7 +636,7 @@ const CONTENT = {
           <h4 class="wa-card-title">GAG Bible Study Group</h4>
           <p class="wa-card-desc">Join our Bible study group for in-depth Scripture discussions, shared learning, and spiritual growth in the Word.</p>
           <div class="wa-qr-wrap">
-            <img src="qr-group.png" alt="Scan QR to join GAG Bible Study Group" class="wa-qr-img" />
+            <img src="images/qr-group.png" alt="Scan QR to join GAG Bible Study Group" class="wa-qr-img" />
           </div>
           <p class="wa-scan-note">📷 Scan with your WhatsApp camera to join</p>
           <div class="wa-divider"></div>
@@ -521,3 +656,199 @@ const CONTENT = {
   }
 
 };
+
+// ─── Daily Bible Verses — English + Telugu (60 verses, cycle by day of year) ───
+const DAILY_VERSES = [
+  { ref:'John 3:16', refTe:'యోహాను 3:16',
+    en:'For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.',
+    te:'దేవుడు లోకమును ఎంతో ప్రేమించెను గనుక, తన అద్వితీయకుమారునియందు విశ్వసించువారెవరైనను నశింపక నిత్యజీవము పొందులాగున ఆయనను అనుగ్రహించెను.' },
+  { ref:'Psalm 23:1', refTe:'కీర్తనలు 23:1',
+    en:'The LORD is my shepherd; I shall not want.',
+    te:'యెహోవా నా కాపరి, నాకు కొదువేమియు కలుగదు.' },
+  { ref:'Romans 8:28', refTe:'రోమీయులకు 8:28',
+    en:'And we know that in all things God works for the good of those who love him, who have been called according to his purpose.',
+    te:'దేవుని ప్రేమించువారికి, అనగా ఆయన సంకల్పము చొప్పున పిలువబడినవారికి, సమస్తమును మేలుకొరకు సమకూడుచున్నదని యెరుగుదుము.' },
+  { ref:'Jeremiah 29:11', refTe:'యిర్మీయా 29:11',
+    en:'For I know the plans I have for you, declares the LORD, plans to prosper you and not to harm you, plans to give you hope and a future.',
+    te:'మీకు అపాయము కలుగచేయుటకు నేను యోజించుట లేదు గాని మీకు శాంతియు నిరీక్షణయు కలిగించు భవిష్యత్తు అనుగ్రహించుటకే నేను యోజించుచున్నాను అని యెహోవా వాక్కు.' },
+  { ref:'Philippians 4:13', refTe:'ఫిలిప్పీయులకు 4:13',
+    en:'I can do all this through him who gives me strength.',
+    te:'నన్ను బలపరచువాని వలన నేను సమస్తమును చేయగలను.' },
+  { ref:'Isaiah 40:31', refTe:'యెషయా 40:31',
+    en:'But those who hope in the LORD will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint.',
+    te:'యెహోవా కొరకు కనిపెట్టువారు నూతన బలము పొందుదురు; గరుడపక్షులవలె రెక్కలు చాపి పైకి లేతురు; పరుగెత్తినను అలయరు, నడచినను అలసటపడరు.' },
+  { ref:'Proverbs 3:5', refTe:'సామెతలు 3:5',
+    en:'Trust in the LORD with all your heart and lean not on your own understanding.',
+    te:'నీ స్వబుద్ధిని ఆధారము చేసికొనక నీ పూర్ణహృదయముతో యెహోవాయందు నమ్మికయుంచుము.' },
+  { ref:'Matthew 6:33', refTe:'మత్తయి 6:33',
+    en:'But seek first his kingdom and his righteousness, and all these things will be given to you as well.',
+    te:'మీరు ముందుగా దేవుని రాజ్యమును ఆయన నీతిని వెదకుడి; అప్పుడు ఇవన్నియు మీకు అనుగ్రహింపబడును.' },
+  { ref:'Psalm 119:105', refTe:'కీర్తనలు 119:105',
+    en:'Your word is a lamp for my feet, a light on my path.',
+    te:'నీ వాక్యము నా పాదములకు దీపమును నా మార్గమునకు వెలుగునై యున్నది.' },
+  { ref:'Isaiah 41:10', refTe:'యెషయా 41:10',
+    en:'So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you.',
+    te:'భయపడకుము, నేను నీకు తోడైయున్నాను; అధైర్యపడకుము, నేను నీ దేవుడను; నిన్ను బలపరచుచున్నాను, నిన్ను సహాయపడుచున్నాను.' },
+  { ref:'Matthew 11:28', refTe:'మత్తయి 11:28',
+    en:'Come to me, all you who are weary and burdened, and I will give you rest.',
+    te:'శ్రమపడువారలారా, భారము మోయువారలారా, మీరందరు నా యొద్దకు రండి; నేను మీకు విశ్రాంతి కలుగజేసెదను.' },
+  { ref:'John 14:6', refTe:'యోహాను 14:6',
+    en:'Jesus answered, I am the way and the truth and the life. No one comes to the Father except through me.',
+    te:'యేసు నేనే మార్గమును సత్యమును జీవమునై యున్నాను; నా ద్వారానే తప్ప తండ్రి యొద్దకు యెవరును రారు అని చెప్పెను.' },
+  { ref:'Psalm 46:1', refTe:'కీర్తనలు 46:1',
+    en:'God is our refuge and strength, an ever-present help in trouble.',
+    te:'దేవుడు మనకు ఆశ్రయమును బలమునై యున్నాడు, ఆపత్కాలమందు సహాయుడుగా చాల నిరూపింపబడియున్నాడు.' },
+  { ref:'Romans 10:9', refTe:'రోమీయులకు 10:9',
+    en:'If you declare with your mouth, Jesus is Lord, and believe in your heart that God raised him from the dead, you will be saved.',
+    te:'యేసు ప్రభువని నీ నోటితో అంగీకరించి, దేవుడు మృతులలోనుండి ఆయనను లేపెనని నీ హృదయమందు విశ్వసించినయెడల నీవు రక్షింపబడుదువు.' },
+  { ref:'Ephesians 2:8', refTe:'ఎఫెసీయులకు 2:8',
+    en:'For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God.',
+    te:'మీరు విశ్వాసముద్వారా కృపచేత రక్షింపబడియున్నారు, ఇది మీవలన కలిగినది కాదు, ఇది దేవుని వరము.' },
+  { ref:'1 Corinthians 10:31', refTe:'1 కొరింథీయులకు 10:31',
+    en:'So whether you eat or drink or whatever you do, do it all for the glory of God.',
+    te:'కాబట్టి మీరు తినినను త్రాగినను ఏమి చేసినను సమస్తమును దేవుని మహిమకొరకు చేయుడి.' },
+  { ref:'Joshua 1:9', refTe:'యెహోషువ 1:9',
+    en:'Be strong and courageous. Do not be afraid; do not be discouraged, for the LORD your God will be with you wherever you go.',
+    te:'దృఢముగా నుండి ధైర్యము తెచ్చుకొనుము; నేను నీ దేవుడైన యెహోవాను నీతో ఉన్నాను కావున భయపడకుము, అధైర్యపడకుము.' },
+  { ref:'Psalm 37:4', refTe:'కీర్తనలు 37:4',
+    en:'Take delight in the LORD, and he will give you the desires of your heart.',
+    te:'యెహోవా యందు సంతోషించుము; అప్పుడు ఆయన నీ హృదయ వాంఛలను నెరవేర్చును.' },
+  { ref:'John 1:1', refTe:'యోహాను 1:1',
+    en:'In the beginning was the Word, and the Word was with God, and the Word was God.',
+    te:'ఆదియందు వాక్యముండెను, వాక్యము దేవునియొద్ద ఉండెను, వాక్యము దేవుడై యుండెను.' },
+  { ref:'Romans 3:23', refTe:'రోమీయులకు 3:23',
+    en:'For all have sinned and fall short of the glory of God.',
+    te:'అందరు పాపము చేసి దేవుని మహిమను పొందలేకపోవుచున్నారు.' },
+  { ref:'Romans 6:23', refTe:'రోమీయులకు 6:23',
+    en:'For the wages of sin is death, but the gift of God is eternal life in Christ Jesus our Lord.',
+    te:'పాపమువలన వచ్చు జీతము మరణము; అయితే దేవుని కృపావరము మన ప్రభువైన క్రీస్తుయేసునందు నిత్యజీవము.' },
+  { ref:'Acts 4:12', refTe:'అపొస్తలుల కార్యములు 4:12',
+    en:'Salvation is found in no one else, for there is no other name under heaven given to mankind by which we must be saved.',
+    te:'మరియొకనివలన రక్షణ కలుగదు; ఆకాశము క్రింద మనుష్యులలో ఇవ్వబడిన వేరొక నామమేదియు లేదు; దానివలననే మనము రక్షింపబడవలెను.' },
+  { ref:'Psalm 121:1-2', refTe:'కీర్తనలు 121:1-2',
+    en:'I lift up my eyes to the mountains — where does my help come from? My help comes from the LORD, the Maker of heaven and earth.',
+    te:'నేను కనులెత్తి పర్వతముల వైపు చూచుచున్నాను; నాకు సహాయమెక్కడ నుండి వచ్చును? ఆకాశమును భూమిని కలుగజేసిన యెహోవా నుండి నా సహాయము వచ్చును.' },
+  { ref:'Matthew 5:16', refTe:'మత్తయి 5:16',
+    en:'Let your light shine before others, that they may see your good deeds and glorify your Father in heaven.',
+    te:'అట్లే మీ వెలుగు మనుష్యులయెదుట ప్రకాశించనియ్యుడి; వారు మీ సత్క్రియలు చూచి పరలోకమందున్న మీ తండ్రిని మహిమపరచునట్లు చేయుడి.' },
+  { ref:'Galatians 2:20', refTe:'గలతీయులకు 2:20',
+    en:'I have been crucified with Christ and I no longer live, but Christ lives in me.',
+    te:'క్రీస్తుతో కూడ నేను సిలువ వేయబడియున్నాను; ఇకను జీవించువాడను నేను కాను, క్రీస్తే నాలో జీవించుచున్నాడు.' },
+  { ref:'1 Peter 5:7', refTe:'1 పేతురు 5:7',
+    en:'Cast all your anxiety on him because he cares for you.',
+    te:'ఆయన మిమ్ము గూర్చి చింతించుచున్నాడు గనుక మీ చింత యావత్తు ఆయన మీద వేయుడి.' },
+  { ref:'Hebrews 11:1', refTe:'హెబ్రీయులకు 11:1',
+    en:'Now faith is confidence in what we hope for and assurance about what we do not see.',
+    te:'విశ్వాసమనగా ఆశింపబడిన వాటియందు నిశ్చయత్వమును, కనబడని వాటియందు రుజువునై యున్నది.' },
+  { ref:'Colossians 3:23', refTe:'కొలొస్సయులకు 3:23',
+    en:'Whatever you do, work at it with all your heart, as working for the Lord, not for human masters.',
+    te:'మీరు చేయు పని ఏదైనను మనుష్యులకొరకు చేయువారివలె కాక ప్రభువుకొరకు చేయువారివలె మనస్సర్వస్వముతో చేయుడి.' },
+  { ref:'2 Timothy 3:16', refTe:'2 తిమోతికి 3:16',
+    en:'All Scripture is God-breathed and is useful for teaching, rebuking, correcting and training in righteousness.',
+    te:'సమస్త లేఖనమును దేవుడు అనుప్రాణితమైనది; బోధించుటకును, ఖండించుటకును, సద్వర్తన కుప్పడించుటకును, నీతిలో శిక్షించుటకును ప్రయోజనకరమైయున్నది.' },
+  { ref:'John 10:10', refTe:'యోహాను 10:10',
+    en:'I have come that they may have life, and have it to the full.',
+    te:'వారు జీవము పొందుటకును, అది సంపూర్ణముగా పొందుటకును నేను వచ్చితిని.' },
+  { ref:'Romans 5:8', refTe:'రోమీయులకు 5:8',
+    en:'But God demonstrates his own love for us in this: while we were still sinners, Christ died for us.',
+    te:'మనమింకను పాపులమై యుండగానే క్రీస్తు మనకొరకు చనిపోవుటచేత దేవుడు మన యెడల తన ప్రేమను వెల్లడిపరచుచున్నాడు.' },
+  { ref:'Psalm 34:8', refTe:'కీర్తనలు 34:8',
+    en:'Taste and see that the LORD is good; blessed is the one who takes refuge in him.',
+    te:'యెహోవా దయగలవాడని రుచిచూచి తెలిసికొనుడి; ఆయనను ఆశ్రయించువాడు ధన్యుడు.' },
+  { ref:'Isaiah 53:5', refTe:'యెషయా 53:5',
+    en:'But he was pierced for our transgressions, he was crushed for our iniquities; the punishment that brought us peace was on him, and by his wounds we are healed.',
+    te:'మన అతిక్రమముల నిమిత్తమైన ఆయన గాయపరచబడెను, మన దోషముల నిమిత్తమైన ఆయన నలుగగొట్టబడెను; మనకు సమాధానము కలుగజేయు శిక్ష ఆయనమీద పడెను; ఆయన కొరపడటవలన మనకు స్వస్థత కలుగుచున్నది.' },
+  { ref:'John 14:27', refTe:'యోహాను 14:27',
+    en:'Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.',
+    te:'నేను మీకు శాంతి అనుగ్రహించుచున్నాను; నా శాంతి మీకు ఇచ్చుచున్నాను; లోకము ఇచ్చినట్లు నేను మీకు ఇయ్యను; మీ హృదయము కలవరపడనీయకుడి, వెరపు కొననీయకుడి.' },
+  { ref:'1 John 4:8', refTe:'1 యోహాను 4:8',
+    en:'Whoever does not love does not know God, because God is love.',
+    te:'ప్రేమించని వాడు దేవుని ఎరుగడు; ఏలయనగా దేవుడు ప్రేమస్వరూపి.' },
+  { ref:'Psalm 27:1', refTe:'కీర్తనలు 27:1',
+    en:'The LORD is my light and my salvation — whom shall I fear? The LORD is the stronghold of my life — of whom shall I be afraid?',
+    te:'యెహోవా నా వెలుగు నా రక్షణ; నేను ఎవనికి భయపడుదును? యెహోవా నా ప్రాణమునకు ధృఢదుర్గము; నేను ఎవనికి వెరతును?' },
+  { ref:'Romans 15:13', refTe:'రోమీయులకు 15:13',
+    en:'May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit.',
+    te:'నిరీక్షణకు మూలమైన దేవుడు పరిశుద్ధాత్మ యొక్క శక్తిచేత నిరీక్షణ విషయమై మీరు సమృద్ధులగునట్లు విశ్వాసముద్వారా మీకు సంపూర్ణమైన ఆనందమును శాంతియును కలుగజేయుగాక.' },
+  { ref:'2 Chronicles 7:14', refTe:'2 దినవృత్తాంతములు 7:14',
+    en:'If my people, who are called by my name, will humble themselves and pray and seek my face and turn from their wicked ways, then I will hear from heaven and will forgive their sin and will heal their land.',
+    te:'నా నామమువలన పిలువబడిన నా జనులు తమ్మునుతాము తగ్గించుకొని ప్రార్థనచేసి నన్ను వెదకి తమ చెడుమార్గములు విడిచినయెడల, నేను పరలోకమునుండి వారి మొఱ్ఱను వినెదను; వారి పాపమును క్షమించెదను; వారి దేశమును స్వస్థపరచెదను.' },
+  { ref:'Psalm 139:14', refTe:'కీర్తనలు 139:14',
+    en:'I praise you because I am fearfully and wonderfully made; your works are wonderful, I know that full well.',
+    te:'నేను భయముకలిగించు అద్భుత కార్యముగా నిర్మింపబడితిని; నీ క్రియలు ఆశ్చర్యకరమైనవి; నా ఆత్మ దాని చక్కగా ఎరుగుచున్నది.' },
+  { ref:'John 11:25', refTe:'యోహాను 11:25',
+    en:'Jesus said to her, I am the resurrection and the life. The one who believes in me will live, even though they die.',
+    te:'యేసు అతనితో ఇట్లనెను: పునరుత్థానమును జీవమును నేనే; నాయందు విశ్వసించువాడు చనిపోయినను జీవించును.' },
+  { ref:'Acts 1:8', refTe:'అపొస్తలుల కార్యములు 1:8',
+    en:'But you will receive power when the Holy Spirit comes on you; and you will be my witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth.',
+    te:'పరిశుద్ధాత్మ మీమీదికి వచ్చిన తరువాత మీరు శక్తిని పొందుదురు; యెరూషలేమునందును యూదయ సమరయ దేశములలోనందును భూదిగంతముల వరకును నాకు సాక్షులగుదురు.' },
+  { ref:'Revelation 3:20', refTe:'ప్రకటన 3:20',
+    en:'Here I am! I stand at the door and knock. If anyone hears my voice and opens the door, I will come in and eat with that person, and they with me.',
+    te:'ఇదిగో నేను తలుపు తట్టుచున్నాను; ఎవడైనను నా స్వరము విని తలుపుతీసినయెడల నేను లోపలికి వచ్చి అతనితోను అతడు నాతోను భోజనము చేయుదుము.' },
+  { ref:'Matthew 7:7', refTe:'మత్తయి 7:7',
+    en:'Ask and it will be given to you; seek and you will find; knock and the door will be opened to you.',
+    te:'అడుగుడి, మీకియ్యబడును; వెదకుడి, మీకు దొరకును; తట్టుడి, మీకు తీయబడును.' },
+  { ref:'John 15:5', refTe:'యోహాను 15:5',
+    en:'I am the vine; you are the branches. If you remain in me and I in you, you will bear much fruit; apart from me you can do nothing.',
+    te:'నేను ద్రాక్షావల్లిని, మీరు తీగెలు; ఒకడు నాయందు నిలిచియుండి నేను అతనియందు నిలిచియున్నయెడల, అతడు బహుఫలమిచ్చును; నాకు వేరుపడి మీరు ఏమియు చేయలేరు.' },
+  { ref:'Proverbs 16:3', refTe:'సామెతలు 16:3',
+    en:'Commit to the LORD whatever you do, and he will establish your plans.',
+    te:'నీ కార్యములు యెహోవాకు అప్పగించుము; అప్పుడు నీ తలంపులు స్థిరపడును.' },
+  { ref:'Isaiah 26:3', refTe:'యెషయా 26:3',
+    en:'You will keep in perfect peace those whose minds are steadfast, because they trust in you.',
+    te:'నీయందు ఆధారపడి నీ మనస్సు నిలిచియున్న వాడు పూర్ణ శాంతిగలవాడగునట్లు నీవు సురక్షితముగా ఉంచెదవు.' },
+  { ref:'Lamentations 3:22-23', refTe:'విలాపవాక్యములు 3:22-23',
+    en:'Because of the LORD\'s great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness.',
+    te:'యెహోవా కృప అంతము కాదు, ఆయన వాత్సల్యము క్షీణింపదు. అవి ప్రతిదినము నూతనమగుచున్నవి; నీ నమ్మకత్వము గొప్పది.' },
+  { ref:'Romans 8:1', refTe:'రోమీయులకు 8:1',
+    en:'Therefore, there is now no condemnation for those who are in Christ Jesus.',
+    te:'కాబట్టి క్రీస్తుయేసులో ఉన్నవారికి శిక్షావిధి లేదు.' },
+  { ref:'Psalm 91:1', refTe:'కీర్తనలు 91:1',
+    en:'Whoever dwells in the shelter of the Most High will rest in the shadow of the Almighty.',
+    te:'సర్వోన్నతుని మరుగున కాపురముండువాడు సర్వశక్తుని నీడను నివసించును.' },
+  { ref:'2 Corinthians 5:17', refTe:'2 కొరింథీయులకు 5:17',
+    en:'Therefore, if anyone is in Christ, the new creation has come: the old has gone, the new is here!',
+    te:'కాబట్టి ఒకడు క్రీస్తునందున్నయెడల వాడు నూతన సృష్టి; పాతవి గతించెను; ఇదిగో అన్నియు నూతనమయ్యెను.' },
+  { ref:'James 1:5', refTe:'యాకోబు 1:5',
+    en:'If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you.',
+    te:'మీలో ఎవనికైనను జ్ఞానము కొదువైన యెడల అతడు అందరికి ఉదారముగా ఇచ్చుచు నిందింపని దేవుని అడుగవలెను; అప్పుడు అతనికి ఇయ్యబడును.' },
+  { ref:'1 Thessalonians 5:16-18', refTe:'1 థెస్సలొనీకయులకు 5:16-18',
+    en:'Rejoice always, pray continually, give thanks in all circumstances; for this is God\'s will for you in Christ Jesus.',
+    te:'సదా సంతోషించుడి, నిరంతరము ప్రార్థించుడి, సమస్త విషయములలో కృతజ్ఞతాస్తుతులు చెల్లించుడి; ఇది క్రీస్తుయేసునందు దేవుడు మీవిషయమై చిత్తపడుచున్నది.' },
+  { ref:'Revelation 21:4', refTe:'ప్రకటన 21:4',
+    en:'He will wipe every tear from their eyes. There will be no more death or mourning or crying or pain, for the old order of things has passed away.',
+    te:'ఆయన వారి కన్నుల ప్రతి బాష్పబిందువును తుడిచివేయును; మరణమికను ఉండదు, దుఃఖమైనను ఏడ్పైనను వేదనయైనను ఇకను ఉండవు; మొదటి సంగతులు గతించిపోయినవి.' },
+  { ref:'John 15:13', refTe:'యోహాను 15:13',
+    en:'Greater love has no one than this: to lay down one\'s life for one\'s friends.',
+    te:'ఒకడు తన స్నేహితులకొరకు తన ప్రాణమర్పించుట కంటె ఎక్కువైన ప్రేమ ఒకనికి లేదు.' },
+  { ref:'Romans 8:38-39', refTe:'రోమీయులకు 8:38-39',
+    en:'For I am convinced that neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord.',
+    te:'మరణమైనను జీవమైనను దేవదూతలైనను అధిపతులైనను వర్తమానమైనను రాబోవునదైనను శక్తులైనను ఔన్నత్యమైనను లోతైనను వేరే సృష్టియైనను, మన ప్రభువైన క్రీస్తుయేసునందలి దేవుని ప్రేమనుండి మనలను వేరుపరచలేవని నేను రూఢిగా నమ్ముచున్నాను.' },
+  { ref:'Matthew 22:37-39', refTe:'మత్తయి 22:37-39',
+    en:'Love the Lord your God with all your heart and with all your soul and with all your mind. This is the first and greatest commandment. And the second is like it: Love your neighbor as yourself.',
+    te:'నీ పూర్ణహృదయముతో నీ పూర్ణాత్మతో నీ పూర్ణమనస్సుతో నీ దేవుడైన ప్రభువును ప్రేమించుము; ఇది ముఖ్యమైనదియు మొదటిదియు అయిన ఆజ్ఞ. నిన్నువలె నీ పొరుగువాని ప్రేమించుము అను రెండవది దానివంటిదే.' },
+  { ref:'Psalm 1:1-2', refTe:'కీర్తనలు 1:1-2',
+    en:'Blessed is the one who does not walk in step with the wicked, but whose delight is in the law of the LORD, and who meditates on his law day and night.',
+    te:'దుష్టుల ఆలోచనచొప్పున నడువక పాపుల మార్గమున నిలువక అపహాస్యకారుల సంగమున కూర్చుండక యెహోవా ధర్మశాస్త్రమునందు ఆనందించి రాత్రింబగళ్ళు దానిని ధ్యానించువాడు ధన్యుడు.' },
+  { ref:'Hebrews 12:1-2', refTe:'హెబ్రీయులకు 12:1-2',
+    en:'Let us run with perseverance the race marked out for us, fixing our eyes on Jesus, the pioneer and perfecter of faith.',
+    te:'మన ముందర పరచిన పందెమును సహనముతో పరుగెత్తుదము; విశ్వాసమునకు కర్తయు దానిని కొనసాగించువాడునైన యేసువైపు చూచుచుందుము.' },
+  { ref:'Matthew 28:19-20', refTe:'మత్తయి 28:19-20',
+    en:'Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, and teaching them to obey everything I have commanded you.',
+    te:'కావున మీరు వెళ్ళి, సమస్త జనులను శిష్యులనుగా చేయుడి; తండ్రి పుత్రుడు పరిశుద్ధాత్మ అను నామమున వారికి బాప్తిస్మము ఇచ్చుడి; నేను ఆజ్ఞాపించిన సమస్తమును వారికి బోధించుడి.' },
+  { ref:'Proverbs 22:6', refTe:'సామెతలు 22:6',
+    en:'Start children off on the way they should go, and even when they are old they will not turn from it.',
+    te:'ఒక బిడ్డను అతడు వెళ్ళవలసిన మార్గమున శిక్షించుము; అతడు వృద్ధుడైనను దాని విడువడు.' },
+  { ref:'Micah 6:8', refTe:'మీకా 6:8',
+    en:'He has shown you, O mortal, what is good. And what does the LORD require of you? To act justly and to love mercy and to walk humbly with your God.',
+    te:'నరుడా, మేలైనది ఏదో నీకు చూపింపబడియున్నది; యెహోవా నీకేమి కోరుచున్నాడు? న్యాయము జరిగించుట దయాపరుడై యుండుట నీ దేవుని యెదుట దీనముగా నడుచుకొనుట.' },
+  { ref:'Isaiah 55:8-9', refTe:'యెషయా 55:8-9',
+    en:'For my thoughts are not your thoughts, neither are your ways my ways, declares the LORD. As the heavens are higher than the earth, so are my ways higher than your ways and my thoughts than your thoughts.',
+    te:'నా తలంపులు మీ తలంపులు కావు, మీ మార్గములు నా మార్గములు కావు అని యెహోవా వాక్కు. భూమికంటె ఆకాశము ఎంత ఉన్నతమైనదో, నా మార్గములు మీ మార్గములకంటె అంత ఉన్నతమైనవి, నా తలంపులు మీ తలంపులకంటె అంత ఉన్నతమైనవి.' },
+  { ref:'Psalm 46:10', refTe:'కీర్తనలు 46:10',
+    en:'Be still, and know that I am God; I will be exalted among the nations, I will be exalted in the earth.',
+    te:'నేను దేవుడనని తెలిసికొని స్థిరముగా ఉండుడి; జనములలో నేను హెచ్చింపబడుదును, భూమిమీద నేను హెచ్చింపబడుదును.' },
+  { ref:'John 3:36', refTe:'యోహాను 3:36',
+    en:'Whoever believes in the Son has eternal life, but whoever rejects the Son will not see life, for God\'s wrath remains on them.',
+    te:'కుమారునియందు విశ్వసించువాడు నిత్యజీవమును పొందుచున్నాడు; కుమారునికి విధేయుడు కానివాడు జీవమును చూడడు, దేవుని ఆగ్రహము అతనిమీద నిలిచియుండును.' }
+];
