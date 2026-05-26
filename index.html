@@ -16,6 +16,15 @@
   />
 
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8VJL1JF1HW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-8VJL1JF1HW', { send_page_view: false });
+  </script>
 </head>
 <body>
 
@@ -151,9 +160,54 @@
   <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
 
+  <!-- pdfmake — client-side PDF generation (vector, crisp text, no dialog) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+
   <!-- Content (split by section for maintainability) -->
   <script src="content/home.js"></script>
-  <script src="content/old-testament.js"></script>
+
+  <!-- Old Testament — one file per book -->
+  <script src="content/ot/genesis.js"></script>
+  <script src="content/ot/exodus.js"></script>
+  <script src="content/ot/leviticus.js"></script>
+  <script src="content/ot/numbers.js"></script>
+  <script src="content/ot/deuteronomy.js"></script>
+  <script src="content/ot/joshua.js"></script>
+  <script src="content/ot/judges.js"></script>
+  <script src="content/ot/ruth.js"></script>
+  <script src="content/ot/1samuel.js"></script>
+  <script src="content/ot/2samuel.js"></script>
+  <script src="content/ot/1kings.js"></script>
+  <script src="content/ot/2kings.js"></script>
+  <script src="content/ot/1chronicles.js"></script>
+  <script src="content/ot/2chronicles.js"></script>
+  <script src="content/ot/ezra.js"></script>
+  <script src="content/ot/nehemiah.js"></script>
+  <script src="content/ot/esther.js"></script>
+  <script src="content/ot/job.js"></script>
+  <script src="content/ot/psalms.js"></script>
+  <script src="content/ot/proverbs.js"></script>
+  <script src="content/ot/ecclesiastes.js"></script>
+  <script src="content/ot/song-of-solomon.js"></script>
+  <script src="content/ot/isaiah.js"></script>
+  <script src="content/ot/jeremiah.js"></script>
+  <script src="content/ot/lamentations.js"></script>
+  <script src="content/ot/ezekiel.js"></script>
+  <script src="content/ot/daniel.js"></script>
+  <script src="content/ot/hosea.js"></script>
+  <script src="content/ot/joel.js"></script>
+  <script src="content/ot/amos.js"></script>
+  <script src="content/ot/obadiah.js"></script>
+  <script src="content/ot/jonah.js"></script>
+  <script src="content/ot/micah.js"></script>
+  <script src="content/ot/nahum.js"></script>
+  <script src="content/ot/habakkuk.js"></script>
+  <script src="content/ot/zephaniah.js"></script>
+  <script src="content/ot/haggai.js"></script>
+  <script src="content/ot/zechariah.js"></script>
+  <script src="content/ot/malachi.js"></script>
+
   <script src="content/new-testament.js"></script>
   <script src="content/doctrines.js"></script>
   <script src="content/pages.js"></script>

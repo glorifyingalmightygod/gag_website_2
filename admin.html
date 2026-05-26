@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin — Glorifying Almighty GOD</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <style>
+    :root {
+      --azure: #3a86c8;
+      --azure-dark: #1d5e96;
+      --gold: #c9a84c;
+      --bg: #f0f8ff;
+      --sidebar-w: 230px;
+      --header-h: 58px;
+      --radius: 12px;
+      --shadow: 0 2px 10px rgba(0,0,0,0.08);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', Arial, sans-serif; background: var(--bg); color: #222; min-height: 100vh; }
+    a { color: inherit; text-decoration: none; }
+
+    /* ──────────── LOGIN ──────────── */
+    #login-screen {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(145deg, #0d3a6e 0%, #1d5e96 50%, #3a86c8 100%);
+    }
+    .lc {
+      background: white;
+      border-radius: 18px;
+      padding: 44px 40px 36px;
+      width: 360px;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.35);
+      text-align: center;
+    }
+    .lc-cross { font-size: 32px; color: var(--azure-dark); margin-bottom: 6px; }
+    .lc-title { font-size: 20px; font-weight: 700; color: var(--azure-dark); margin-bottom: 4px; }
+    .lc-sub { font-size: 12px; color: #999; margin-bottom: 28px; }
+    .lc input {
+      width: 100%; padding: 12px 16px; border: 2px solid #e0e8f4;
+      border-radius: 9px; font-size: 14px; margin-bottom: 12px;
+      outline: none; transition: border-color 0.2s; font-family: inherit;
+    }
+    .lc input:focus { border-color: var(--azure); }
+    .lc-btn {
+      width: 100%; padding: 13px; background: var(--azure-dark); color: white;
+      border: none; border-radius: 9px; font-size: 15px; font-weight: 700;
+      cursor: pointer; transition: background 0.2s; font-family: inherit;
+    }
+    .lc-btn:hover { background: var(--azure); }
+    .lc-btn:disabled { opacity: 0.6; cursor: default; }
+    .lc-err { color: #d32f2f; font-size: 13px; margin-top: 10px; min-height: 18px; }
+
+    /* ──────────── DASHBOARD SHELL ──────────── */
+    #dashboard { display: none; }
+
+    .adm-header {
+      position: fixed; top: 0; left: 0; right: 0;
+      height: var(--header-h);
+      background: var(--azure-dark);
+      display: flex; align-items: center; padding: 0 22px;
+      z-index: 200; gap: 14px; box-shadow: 0 2px 12px rgba(0,0,0,0.25);
+    }
+    .adm-hlogo { font-size: 20px; font-weight: 800; color: white; letter-spacing: -0.5px; }
+    .adm-hlogo span { color: var(--gold); }
+    .adm-hbadge {
+      font-size: 11px; background: rgba(255,255,255,0.15);
+      color: rgba(255,255,255,0.8); padding: 3px 10px; border-radius: 20px;
+    }
+    .adm-spacer { flex: 1; }
+    .adm-huser { font-size: 12px; color: rgba(255,255,255,0.65); }
+    .adm-logout-btn {
+      padding: 7px 16px; background: rgba(255,255,255,0.12);
+      color: white; border: 1px solid rgba(255,255,255,0.25);
+      border-radius: 7px; cursor: pointer; font-size: 13px;
+      transition: background 0.2s; font-family: inherit;
+    }
+    .adm-logout-btn:hover { background: rgba(255,255,255,0.22); }
+
+    .adm-sidebar {
+      position: fixed; top: var(--header-h); left: 0;
+      width: var(--sidebar-w); bottom: 0;
+      background: white; border-right: 1px solid #dde8f4;
+      padding: 18px 0; overflow-y: auto; z-index: 100;
+    }
+    .adm-sl { font-size: 10px; font-weight: 700; color: #bbb; text-transform: uppercase; letter-spacing: 1px; padding: 0 20px 8px; margin-top: 8px; }
+    .adm-nav {
+      display: flex; align-items: center; gap: 10px;
+      padding: 11px 20px; cursor: pointer; font-size: 14px; color: #555;
+      border-left: 3px solid transparent; transition: all 0.18s;
+    }
+    .adm-nav:hover { background: #f0f8ff; color: var(--azure-dark); }
+    .adm-nav.active { background: #e8f2fc; color: var(--azure-dark); font-weight: 700; border-left-color: var(--azure); }
+    .adm-nav-icon { font-size: 17px; }
+
+    .adm-main {
+      margin-left: var(--sidebar-w); margin-top: var(--header-h);
+      padding: 28px 30px; min-height: calc(100vh - var(--header-h));
+    }
+
+    /* ──────────── PANELS ──────────── */
+    .adm-panel { display: none; }
+    .adm-panel.active { display: block; }
+
+    .adm-ph { font-size: 22px; font-weight: 800; color: var(--azure-dark); margin-bottom: 4px; }
+    .adm-ps { font-size: 13px; color: #999; margin-bottom: 22px; }
+
+    /* ──────────── METRIC CARDS ──────────── */
+    .adm-cards {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 22px;
+    }
+    .adm-card {
+      background: white; border-radius: var(--radius); padding: 20px 18px;
+      box-shadow: var(--shadow); border-top: 3px solid var(--azure);
+    }
+    .adm-card-lbl { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: #aaa; margin-bottom: 8px; }
+    .adm-card-val { font-size: 34px; font-weight: 800; color: var(--azure-dark); line-height: 1; }
+    .adm-card-sub { font-size: 11px; color: #bbb; margin-top: 6px; }
+
+    /* ──────────── BOXES ──────────── */
+    .adm-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 22px; }
+    .adm-box {
+      background: white; border-radius: var(--radius); padding: 20px;
+      box-shadow: var(--shadow);
+    }
+    .adm-box-h {
+      font-size: 13px; font-weight: 700; color: var(--azure-dark);
+      margin-bottom: 14px; padding-bottom: 10px; border-bottom: 1px solid #eef2f8;
+    }
+    .adm-box.full { grid-column: 1 / -1; }
+
+    /* ──────────── TABLE ──────────── */
+    .adm-tbl { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .adm-tbl th {
+      text-align: left; padding: 7px 10px;
+      background: #f5f9ff; color: var(--azure-dark);
+      font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 700;
+    }
+    .adm-tbl td { padding: 9px 10px; border-bottom: 1px solid #f5f5f5; }
+    .adm-tbl tr:last-child td { border-bottom: none; }
+    .adm-tbl tr:hover td { background: #fafcff; }
+    .adm-tbl .rk { color: #ccc; font-size: 11px; width: 22px; }
+    .adm-tbl .ct { font-weight: 700; color: var(--azure-dark); text-align: right; white-space: nowrap; }
+    .adm-tbl .bar-cell { width: 100px; }
+    .adm-bar-bg { height: 6px; background: #e8f0fb; border-radius: 3px; overflow: hidden; }
+    .adm-bar-fill { height: 6px; background: var(--azure); border-radius: 3px; }
+
+    /* ──────────── ACTIVITY FEED ──────────── */
+    .adm-feed-item {
+      display: flex; align-items: flex-start; gap: 10px;
+      padding: 8px 0; border-bottom: 1px solid #f5f5f5; font-size: 13px;
+    }
+    .adm-feed-item:last-child { border-bottom: none; }
+    .adm-feed-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--azure); margin-top: 4px; flex-shrink: 0; }
+    .adm-feed-page { font-weight: 600; color: #333; }
+    .adm-feed-meta { font-size: 11px; color: #bbb; margin-top: 2px; }
+
+    /* GA4 link */
+    .adm-ga4-btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 9px 18px; background: #e65100; color: white;
+      border-radius: 8px; font-size: 13px; font-weight: 600;
+      margin-bottom: 20px; transition: background 0.2s;
+    }
+    .adm-ga4-btn:hover { background: #bf360c; }
+
+    /* ──────────── VIDEO MANAGER ──────────── */
+    .adm-toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; }
+    .adm-toolbar-lbl { font-size: 13px; color: #999; }
+
+    .adm-btn-add {
+      padding: 10px 20px; background: var(--azure-dark); color: white;
+      border: none; border-radius: 8px; font-size: 14px; font-weight: 700;
+      cursor: pointer; font-family: inherit; transition: background 0.2s;
+    }
+    .adm-btn-add:hover { background: var(--azure); }
+
+    .adm-form {
+      background: white; border-radius: var(--radius); padding: 24px;
+      box-shadow: var(--shadow); margin-bottom: 22px;
+      border-left: 4px solid var(--azure); display: none;
+    }
+    .adm-form.open { display: block; }
+    .adm-form-h { font-size: 15px; font-weight: 700; color: var(--azure-dark); margin-bottom: 18px; }
+    .adm-form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+    .adm-fg { display: flex; flex-direction: column; gap: 5px; }
+    .adm-fg.full { grid-column: 1 / -1; }
+    .adm-lbl { font-size: 11px; font-weight: 700; color: #666; text-transform: uppercase; letter-spacing: 0.4px; }
+    .adm-inp, .adm-ta {
+      padding: 10px 13px; border: 2px solid #e0e8f4; border-radius: 8px;
+      font-size: 14px; outline: none; transition: border-color 0.2s; font-family: inherit;
+    }
+    .adm-inp:focus, .adm-ta:focus { border-color: var(--azure); }
+    .adm-ta { resize: vertical; min-height: 72px; }
+    .adm-form-actions { display: flex; gap: 10px; }
+    .adm-btn-save {
+      padding: 10px 22px; background: var(--azure-dark); color: white;
+      border: none; border-radius: 8px; font-size: 14px; font-weight: 700;
+      cursor: pointer; font-family: inherit; transition: background 0.2s;
+    }
+    .adm-btn-save:hover { background: var(--azure); }
+    .adm-btn-cancel {
+      padding: 10px 18px; background: #f0f0f0; color: #666;
+      border: none; border-radius: 8px; font-size: 14px; cursor: pointer; font-family: inherit;
+    }
+    .adm-btn-cancel:hover { background: #e0e0e0; }
+
+    .adm-vlist { display: flex; flex-direction: column; gap: 12px; }
+    .adm-vcard {
+      background: white; border-radius: var(--radius); padding: 16px;
+      display: flex; gap: 16px; align-items: flex-start; box-shadow: var(--shadow);
+    }
+    .adm-vthumb { width: 130px; height: 73px; border-radius: 8px; object-fit: cover; flex-shrink: 0; background: #e0e8f4; }
+    .adm-vthumb-ph { width: 130px; height: 73px; border-radius: 8px; flex-shrink: 0; background: #e0e8f4; display: flex; align-items: center; justify-content: center; font-size: 26px; }
+    .adm-vinfo { flex: 1; min-width: 0; }
+    .adm-vtitle { font-weight: 700; font-size: 15px; color: #222; margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .adm-vdesc { font-size: 13px; color: #666; margin-bottom: 5px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .adm-vmeta { font-size: 11px; color: #aaa; }
+    .adm-vactions { display: flex; flex-direction: column; gap: 7px; flex-shrink: 0; }
+    .adm-btn-edit {
+      padding: 7px 14px; background: var(--azure); color: white;
+      border: none; border-radius: 6px; font-size: 12px; cursor: pointer; font-family: inherit;
+    }
+    .adm-btn-edit:hover { background: var(--azure-dark); }
+    .adm-btn-del {
+      padding: 7px 14px; background: #e53935; color: white;
+      border: none; border-radius: 6px; font-size: 12px; cursor: pointer; font-family: inherit;
+    }
+    .adm-btn-del:hover { background: #b71c1c; }
+
+    .adm-empty { text-align: center; padding: 48px; color: #bbb; background: white; border-radius: var(--radius); box-shadow: var(--shadow); }
+    .adm-empty-icon { font-size: 42px; margin-bottom: 12px; }
+
+    .adm-loading { text-align: center; padding: 36px; color: #bbb; }
+
+    /* ──────────── RESPONSIVE ──────────── */
+    @media (max-width: 960px) {
+      .adm-cards { grid-template-columns: repeat(2, 1fr); }
+      .adm-row { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 680px) {
+      .adm-sidebar { transform: translateX(-100%); }
+      .adm-main { margin-left: 0; padding: 16px; }
+      .adm-cards { grid-template-columns: repeat(2, 1fr); }
+      .adm-form-grid { grid-template-columns: 1fr; }
+      .adm-vthumb, .adm-vthumb-ph { width: 90px; height: 51px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════════════ LOGIN ══════════════════════════ -->
+<div id="login-screen">
+  <div class="lc">
+    <div class="lc-cross">✝</div>
+    <div class="lc-title">Admin Portal</div>
+    <div class="lc-sub">Glorifying Almighty GOD — Secure Access</div>
+    <input type="email" id="le" placeholder="Admin email" autocomplete="username" />
+    <input type="password" id="lp" placeholder="Password" autocomplete="current-password" />
+    <button class="lc-btn" id="lbtn" onclick="doLogin()">Sign In</button>
+    <div class="lc-err" id="lerr"></div>
+  </div>
+</div>
+
+<!-- ══════════════════════════ DASHBOARD ══════════════════════════ -->
+<div id="dashboard">
+
+  <!-- Header -->
+  <header class="adm-header">
+    <div class="adm-hlogo">&#10013; <span>GAG</span> Admin</div>
+    <div class="adm-hbadge">Dashboard</div>
+    <div class="adm-spacer"></div>
+    <div class="adm-huser" id="adm-user-email"></div>
+    <button class="adm-logout-btn" onclick="doLogout()">Sign Out</button>
+  </header>
+
+  <!-- Sidebar -->
+  <nav class="adm-sidebar">
+    <div class="adm-sl">Main Menu</div>
+    <div class="adm-nav active" id="nav-metrics" onclick="showPanel('metrics')">
+      <span class="adm-nav-icon">&#128202;</span> Metrics
+    </div>
+    <div class="adm-nav" id="nav-videos" onclick="showPanel('videos')">
+      <span class="adm-nav-icon">&#127909;</span> Video Podcasts
+    </div>
+    <div class="adm-sl" style="margin-top:16px;">Quick Links</div>
+    <div class="adm-nav" onclick="window.open('index.html','_blank')">
+      <span class="adm-nav-icon">&#127760;</span> View Website
+    </div>
+    <div class="adm-nav" onclick="window.open('https://analytics.google.com','_blank')">
+      <span class="adm-nav-icon">&#128200;</span> Google Analytics
+    </div>
+    <div class="adm-nav" onclick="window.open('https://console.firebase.google.com','_blank')">
+      <span class="adm-nav-icon">&#128293;</span> Firebase Console
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <main class="adm-main">
+
+    <!-- ─────── METRICS PANEL ─────── -->
+    <div class="adm-panel active" id="panel-metrics">
+      <div class="adm-ph">&#128202; Analytics &amp; Metrics</div>
+      <div class="adm-ps">Real-time visitor data tracked from your website</div>
+
+      <a class="adm-ga4-btn" href="https://analytics.google.com" target="_blank" rel="noopener">
+        &#128200; Open Full Google Analytics Dashboard &#8594;
+      </a>
+
+      <!-- Summary cards -->
+      <div class="adm-cards">
+        <div class="adm-card">
+          <div class="adm-card-lbl">Total Visits</div>
+          <div class="adm-card-val" id="m-total">&#8212;</div>
+          <div class="adm-card-sub">All time</div>
+        </div>
+        <div class="adm-card">
+          <div class="adm-card-lbl">Today</div>
+          <div class="adm-card-val" id="m-today">&#8212;</div>
+          <div class="adm-card-sub" id="m-today-lbl">&#8212;</div>
+        </div>
+        <div class="adm-card">
+          <div class="adm-card-lbl">This Week</div>
+          <div class="adm-card-val" id="m-week">&#8212;</div>
+          <div class="adm-card-sub">Last 7 days</div>
+        </div>
+        <div class="adm-card">
+          <div class="adm-card-lbl">Pages Tracked</div>
+          <div class="adm-card-val" id="m-pages-ct">&#8212;</div>
+          <div class="adm-card-sub">Unique pages</div>
+        </div>
+      </div>
+
+      <!-- Top pages + countries -->
+      <div class="adm-row">
+        <div class="adm-box">
+          <div class="adm-box-h">&#128218; Top Pages</div>
+          <table class="adm-tbl">
+            <thead><tr><th>#</th><th>Page</th><th>Views</th><th class="bar-cell"></th></tr></thead>
+            <tbody id="top-pages"></tbody>
+          </table>
+        </div>
+        <div class="adm-box">
+          <div class="adm-box-h">&#127758; Top Countries</div>
+          <table class="adm-tbl">
+            <thead><tr><th>#</th><th>Country</th><th>Visits</th><th class="bar-cell"></th></tr></thead>
+            <tbody id="top-countries"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Recent activity -->
+      <div class="adm-box full">
+        <div class="adm-box-h">&#128336; Recent Activity <span style="font-size:11px;font-weight:400;color:#bbb;">(last 40 page views)</span></div>
+        <div id="adm-feed"><div class="adm-loading">Loading&hellip;</div></div>
+      </div>
+    </div>
+
+    <!-- ─────── VIDEO PODCASTS PANEL ─────── -->
+    <div class="adm-panel" id="panel-videos">
+      <div class="adm-ph">&#127909; Video Podcast Manager</div>
+      <div class="adm-ps">Add, edit or remove video podcasts shown on the website</div>
+
+      <div class="adm-toolbar">
+        <div class="adm-toolbar-lbl" id="vp-count-lbl">Loading&hellip;</div>
+        <button class="adm-btn-add" onclick="openVideoForm()">&#43; Add New Video</button>
+      </div>
+
+      <!-- Add / Edit form -->
+      <div class="adm-form" id="vp-form">
+        <div class="adm-form-h" id="vp-form-h">Add New Video</div>
+        <div class="adm-form-grid">
+          <div class="adm-fg">
+            <label class="adm-lbl">Video Title *</label>
+            <input class="adm-inp" id="vf-title" placeholder="e.g. Genesis — In the Beginning" />
+          </div>
+          <div class="adm-fg">
+            <label class="adm-lbl">YouTube Video URL or ID *</label>
+            <input class="adm-inp" id="vf-url" placeholder="Paste full YouTube URL or video ID" />
+          </div>
+          <div class="adm-fg">
+            <label class="adm-lbl">Speaker / Series</label>
+            <input class="adm-inp" id="vf-speaker" placeholder="e.g. Pastor Samuel" />
+          </div>
+          <div class="adm-fg">
+            <label class="adm-lbl">Date</label>
+            <input class="adm-inp" id="vf-date" type="date" />
+          </div>
+          <div class="adm-fg full">
+            <label class="adm-lbl">Description</label>
+            <textarea class="adm-ta" id="vf-desc" placeholder="Brief description of this video&hellip;"></textarea>
+          </div>
+        </div>
+        <input type="hidden" id="vf-key" />
+        <div class="adm-form-actions">
+          <button class="adm-btn-save" onclick="saveVideo()">&#10003; Save Video</button>
+          <button class="adm-btn-cancel" onclick="closeVideoForm()">Cancel</button>
+        </div>
+      </div>
+
+      <!-- Video list -->
+      <div id="vp-list"><div class="adm-loading">Loading&hellip;</div></div>
+    </div>
+
+  </main>
+</div>
+
+<!-- Firebase SDKs -->
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
+
+<script>
+// ─── Config ────────────────────────────────────────────────────────────────────
+const FB_CFG = {
+  apiKey:      'AIzaSyDVihi2JGW5Z-2tio_vB0cwun9Un4XXt_Q',
+  authDomain:  'gag-website-b330d.firebaseapp.com',
+  databaseURL: 'https://gag-website-b330d-default-rtdb.firebaseio.com',
+  projectId:   'gag-website-b330d'
+};
+const ADMIN_EMAIL = 'glorifyingalmightygod@gmail.com';
+
+firebase.initializeApp(FB_CFG);
+const auth = firebase.auth();
+const db   = firebase.database();
+
+// ─── Auth ──────────────────────────────────────────────────────────────────────
+auth.onAuthStateChanged(user => {
+  if (user && user.email.toLowerCase() === ADMIN_EMAIL.toLowerCase()) {
+    document.getElementById('login-screen').style.display = 'none';
+    document.getElementById('dashboard').style.display = 'block';
+    document.getElementById('adm-user-email').textContent = user.email;
+    loadMetrics();
+    loadVideos();
+  } else {
+    if (user) auth.signOut();
+    document.getElementById('login-screen').style.display = 'flex';
+    document.getElementById('dashboard').style.display = 'none';
+  }
+});
+
+function doLogin() {
+  const email = document.getElementById('le').value.trim();
+  const pass  = document.getElementById('lp').value;
+  const err   = document.getElementById('lerr');
+  const btn   = document.getElementById('lbtn');
+  err.textContent = '';
+  btn.disabled = true;
+  btn.textContent = 'Signing in…';
+  auth.signInWithEmailAndPassword(email, pass)
+    .catch(e => {
+      err.textContent = 'Incorrect email or password. Please try again.';
+      btn.disabled = false;
+      btn.textContent = 'Sign In';
+    });
+}
+
+function doLogout() {
+  auth.signOut();
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && document.getElementById('login-screen').style.display !== 'none') doLogin();
+});
+
+// ─── Panel switching ───────────────────────────────────────────────────────────
+function showPanel(name) {
+  document.querySelectorAll('.adm-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.adm-nav').forEach(n => n.classList.remove('active'));
+  document.getElementById('panel-' + name).classList.add('active');
+  document.getElementById('nav-' + name).classList.add('active');
+}
+
+// ─── Helpers ───────────────────────────────────────────────────────────────────
+function fmtNum(n) { return Number(n || 0).toLocaleString(); }
+
+function fmtSlug(s) {
+  return (s || 'home')
+    .replace(/_/g, ' ').replace(/-/g, ' ')
+    .replace(/\b\w/g, c => c.toUpperCase());
+}
+
+function escH(s) {
+  return String(s || '')
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function extractYtId(input) {
+  if (!input) return null;
+  const pats = [
+    /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([A-Za-z0-9_-]{11})/,
+    /^([A-Za-z0-9_-]{11})$/
+  ];
+  for (const p of pats) { const m = String(input).match(p); if (m) return m[1]; }
+  return null;
+}
+
+function barHtml(val, max) {
+  const pct = max > 0 ? Math.round((val / max) * 100) : 0;
+  return `<div class="adm-bar-bg"><div class="adm-bar-fill" style="width:${pct}%"></div></div>`;
+}
+
+// ─── METRICS ──────────────────────────────────────────────────────────────────
+function loadMetrics() {
+  const today = new Date().toISOString().split('T')[0];
+  document.getElementById('m-today-lbl').textContent = today;
+
+  // Total visits (real-time)
+  db.ref('gag_metrics/total_visits').on('value', s => {
+    document.getElementById('m-total').textContent = fmtNum(s.val());
+  });
+
+  // Today
+  db.ref('gag_metrics/daily/' + today).on('value', s => {
+    document.getElementById('m-today').textContent = fmtNum(s.val());
+  });
+
+  // This week + pages tracked
+  db.ref('gag_metrics/daily').on('value', s => {
+    const data = s.val() || {};
+    const keys = Object.keys(data).sort().reverse().slice(0, 7);
+    const wk = keys.reduce((sum, k) => sum + (data[k] || 0), 0);
+    document.getElementById('m-week').textContent = fmtNum(wk);
+  });
+
+  // Top pages
+  db.ref('gag_metrics/pages').on('value', s => {
+    const data = s.val() || {};
+    const sorted = Object.entries(data).sort((a,b) => b[1]-a[1]);
+    document.getElementById('m-pages-ct').textContent = sorted.length;
+    const top = sorted.slice(0, 12);
+    const max = top.length ? top[0][1] : 1;
+    const tbody = document.getElementById('top-pages');
+    if (!top.length) {
+      tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;color:#ccc;padding:20px">No data yet — visit some pages on the website first</td></tr>';
+      return;
+    }
+    tbody.innerHTML = top.map(([pg, cnt], i) =>
+      `<tr><td class="rk">${i+1}</td><td>${fmtSlug(pg)}</td><td class="ct">${fmtNum(cnt)}</td><td class="bar-cell">${barHtml(cnt,max)}</td></tr>`
+    ).join('');
+  });
+
+  // Top countries
+  db.ref('gag_metrics/countries').on('value', s => {
+    const data = s.val() || {};
+    const sorted = Object.entries(data).sort((a,b) => b[1]-a[1]);
+    const top = sorted.slice(0, 12);
+    const max = top.length ? top[0][1] : 1;
+    const tbody = document.getElementById('top-countries');
+    if (!top.length) {
+      tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;color:#ccc;padding:20px">No country data yet</td></tr>';
+      return;
+    }
+    tbody.innerHTML = top.map(([ct, cnt], i) =>
+      `<tr><td class="rk">${i+1}</td><td>${escH(ct.replace(/_/g,' '))}</td><td class="ct">${fmtNum(cnt)}</td><td class="bar-cell">${barHtml(cnt,max)}</td></tr>`
+    ).join('');
+  });
+
+  // Recent activity feed
+  db.ref('gag_metrics/recent').orderByChild('ts').limitToLast(40).on('value', s => {
+    const items = [];
+    s.forEach(c => items.unshift(c.val()));
+    const feed = document.getElementById('adm-feed');
+    if (!items.length) {
+      feed.innerHTML = '<div style="text-align:center;color:#bbb;padding:24px">No recent activity yet</div>';
+      return;
+    }
+    feed.innerHTML = items.map(item => {
+      const d = new Date(item.ts || Date.now());
+      const dt = d.toLocaleDateString('en-US', { month:'short', day:'numeric' });
+      const tm = d.toLocaleTimeString([], { hour:'2-digit', minute:'2-digit' });
+      return `<div class="adm-feed-item">
+        <div class="adm-feed-dot"></div>
+        <div>
+          <div class="adm-feed-page">${fmtSlug(item.page || 'home')}</div>
+          <div class="adm-feed-meta">${dt} at ${tm}</div>
+        </div>
+      </div>`;
+    }).join('');
+  });
+}
+
+// ─── VIDEO PODCASTS ────────────────────────────────────────────────────────────
+let _vCache = {};
+
+function loadVideos() {
+  db.ref('gag_videos').on('value', s => {
+    _vCache = s.val() || {};
+    const entries = Object.entries(_vCache).reverse();
+    const lbl = document.getElementById('vp-count-lbl');
+    lbl.textContent = entries.length
+      ? `${entries.length} video${entries.length !== 1 ? 's' : ''} published`
+      : 'No videos yet';
+
+    const list = document.getElementById('vp-list');
+    if (!entries.length) {
+      list.innerHTML = `<div class="adm-empty"><div class="adm-empty-icon">&#127909;</div><div>No videos yet. Click &ldquo;+ Add New Video&rdquo; to get started.</div></div>`;
+      return;
+    }
+    list.innerHTML = `<div class="adm-vlist">${entries.map(([key, v]) => {
+      const ytId = extractYtId(v.ytId || v.youtubeUrl || '');
+      const thumb = ytId ? `<img class="adm-vthumb" src="https://img.youtube.com/vi/${ytId}/mqdefault.jpg" alt="${escH(v.title)}" />` : `<div class="adm-vthumb-ph">&#127909;</div>`;
+      const meta = [v.speaker, v.addedAt ? v.addedAt.slice(0,10) : v.date].filter(Boolean).join(' · ');
+      return `<div class="adm-vcard">
+        ${thumb}
+        <div class="adm-vinfo">
+          <div class="adm-vtitle">${escH(v.title || 'Untitled')}</div>
+          <div class="adm-vdesc">${escH(v.description || '')}</div>
+          <div class="adm-vmeta">${escH(meta)}</div>
+        </div>
+        <div class="adm-vactions">
+          <button class="adm-btn-edit" onclick="editVideo('${escH(key)}')">&#9998; Edit</button>
+          <button class="adm-btn-del" onclick="deleteVideo('${escH(key)}', '${escH(v.title || '')}')">&#128465; Delete</button>
+        </div>
+      </div>`;
+    }).join('')}</div>`;
+  });
+}
+
+function openVideoForm(editKey) {
+  const form = document.getElementById('vp-form');
+  if (!editKey) {
+    document.getElementById('vp-form-h').textContent = 'Add New Video';
+    document.getElementById('vf-title').value = '';
+    document.getElementById('vf-url').value = '';
+    document.getElementById('vf-speaker').value = '';
+    document.getElementById('vf-date').value = new Date().toISOString().split('T')[0];
+    document.getElementById('vf-desc').value = '';
+    document.getElementById('vf-key').value = '';
+  }
+  form.classList.add('open');
+  form.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function closeVideoForm() {
+  document.getElementById('vp-form').classList.remove('open');
+}
+
+function editVideo(key) {
+  const v = _vCache[key];
+  if (!v) return;
+  document.getElementById('vp-form-h').textContent = 'Edit Video';
+  document.getElementById('vf-title').value = v.title || '';
+  document.getElementById('vf-url').value = v.ytId || v.youtubeUrl || '';
+  document.getElementById('vf-speaker').value = v.speaker || '';
+  document.getElementById('vf-date').value = v.addedAt ? v.addedAt.slice(0,10) : (v.date || '');
+  document.getElementById('vf-desc').value = v.description || '';
+  document.getElementById('vf-key').value = key;
+  openVideoForm(key);
+}
+
+function saveVideo() {
+  const title = document.getElementById('vf-title').value.trim();
+  const url   = document.getElementById('vf-url').value.trim();
+  if (!title || !url) { alert('Title and YouTube URL are required.'); return; }
+  const ytId = extractYtId(url);
+  if (!ytId) { alert('Could not recognise a YouTube link. Please paste the full YouTube URL.'); return; }
+
+  const editKey = document.getElementById('vf-key').value;
+  const data = {
+    title,
+    ytId,
+    speaker:     document.getElementById('vf-speaker').value.trim(),
+    description: document.getElementById('vf-desc').value.trim(),
+    addedAt:     editKey ? (_vCache[editKey]?.addedAt || new Date().toISOString()) : new Date().toISOString()
+  };
+
+  const ref = editKey ? db.ref('gag_videos/' + editKey) : db.ref('gag_videos').push();
+  ref.set(data)
+    .then(() => closeVideoForm())
+    .catch(e => alert('Save failed: ' + e.message));
+}
+
+function deleteVideo(key, title) {
+  if (!confirm(`Delete "${title}"?\n\nThis will remove it from the website immediately.`)) return;
+  db.ref('gag_videos/' + key).remove().catch(e => alert('Delete failed: ' + e.message));
+}
+</script>
+</body>
+</html>

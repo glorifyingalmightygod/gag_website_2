@@ -2057,6 +2057,547 @@ body.dark .dv-divider { background: linear-gradient(90deg, rgba(58,134,200,0.3),
 }
 
 /* =============================================
+   BOOK STUDY PAGE — Sections, Tables, Cards
+   Used by all 66 detailed Bible book pages
+   ============================================= */
+
+.bk-section {
+  background: #fff;
+  border: 1.5px solid var(--azure-pale);
+  border-radius: 14px;
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.bk-section-header {
+  background: linear-gradient(135deg, var(--azure) 0%, var(--azure-dark) 100%);
+  padding: 0.7rem 1.25rem;
+  display: flex;
+  align-items: center;
+}
+.bk-section-header h3 {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.01em;
+}
+
+.bk-section-body {
+  padding: 1.2rem 1.35rem;
+}
+.bk-section-body p {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--text-mid);
+  margin: 0 0 0.65rem;
+}
+.bk-section-body ul {
+  margin: 0.3rem 0 0.65rem 1.2rem;
+  padding: 0;
+}
+.bk-section-body li {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.93rem;
+  line-height: 1.7;
+  color: var(--text-mid);
+  margin-bottom: 0.2rem;
+}
+
+/* ── Tables ───────────────────────────────── */
+.bk-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+  margin-top: 0.4rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.bk-table thead tr {
+  background: linear-gradient(135deg, var(--azure), var(--azure-dark));
+}
+.bk-table th {
+  color: #fff;
+  padding: 0.6rem 0.9rem;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+.bk-table td {
+  padding: 0.55rem 0.9rem;
+  border-bottom: 1px solid var(--azure-pale);
+  font-family: 'Lato', sans-serif;
+  color: var(--text-mid);
+  vertical-align: top;
+  line-height: 1.55;
+}
+.bk-table tr:nth-child(even) td { background: #f5faff; }
+.bk-table tr:last-child td { border-bottom: none; }
+.bk-table tr:hover td { background: #e8f4ff; transition: background 0.15s; }
+
+/* ── Key Verse Cards ──────────────────────── */
+.bk-verse-card {
+  background: linear-gradient(135deg, var(--gold-pale), #fff8e4);
+  border-left: 4px solid var(--gold);
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 0.9rem;
+}
+.bk-verse-ref {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  color: var(--azure-dark);
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+.bk-verse-text {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  color: var(--text-dark);
+  font-size: 0.95rem;
+  line-height: 1.75;
+  margin-bottom: 0.45rem;
+}
+.bk-verse-explain {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.87rem;
+  color: var(--text-light);
+  line-height: 1.5;
+}
+.bk-verse-sig {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.84rem;
+  color: var(--azure-dark);
+  font-weight: 700;
+  margin-top: 0.3rem;
+}
+
+/* ── Theme Tag Pills ──────────────────────── */
+.bk-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.5rem;
+}
+.bk-tag {
+  background: linear-gradient(135deg, var(--azure-pale), #d0e8f8);
+  color: var(--azure-dark);
+  border: 1px solid var(--azure-light);
+  border-radius: 20px;
+  padding: 0.22rem 0.75rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+/* ── Chapter Summary Grid ─────────────────── */
+.bk-chapters-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.6rem;
+}
+.bk-chapter-item {
+  background: #f5faff;
+  border: 1px solid var(--azure-pale);
+  border-radius: 9px;
+  padding: 0.65rem 0.9rem;
+}
+.bk-chapter-num {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  color: var(--azure-dark);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.15rem;
+}
+.bk-chapter-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: var(--text-dark);
+  font-size: 0.88rem;
+  margin-bottom: 0.2rem;
+}
+.bk-chapter-points {
+  font-family: 'Lato', sans-serif;
+  color: var(--text-light);
+  font-size: 0.8rem;
+  margin: 0.15rem 0 0;
+  padding-left: 1rem;
+  line-height: 1.55;
+}
+
+/* ── Life Lessons List ────────────────────── */
+.bk-lessons-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.bk-lessons-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--azure-pale);
+  font-family: 'Lato', sans-serif;
+  font-size: 0.93rem;
+  color: var(--text-mid);
+  line-height: 1.6;
+}
+.bk-lessons-list li:last-child { border-bottom: none; }
+.bk-lessons-list li::before {
+  content: '✦';
+  color: var(--gold);
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  flex-shrink: 0;
+}
+
+/* ── Foreshadow / Type Cards ──────────────── */
+.bk-shadow-card {
+  background: linear-gradient(135deg, #f0f8ff, var(--azure-pale));
+  border: 1px solid var(--azure-light);
+  border-radius: 10px;
+  padding: 0.9rem 1.1rem;
+  margin-bottom: 0.75rem;
+}
+.bk-shadow-card:last-child { margin-bottom: 0; }
+.bk-shadow-title {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  color: var(--azure-dark);
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+.bk-shadow-body {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.9rem;
+  color: var(--text-mid);
+  line-height: 1.65;
+}
+
+/* ── Symbols Grid ─────────────────────────── */
+.bk-symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.4rem;
+}
+.bk-symbol-item {
+  background: linear-gradient(135deg, #fffbee, var(--gold-pale));
+  border: 1px solid var(--gold-light);
+  border-radius: 10px;
+  padding: 0.9rem 0.75rem;
+  text-align: center;
+}
+.bk-symbol-icon {
+  font-size: 1.6rem;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+.bk-symbol-name {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  color: var(--azure-dark);
+  font-size: 0.85rem;
+  margin-bottom: 0.15rem;
+}
+.bk-symbol-meaning {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
+  color: var(--text-light);
+  line-height: 1.45;
+}
+
+/* ── Summary Banner ───────────────────────── */
+.bk-summary-banner {
+  background: linear-gradient(135deg, var(--azure-dark), var(--azure));
+  border-radius: 12px;
+  padding: 1.4rem 1.6rem;
+  margin-top: 1rem;
+}
+.bk-summary-banner p {
+  color: #deeeff !important;
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+.bk-summary-banner p:last-child { margin-bottom: 0; }
+
+/* ── Dark Mode ────────────────────────────── */
+body.dark .bk-section {
+  background: #1a2535;
+  border-color: #2a3f5a;
+}
+body.dark .bk-section-body p,
+body.dark .bk-section-body li { color: #b8cfe0; }
+body.dark .bk-table td { color: #b8cfe0; border-color: #2a3f5a; }
+body.dark .bk-table tr:nth-child(even) td { background: #162030; }
+body.dark .bk-table tr:hover td { background: #1e3050; }
+body.dark .bk-verse-card { background: linear-gradient(135deg, #252010, #1e1a08); border-color: var(--gold); }
+body.dark .bk-verse-ref { color: #8abde8; }
+body.dark .bk-verse-text { color: #e0d8b8; }
+body.dark .bk-verse-explain { color: #8098b0; }
+body.dark .bk-verse-sig { color: #7ab0e0; }
+body.dark .bk-tag { background: linear-gradient(135deg, #162030, #1e3050); color: #7ab8e8; border-color: #2a3f5a; }
+body.dark .bk-chapter-item { background: #162030; border-color: #2a3f5a; }
+body.dark .bk-chapter-num { color: #7ab8e8; }
+body.dark .bk-chapter-title { color: #c8d8e8; }
+body.dark .bk-chapter-points { color: #7a9ab0; }
+body.dark .bk-lessons-list li { color: #b8cfe0; border-color: #2a3f5a; }
+body.dark .bk-shadow-card { background: linear-gradient(135deg, #162030, #1a2535); border-color: #2a3f5a; }
+body.dark .bk-shadow-title { color: #7ab8e8; }
+body.dark .bk-shadow-body { color: #b8cfe0; }
+body.dark .bk-symbol-item { background: linear-gradient(135deg, #1e1a08, #252010); border-color: #7a6a20; }
+body.dark .bk-symbol-name { color: #7ab8e8; }
+body.dark .bk-symbol-meaning { color: #7a9ab0; }
+
+@media (max-width: 640px) {
+  .bk-chapters-grid { grid-template-columns: 1fr; }
+  .bk-symbols-grid  { grid-template-columns: repeat(2, 1fr); }
+  .bk-section-body  { padding: 1rem; }
+  .bk-table th, .bk-table td { padding: 0.45rem 0.6rem; font-size: 0.82rem; }
+}
+
+/* ── PDF Download Button ──────────────────────────────────────────── */
+.bk-download-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  margin-bottom: 1.25rem;
+  padding: 0.85rem 1.2rem;
+  background: linear-gradient(135deg, var(--azure-pale), #ddeeff);
+  border: 1.5px solid var(--azure-light);
+  border-radius: 12px;
+}
+.bk-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: linear-gradient(135deg, var(--azure), var(--azure-dark));
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.55rem 1.25rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.15s, box-shadow 0.2s;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(58,134,200,0.30);
+}
+.bk-download-btn:hover  { opacity: 0.9; transform: translateY(-1px); box-shadow: 0 4px 14px rgba(58,134,200,0.40); }
+.bk-download-btn:active { transform: translateY(0); }
+.bk-download-btn:disabled { opacity: 0.6; cursor: not-allowed; transform: none; box-shadow: none; }
+.bk-download-note {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.84rem;
+  color: var(--text-light);
+  line-height: 1.4;
+}
+body.dark .bk-download-bar {
+  background: linear-gradient(135deg, #162030, #1a2535);
+  border-color: #2a3f5a;
+}
+body.dark .bk-download-note { color: #7a9ab0; }
+@media (max-width: 500px) {
+  .bk-download-bar  { flex-direction: column; align-items: flex-start; }
+  .bk-download-note { display: none; }
+}
+
+/* =============================================
+   PRINT / PDF STYLES
+   Triggered by window.print() — browser renders
+   natively so all colours and fonts are perfect.
+   ============================================= */
+@media print {
+  @page {
+    size: A4;
+    margin: 14mm 16mm 16mm 16mm;
+  }
+
+  /* ── Hide all site chrome ── */
+  #sidebar, #sidebar-toggle, .hamburger-btn,
+  header, .hero-section, .breadcrumb-bar,
+  #footer, .bk-download-bar,
+  .nav-home, .nav-section, .nav-divider { display: none !important; }
+
+  /* ── Full-width content ── */
+  body   { background: #fff !important; margin: 0; padding: 0; }
+  #content-wrapper { margin: 0 !important; padding: 0 !important; width: 100% !important; }
+  #main  { padding: 0 !important; }
+  #content-area { padding: 0 !important; width: 100% !important; }
+
+  /* ── Force colour printing ── */
+  * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+
+  /* ── Book meta bar ── */
+  .book-meta-bar {
+    display: flex !important;
+    background: #e8f4ff !important;
+    border: 1.5pt solid #a8d4f0 !important;
+    border-radius: 8pt !important;
+    padding: 8pt 12pt !important;
+    margin-bottom: 10pt !important;
+    gap: 0 !important;
+  }
+  .bm-item { flex: 1; border-right: 1pt solid #c0d8f0 !important; padding: 0 10pt !important; }
+  .bm-item:last-child { border-right: none !important; }
+  .bm-label { color: #5a7890 !important; font-size: 7.5pt !important; display: block; }
+  .bm-value { color: #1a2a3a !important; font-size: 9.5pt !important; font-weight: 700; display: block; }
+
+  /* ── Section cards ── */
+  .bk-section {
+    background: #fff !important;
+    border: 1.5pt solid #b8d4ec !important;
+    border-radius: 8pt !important;
+    margin-bottom: 10pt !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+  }
+  .bk-section-header {
+    background: #1d5e96 !important;
+    padding: 6pt 12pt !important;
+    border-radius: 6pt 6pt 0 0 !important;
+  }
+  .bk-section-header h3 {
+    color: #ffffff !important;
+    font-size: 10.5pt !important;
+    margin: 0 !important;
+  }
+  .bk-section-body {
+    padding: 8pt 12pt !important;
+  }
+  .bk-section-body p {
+    color: #1a2a3a !important;
+    font-size: 9.5pt !important;
+    line-height: 1.6 !important;
+    margin: 0 0 5pt !important;
+  }
+  .bk-section-body ul { margin: 3pt 0 5pt 14pt !important; padding: 0 !important; }
+  .bk-section-body li {
+    color: #1a2a3a !important;
+    font-size: 9pt !important;
+    line-height: 1.55 !important;
+    margin-bottom: 2pt !important;
+  }
+
+  /* ── Tables ── */
+  .bk-table { font-size: 8.5pt !important; page-break-inside: avoid; }
+  .bk-table thead tr { background: #1d5e96 !important; }
+  .bk-table th {
+    color: #ffffff !important;
+    background: #1d5e96 !important;
+    padding: 5pt 8pt !important;
+    font-size: 8.5pt !important;
+  }
+  .bk-table td {
+    color: #1a2a3a !important;
+    padding: 4.5pt 8pt !important;
+    border-bottom: 0.5pt solid #c8dcea !important;
+    font-size: 8.5pt !important;
+  }
+  .bk-table tr:nth-child(even) td { background: #f0f8ff !important; }
+
+  /* ── Key verse cards ── */
+  .bk-verse-card {
+    background: #fffbee !important;
+    border-left: 3pt solid #c9a84c !important;
+    border-radius: 6pt !important;
+    padding: 7pt 10pt !important;
+    margin-bottom: 7pt !important;
+    page-break-inside: avoid;
+  }
+  .bk-verse-ref   { color: #1d5e96 !important; font-size: 9pt !important; font-weight: 700; }
+  .bk-verse-text  { color: #1a2a3a !important; font-size: 9.5pt !important; font-style: italic; }
+  .bk-verse-explain { color: #4a6a88 !important; font-size: 8.5pt !important; }
+  .bk-verse-sig   { color: #1d5e96 !important; font-size: 8pt !important; font-weight: 700; }
+
+  /* ── Theme tags ── */
+  .bk-tags { display: flex !important; flex-wrap: wrap !important; gap: 4pt !important; }
+  .bk-tag {
+    background: #e4f0fb !important;
+    color: #1d5e96 !important;
+    border: 0.75pt solid #90c0e0 !important;
+    border-radius: 12pt !important;
+    padding: 2pt 8pt !important;
+    font-size: 8pt !important;
+    font-weight: 700;
+  }
+
+  /* ── Chapter grid ── */
+  .bk-chapters-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 5pt !important;
+  }
+  .bk-chapter-item {
+    background: #f5faff !important;
+    border: 0.75pt solid #c8dcea !important;
+    border-radius: 6pt !important;
+    padding: 5pt 7pt !important;
+    page-break-inside: avoid;
+  }
+  .bk-chapter-num   { color: #1d5e96 !important; font-size: 7.5pt !important; font-weight: 700; }
+  .bk-chapter-title { color: #1a2a3a !important; font-size: 8.5pt !important; font-weight: 700; }
+  .bk-chapter-points { color: #4a6a88 !important; font-size: 7.5pt !important; padding-left: 10pt !important; }
+
+  /* ── Life lessons list ── */
+  .bk-lessons-list { list-style: none !important; padding: 0 !important; }
+  .bk-lessons-list li {
+    color: #1a2a3a !important;
+    font-size: 9pt !important;
+    border-bottom: 0.5pt solid #d0e4f0 !important;
+    padding: 4pt 0 !important;
+  }
+  .bk-lessons-list li::before { color: #c9a84c !important; }
+
+  /* ── Foreshadow cards ── */
+  .bk-shadow-card {
+    background: #f0f8ff !important;
+    border: 0.75pt solid #a8d0ee !important;
+    border-radius: 6pt !important;
+    padding: 6pt 9pt !important;
+    margin-bottom: 5pt !important;
+    page-break-inside: avoid;
+  }
+  .bk-shadow-title { color: #1d5e96 !important; font-size: 9pt !important; font-weight: 700; }
+  .bk-shadow-body  { color: #1a2a3a !important; font-size: 8.5pt !important; }
+
+  /* ── Symbol cards ── */
+  .bk-symbols-grid { grid-template-columns: repeat(3, 1fr) !important; gap: 5pt !important; }
+  .bk-symbol-item  {
+    background: #fffbee !important;
+    border: 0.75pt solid #e0c870 !important;
+    border-radius: 6pt !important;
+    padding: 6pt !important;
+    text-align: center;
+  }
+  .bk-symbol-icon    { font-size: 14pt !important; }
+  .bk-symbol-name    { color: #1d5e96 !important; font-size: 8.5pt !important; font-weight: 700; }
+  .bk-symbol-meaning { color: #4a6a88 !important; font-size: 7.5pt !important; }
+
+  /* ── Summary banner ── */
+  .bk-summary-banner {
+    background: #1d5e96 !important;
+    border-radius: 8pt !important;
+    padding: 10pt 14pt !important;
+    margin-top: 6pt !important;
+  }
+  .bk-summary-banner p { color: #deeeff !important; font-size: 9pt !important; }
+
+  /* ── Page break hints ── */
+  .bk-section:nth-child(6),
+  .bk-section:nth-child(10),
+  .bk-section:nth-child(14) { page-break-before: always; }
+}
+
+/* =============================================
    GOSPEL PRESENTATION PAGE
    ============================================= */
 .gp-intro {

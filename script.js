@@ -367,6 +367,7 @@ function toggleSubsection(subEl) {
 
 function loadContent(id, sectionLabel, subsectionLabel, itemLabel) {
   state.currentId = id;
+  trackPageView(id);
 
   // Update active nav item
   document.querySelectorAll('.nav-item').forEach(el => {
@@ -668,6 +669,259 @@ function performSearch() {
   });
 }
 
+// ─── PDF Download (pdfmake — direct download, no dialog) ──────────────────────
+
+function pdfClean(str) {
+  return (str || '').replace(/[\u{1F000}-\u{1FFFF}]/gu, '').replace(/[^\x00-\x7F]/g, '').trim();
+}
+
+function pdfInline(el) {
+  const stack = [];
+  el.childNodes.forEach(node => {
+    if (node.nodeType === Node.TEXT_NODE) {
+      const t = pdfClean(node.textContent);
+      if (t) stack.push({ text: t });
+    } else if (node.nodeType === Node.ELEMENT_NODE) {
+      const tag = node.tagName.toLowerCase();
+      const t = pdfClean(node.textContent);
+      if (!t) return;
+      if (tag === 'strong' || tag === 'b') stack.push({ text: t, bold: true });
+      else if (tag === 'em' || tag === 'i') stack.push({ text: t, italics: true });
+      else stack.push({ text: t });
+    }
+  });
+  return stack.length ? stack : null;
+}
+
+function pdfTable(tableEl) {
+  const rows = Array.from(tableEl.querySelectorAll('tr'));
+  if (!rows.length) return null;
+  const body = rows.map((tr, ri) => {
+    const cells = Array.from(tr.querySelectorAll('th, td'));
+    return cells.map(cell => {
+      const t = pdfClean(cell.textContent);
+      return ri === 0
+        ? { text: t, bold: true, fillColor: '#1d5e96', color: '#ffffff', margin: [4, 4, 4, 4] }
+        : { text: t, margin: [4, 3, 4, 3], fillColor: ri % 2 === 0 ? '#f0f8ff' : '#ffffff' };
+    });
+  });
+  const colCount = body[0] ? body[0].length : 1;
+  const colWidths = Array(colCount).fill('*');
+  return { table: { headerRows: 1, widths: colWidths, body }, margin: [0, 6, 0, 10], fontSize: 9 };
+}
+
+function pdfChapterCell(el) {
+  const num = pdfClean(el.querySelector('.bk-ch-num')?.textContent || '');
+  const title = pdfClean(el.querySelector('.bk-ch-title')?.textContent || '');
+  const desc = pdfClean(el.querySelector('.bk-ch-desc')?.textContent || '');
+  const parts = [];
+  if (num) parts.push({ text: num + ' ', bold: true, fontSize: 10, color: '#1d5e96' });
+  if (title) parts.push({ text: title, bold: true, fontSize: 9 });
+  if (desc) parts.push({ text: '\n' + desc, fontSize: 8, color: '#444444' });
+  return parts.length ? { stack: [{ text: parts }], margin: [0, 2, 0, 2] } : null;
+}
+
+function pdfParseEl(el, body) {
+  const tag = el.tagName ? el.tagName.toLowerCase() : '';
+  const cls = el.className || '';
+
+  if (el.classList && el.classList.contains('bk-download-bar')) return;
+
+  if (el.classList && el.classList.contains('book-meta-bar')) {
+    const items = Array.from(el.querySelectorAll('.bm-item'));
+    if (items.length) {
+      const cols = items.map(item => {
+        const label = pdfClean(item.querySelector('.bm-label')?.textContent || '');
+        const val = pdfClean(item.querySelector('.bm-value')?.textContent || '');
+        return { stack: [{ text: label, fontSize: 8, color: '#888888' }, { text: val, bold: true, fontSize: 10, color: '#1d5e96' }], alignment: 'center' };
+      });
+      body.push({ columns: cols, columnGap: 8, margin: [0, 6, 0, 10] });
+    }
+    return;
+  }
+
+  if (el.classList && el.classList.contains('bk-section')) {
+    const header = el.querySelector('.bk-section-header');
+    const sectionBody = el.querySelector('.bk-section-body');
+    if (header) {
+      body.push({ text: pdfClean(header.textContent), fontSize: 13, bold: true, color: '#ffffff', fillColor: '#1d5e96', margin: [0, 14, 0, 0], padding: [6, 6, 6, 6] });
+    }
+    if (sectionBody) {
+      Array.from(sectionBody.childNodes).forEach(child => {
+        if (child.nodeType === Node.ELEMENT_NODE) pdfParseEl(child, body);
+      });
+    }
+    return;
+  }
+
+  if (el.classList && el.classList.contains('bk-verse-card')) {
+    const ref = pdfClean(el.querySelector('.bk-verse-ref')?.textContent || '');
+    const text = pdfClean(el.querySelector('.bk-verse-text')?.textContent || '');
+    body.push({
+      stack: [
+        ref ? { text: ref, bold: true, fontSize: 9, color: '#8a6a00', margin: [0, 0, 0, 2] } : null,
+        text ? { text: text, italics: true, fontSize: 10, color: '#333333' } : null
+      ].filter(Boolean),
+      margin: [8, 4, 8, 4],
+      background: '#fffbea'
+    });
+    return;
+  }
+
+  if (el.classList && el.classList.contains('bk-shadow-card')) {
+    const title = pdfClean(el.querySelector('strong')?.textContent || el.querySelector('h4')?.textContent || '');
+    const ps = Array.from(el.querySelectorAll('p')).map(p => pdfClean(p.textContent)).filter(Boolean);
+    body.push({
+      stack: [
+        title ? { text: title, bold: true, fontSize: 10, color: '#1d5e96', margin: [0, 0, 0, 2] } : null,
+        ...ps.map(p => ({ text: p, fontSize: 9, color: '#333333' }))
+      ].filter(Boolean),
+      margin: [6, 4, 6, 4]
+    });
+    return;
+  }
+
+  if (el.classList && el.classList.contains('bk-symbol-card')) {
+    const title = pdfClean(el.querySelector('.bk-symbol-title')?.textContent || '');
+    const desc = pdfClean(el.querySelector('.bk-symbol-desc')?.textContent || '');
+    body.push({
+      stack: [
+        title ? { text: title, bold: true, fontSize: 10, color: '#8a6a00' } : null,
+        desc ? { text: desc, fontSize: 9 } : null
+      ].filter(Boolean),
+      margin: [6, 4, 6, 4]
+    });
+    return;
+  }
+
+  if (el.classList && el.classList.contains('bk-summary-banner')) {
+    const t = pdfClean(el.textContent);
+    if (t) body.push({ text: t, bold: true, fontSize: 11, color: '#ffffff', fillColor: '#1d5e96', alignment: 'center', margin: [0, 8, 0, 8] });
+    return;
+  }
+
+  if (el.classList && el.classList.contains('bk-tags')) {
+    const tags = Array.from(el.querySelectorAll('.bk-tag')).map(t => pdfClean(t.textContent)).filter(Boolean);
+    if (tags.length) body.push({ text: tags.join('  |  '), fontSize: 9, color: '#1d5e96', margin: [0, 4, 0, 6] });
+    return;
+  }
+
+  if (el.classList && el.classList.contains('bk-chapters-grid')) {
+    const cells = Array.from(el.querySelectorAll('.bk-chapter-cell'));
+    const rows = [];
+    for (let i = 0; i < cells.length; i += 2) {
+      const left = pdfChapterCell(cells[i]);
+      const right = cells[i + 1] ? pdfChapterCell(cells[i + 1]) : { text: '' };
+      rows.push([left || { text: '' }, right || { text: '' }]);
+    }
+    if (rows.length) {
+      body.push({ table: { widths: ['*', '*'], body: rows }, margin: [0, 4, 0, 8], fontSize: 9 });
+    }
+    return;
+  }
+
+  if (el.classList && el.classList.contains('bk-lessons-list')) {
+    const items = Array.from(el.querySelectorAll('li')).map(li => ({ text: pdfClean(li.textContent), margin: [0, 1, 0, 1] }));
+    if (items.length) body.push({ ul: items, fontSize: 10, margin: [8, 4, 0, 8] });
+    return;
+  }
+
+  if (tag === 'table' || (el.classList && el.classList.contains('bk-table'))) {
+    const tbl = pdfTable(el);
+    if (tbl) body.push(tbl);
+    return;
+  }
+
+  if (tag === 'ul' || tag === 'ol') {
+    const items = Array.from(el.querySelectorAll('li')).map(li => ({ text: pdfClean(li.textContent), margin: [0, 1, 0, 1] }));
+    if (items.length) {
+      body.push(tag === 'ol'
+        ? { ol: items, fontSize: 10, margin: [8, 2, 0, 6] }
+        : { ul: items, fontSize: 10, margin: [8, 2, 0, 6] });
+    }
+    return;
+  }
+
+  if (tag === 'h1' || tag === 'h2') {
+    const t = pdfClean(el.textContent);
+    if (t) body.push({ text: t, fontSize: 16, bold: true, color: '#1d5e96', margin: [0, 10, 0, 4] });
+    return;
+  }
+  if (tag === 'h3') {
+    const t = pdfClean(el.textContent);
+    if (t) body.push({ text: t, fontSize: 13, bold: true, color: '#1d5e96', margin: [0, 8, 0, 3] });
+    return;
+  }
+  if (tag === 'h4') {
+    const t = pdfClean(el.textContent);
+    if (t) body.push({ text: t, fontSize: 11, bold: true, color: '#1d5e96', margin: [0, 6, 0, 2] });
+    return;
+  }
+
+  if (tag === 'p') {
+    const inline = pdfInline(el);
+    if (inline) body.push({ text: inline, fontSize: 10, margin: [0, 2, 0, 4] });
+    return;
+  }
+
+  if (tag === 'blockquote') {
+    const t = pdfClean(el.textContent);
+    if (t) body.push({ text: t, italics: true, fontSize: 10, margin: [12, 4, 12, 4], color: '#444444' });
+    return;
+  }
+
+  // Generic container — recurse
+  Array.from(el.childNodes).forEach(child => {
+    if (child.nodeType === Node.ELEMENT_NODE) pdfParseEl(child, body);
+  });
+}
+
+function buildPdfDocDef(title) {
+  const contentArea = document.getElementById('content-area');
+  const body = [];
+  body.push({ text: pdfClean(title), fontSize: 22, bold: true, color: '#1d5e96', alignment: 'center', margin: [0, 0, 0, 4] });
+  body.push({ text: 'Glorifying Almighty GOD', fontSize: 11, color: '#888888', alignment: 'center', margin: [0, 0, 0, 16] });
+  body.push({ canvas: [{ type: 'line', x1: 0, y1: 0, x2: 515, y2: 0, lineWidth: 1, lineColor: '#3a86c8' }], margin: [0, 0, 0, 16] });
+
+  if (contentArea) {
+    Array.from(contentArea.childNodes).forEach(child => {
+      if (child.nodeType === Node.ELEMENT_NODE) pdfParseEl(child, body);
+    });
+  }
+
+  return {
+    content: body,
+    defaultStyle: { font: 'Roboto', fontSize: 10, lineHeight: 1.4 },
+    pageSize: 'A4',
+    pageMargins: [40, 50, 40, 50],
+    footer: (page, pages) => ({
+      columns: [
+        { text: 'Glorifying Almighty GOD', fontSize: 8, color: '#888888', margin: [40, 0, 0, 0] },
+        { text: `Page ${page} of ${pages}`, alignment: 'right', fontSize: 8, color: '#888888', margin: [0, 0, 40, 0] }
+      ]
+    })
+  };
+}
+
+function downloadBookPDF(title) {
+  const bar = document.querySelector('.bk-download-bar');
+  const btn = document.querySelector('.bk-download-btn');
+  if (btn) { btn.disabled = true; btn.textContent = 'Generating PDF…'; }
+
+  setTimeout(() => {
+    try {
+      const docDef = buildPdfDocDef(title);
+      const safeName = title.replace(/\s+/g, '-') + '.pdf';
+      pdfMake.createPdf(docDef).download(safeName, () => {
+        if (btn) { btn.disabled = false; btn.innerHTML = '&#8659;&nbsp; Download PDF'; }
+      });
+    } catch (e) {
+      console.error('PDF generation failed:', e);
+      if (btn) { btn.disabled = false; btn.innerHTML = '&#8659;&nbsp; Download PDF'; }
+    }
+  }, 50);
+}
+
 // ─── Init ──────────────────────────────────────────────────────────────────────
 
 function init() {
@@ -689,6 +943,8 @@ function init() {
   initDarkMode();
   initSearch();
   initVisitCounter();
+  trackPageView('home');
+  trackCountry();
 
   // Admin page routing — triggered by #admin in URL
   if (location.hash === '#admin') showAdminPage();
@@ -843,6 +1099,35 @@ function getDB() {
   if (!firebase.apps.length) firebase.initializeApp(FIREBASE_CONFIG);
   _db = firebase.database();
   return _db;
+}
+
+// ─── Analytics Tracking ────────────────────────────────────────────────────────
+
+function trackPageView(pageId) {
+  const safe = (pageId || 'home').replace(/[.#$[\]]/g, '_');
+  const today = new Date().toISOString().split('T')[0];
+  try {
+    const db = getDB();
+    db.ref('gag_metrics/total_visits').transaction(v => (v || 0) + 1);
+    db.ref('gag_metrics/daily/' + today).transaction(v => (v || 0) + 1);
+    db.ref('gag_metrics/pages/' + safe).transaction(v => (v || 0) + 1);
+    const ref = db.ref('gag_metrics/recent').push();
+    ref.set({ page: safe, ts: Date.now() });
+    if (typeof gtag === 'function') {
+      gtag('event', 'page_view', { page_title: pageId, page_location: location.href.split('#')[0] + '#' + pageId });
+    }
+  } catch(e) {}
+}
+
+async function trackCountry() {
+  if (sessionStorage.getItem('gag_ct')) return;
+  sessionStorage.setItem('gag_ct', '1');
+  try {
+    const res = await fetch('https://ipapi.co/json/');
+    const d = await res.json();
+    const country = (d.country_name || 'Unknown').replace(/[\s.#$[\]]/g, '_');
+    getDB().ref('gag_metrics/countries/' + country).transaction(v => (v || 0) + 1);
+  } catch(e) {}
 }
 
 // ─── Admin Page ────────────────────────────────────────────────────────────────
