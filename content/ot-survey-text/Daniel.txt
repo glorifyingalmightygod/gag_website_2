@@ -1,0 +1,1985 @@
+# Daniel Survey (Part 1)
+
+# Introduction
+
+The Book of Daniel is one of the most remarkable books in the Bible. It combines **historical narrative**, **prophetic revelation**, **wisdom literature**, and **apocalyptic visions** into one powerful account of God's sovereignty over the kingdoms of the world. Daniel demonstrates that although earthly empires rise and fall, **God alone rules history** and will ultimately establish His everlasting kingdom.
+
+Daniel is unique because it records both the faithful life of a Jewish exile in a foreign land and some of the most detailed prophecies concerning the future, including the coming Messiah, the succession of world empires, and the end of the age. Many of Daniel's prophecies are closely connected with Jesus' teachings (Matthew 24), Paul's writings (2 Thessalonians 2), and the Book of Revelation.
+
+Unlike many prophets who ministered in Judah, Daniel served as a government official in the courts of Babylon and Persia while remaining uncompromisingly faithful to God.
+
+### Placement in the Bible
+
+* **27th book** of the Bible.
+* **5th book among the Major Prophets**.
+* Follows **Ezekiel** and precedes **Hosea** in the Christian Old Testament.
+* In the Hebrew Bible (Tanakh), Daniel is placed among the **Writings (Ketuvim)** rather than the Prophets, because of its unique literary style and emphasis on wisdom.
+
+### Historical Importance
+
+Daniel records the experiences of the Jewish exiles during the Babylonian captivity and reveals God's sovereign control over the rise and fall of empires. It spans approximately **70 years**, covering the Babylonian Empire and the beginning of the Medo-Persian Empire.
+
+The book contains remarkably accurate prophecies regarding:
+
+* Babylon
+* Medo-Persia
+* Greece
+* Rome
+* The coming Messiah
+* The future Kingdom of God
+
+### Main Focus of the Book
+
+The central message of Daniel is:
+
+> **God rules over the kingdoms of men and gives them to whomever He wills.** (Daniel 4:17)
+
+Major themes include:
+
+* God's sovereignty over history.
+* Faithfulness during persecution.
+* Divine wisdom.
+* The coming Messiah.
+* Future kingdoms.
+* Resurrection and final judgment.
+* The everlasting Kingdom of God.
+
+### Why This Book Matters to Christians Today
+
+Daniel teaches believers how to remain faithful in a culture that opposes God. Like Daniel and his friends, Christians are called to live with integrity, courage, and unwavering faith while trusting that God remains in control of history. Daniel also strengthens confidence in God's Word through fulfilled prophecy and points believers toward the ultimate reign of Jesus Christ.
+
+---
+
+# Name of the Book
+
+### Original Hebrew Name
+
+**דָּנִיֵּאל (Daniyyel)**
+
+### Root Word
+
+The name comes from two Hebrew elements:
+
+* **Dan (דָּן)** – "to judge"
+* **El (אֵל)** – "God"
+
+### Literal Meaning
+
+**"God is my Judge"** or **"God is Judge."**
+
+### Why the Book Is Called by This Name
+
+The book is named after its principal character, Daniel, whose life consistently demonstrated trust in God's righteous judgment rather than human authority. Throughout the book, earthly kings render temporary judgments, but God is revealed as the supreme Judge over all nations and rulers.
+
+Daniel's name perfectly reflects the book's message: while earthly kingdoms appear powerful, ultimate justice belongs to God alone.
+
+---
+
+# Author of the Book
+
+### Traditional Author
+
+Jewish and Christian tradition attributes the book to **Daniel**, the Jewish exile who served in the royal courts of Babylon and Persia.
+
+### Internal Evidence
+
+The book contains numerous first-person accounts:
+
+* "I, Daniel..." (Daniel 7:2; 8:1; 9:2; 10:2)
+* Personal experiences in Babylon and Persia.
+* Eyewitness descriptions of visions and historical events.
+
+These details strongly support Daniel as the author of much of the book.
+
+### External Historical Evidence
+
+* The Jewish historian **Josephus** accepted Daniel as the author.
+* The Dead Sea Scrolls include copies of Daniel, demonstrating that the book was highly respected before the time of Christ.
+* Jesus referred to **"Daniel the prophet"** (Matthew 24:15), affirming Daniel's prophetic role.
+
+### Scholarly Opinions
+
+Some modern scholars propose a second-century BC date, suggesting the book was written during the Maccabean period because of its detailed prophecies.
+
+However, the traditional sixth-century BC view remains widely held among evangelical scholars based on:
+
+* Historical accuracy.
+* Linguistic evidence.
+* Early manuscript support.
+* Jesus' testimony concerning Daniel.
+* The acceptance of Daniel in Jewish tradition.
+
+---
+
+# Date Written
+
+### Approximate Date
+
+Approximately **536–530 BC**, near the end of Daniel's life.
+
+### Historical Timeline
+
+Daniel's ministry spans from:
+
+* His deportation to Babylon in **605 BC**.
+* Through the reigns of Babylonian kings.
+* Into the early Persian Empire after Babylon's fall in **539 BC**.
+* Likely concluding during the reign of **Cyrus the Great**.
+
+### Historical Background
+
+Daniel lived during one of Israel's darkest periods:
+
+* Judah repeatedly rejected God's prophets.
+* Idolatry spread throughout the nation.
+* God sent Babylon as judgment.
+* Jerusalem was destroyed.
+* Solomon's Temple was burned in **586 BC**.
+* The Jewish people were taken into exile.
+
+Yet Daniel demonstrates that God's covenant promises continued even in exile.
+
+---
+
+# Audience / To Whom Was It Written
+
+### Primary Audience
+
+The Jewish exiles living in Babylon and later Persia.
+
+### Historical Audience
+
+The scattered Israelites who questioned whether God had abandoned His covenant after Jerusalem's destruction.
+
+### Spiritual Purpose
+
+Daniel encouraged God's people by showing that:
+
+* God still reigns.
+* Exile is not the end of God's plan.
+* Future restoration is certain.
+* The Messiah will come.
+* God's Kingdom will never be destroyed.
+
+### Relevance for Modern Believers
+
+Daniel teaches Christians to:
+
+* Live faithfully in a secular culture.
+* Trust God's sovereignty during uncertain times.
+* Remain committed to prayer and obedience.
+* Look forward to Christ's eternal Kingdom.
+
+---
+
+# Historical and Geographical Setting
+
+## Historical Background
+
+To understand Daniel, it is essential to connect it with the preceding books of the Old Testament.
+
+### The Rise and Fall of Judah
+
+After King Solomon's death (c. 931 BC), Israel divided into:
+
+* **Northern Kingdom (Israel)** – Capital: Samaria.
+* **Southern Kingdom (Judah)** – Capital: Jerusalem.
+
+The Northern Kingdom fell to Assyria in **722 BC** because of persistent idolatry.
+
+Judah survived longer but increasingly rejected God's prophets, including **Isaiah**, **Jeremiah**, **Micah**, **Zephaniah**, and **Habakkuk**.
+
+God repeatedly warned Judah that if the nation did not repent, Babylon would conquer Jerusalem.
+
+---
+
+## Jeremiah's Prophecy of Seventy Years
+
+One of the most important prophecies connected with Daniel is found in **Jeremiah 25:11–12** and **Jeremiah 29:10**.
+
+Jeremiah declared that Judah would serve Babylon for **70 years** before God restored His people to their land.
+
+Daniel later read this prophecy (Daniel 9:2), recognized that the seventy years were nearing completion, and prayed for Israel's restoration.
+
+This directly links the books of **Jeremiah**, **Daniel**, **Ezra**, and **Nehemiah**.
+
+---
+
+## The Three Babylonian Deportations
+
+Babylon did not conquer Judah all at once. There were three major deportations:
+
+| Year       | Event                                                                    | Biblical Reference |
+| ---------- | ------------------------------------------------------------------------ | ------------------ |
+| **605 BC** | First deportation. Daniel and other young nobles taken to Babylon.       | Daniel 1:1–6       |
+| **597 BC** | Second deportation. King Jehoiachin, Ezekiel, and many craftsmen exiled. | 2 Kings 24:10–17   |
+| **586 BC** | Final destruction of Jerusalem and Solomon's Temple.                     | 2 Kings 25         |
+
+Daniel belonged to the **first group of captives**, while Ezekiel belonged to the **second**.
+
+---
+
+## Political Background
+
+Daniel served under two great empires:
+
+### Babylonian Empire (605–539 BC)
+
+Major kings:
+
+| King              | Importance                                                     |
+| ----------------- | -------------------------------------------------------------- |
+| Nebuchadnezzar II | Conquered Jerusalem and destroyed the Temple.                  |
+| Evil-Merodach     | Released King Jehoiachin from prison.                          |
+| Belshazzar        | Last Babylonian ruler mentioned in Daniel.                     |
+| Nabonidus         | Father of Belshazzar and final king of Babylon (historically). |
+
+### Medo-Persian Empire (Beginning 539 BC)
+
+Babylon fell to the Medes and Persians in **539 BC**.
+
+Important rulers:
+
+| King            | Importance                                                                     |
+| --------------- | ------------------------------------------------------------------------------ |
+| Darius the Mede | Governed Babylon after its conquest (as presented in Daniel).                  |
+| Cyrus the Great | Issued the decree allowing the Jews to return and rebuild the Temple (Ezra 1). |
+
+---
+
+## Babylon — Daniel's New Home
+
+Babylon was:
+
+* The greatest city of its time.
+* Filled with magnificent temples and palaces.
+* A center of astrology, learning, and idol worship.
+* Politically powerful but spiritually corrupt.
+
+Daniel faithfully served God in the midst of this pagan culture.
+
+---
+
+## Religious Condition
+
+Babylon worshiped many false gods, including:
+
+* Marduk
+* Bel
+* Nebo
+* Ishtar
+
+The Babylonian educational system sought to assimilate foreign captives into its culture by changing their names, language, education, and worldview.
+
+Daniel and his friends resisted this pressure without compromising their faith.
+
+---
+
+## Transition to Persia
+
+When Babylon fell in 539 BC, Daniel remained in government service under the Medo-Persian administration.
+
+This allowed him to witness:
+
+* The fulfillment of Jeremiah's prophecy.
+* The beginning of the Jews' return to Jerusalem under Cyrus.
+
+Daniel therefore connects the end of the exile with the beginning of the restoration described in **Ezra** and **Nehemiah**.
+
+---
+
+## Historical Flow Connecting Previous Books
+
+```
+2 Kings
+      ↓
+Jeremiah warns Judah
+      ↓
+Babylon invades Judah
+      ↓
+Daniel taken captive (605 BC)
+      ↓
+Ezekiel taken captive (597 BC)
+      ↓
+Jerusalem destroyed (586 BC)
+      ↓
+Lamentations mourns Jerusalem
+      ↓
+Daniel serves in Babylon
+      ↓
+Babylon falls (539 BC)
+      ↓
+Cyrus allows Jews to return
+      ↓
+Ezra rebuilds Temple
+      ↓
+Nehemiah rebuilds Jerusalem's walls
+      ↓
+Esther occurs during the Persian period among Jews who remained in Persia
+```
+
+---
+
+## Places Mentioned in the Book (Overview)
+
+| Region         | Importance                                                           |
+| -------------- | -------------------------------------------------------------------- |
+| Jerusalem      | Daniel's homeland and the location of the destroyed Temple.          |
+| Babylon        | Primary setting for chapters 1–5.                                    |
+| Plain of Dura  | Site of Nebuchadnezzar's golden image.                               |
+| Shushan (Susa) | Location of Daniel's vision in chapter 8; later prominent in Esther. |
+| Ulai Canal     | Setting of Daniel's ram and goat vision.                             |
+| Tigris River   | Location of Daniel's final vision (chapter 10).                      |
+
+---
+
+## End of Part 1
+
+**Part 2** will cover:
+
+* **Purpose of the Book**
+* **Key Persons**
+* **Key Verses**
+* **Number of Chapters**
+* **Chapter Divisions / Outline**
+* **Chapters 1–3** (Daniel's training in Babylon, Nebuchadnezzar's dream, and the Fiery Furnace), with historical background, theological insights, and connections to Christ.
+
+
+# Daniel Survey (Part 2)
+
+# Purpose of the Book
+
+The Book of Daniel was written to encourage God's people during exile by demonstrating that **God remains sovereign over history**, even when His people are living under pagan governments. Through Daniel's life and prophetic visions, the book assures believers that earthly kingdoms are temporary, but God's kingdom is eternal.
+
+## Why the Book Was Written
+
+* To encourage the Jewish exiles to remain faithful to God.
+* To reveal that God controls the rise and fall of nations.
+* To show that obedience to God is possible even in a hostile culture.
+* To provide prophetic insight into future world empires and the coming Messiah.
+* To assure God's people that suffering is temporary and His kingdom will ultimately prevail.
+
+## Main Message
+
+> **God rules over all kingdoms and establishes His everlasting kingdom according to His perfect plan.**
+
+## Spiritual Objective
+
+* Strengthen believers to remain faithful during persecution.
+* Reveal God's sovereignty over world history.
+* Encourage hope through fulfilled and future prophecy.
+* Point to the coming Messiah and His eternal reign.
+
+## Major Themes and Goals
+
+* God's sovereignty.
+* Faithfulness under pressure.
+* Divine wisdom.
+* Prayer.
+* Deliverance.
+* Prophecy.
+* Resurrection.
+* The Kingdom of God.
+* The Messiah.
+* Final judgment.
+
+---
+
+# Key Persons in the Book
+
+| Person                  | Role in the Book                | Importance                                                                     |
+| ----------------------- | ------------------------------- | ------------------------------------------------------------------------------ |
+| **Daniel**              | Prophet and government official | Model of faith, wisdom, integrity, and prayer; recipient of prophetic visions. |
+| **Hananiah (Shadrach)** | Daniel's companion              | Demonstrated unwavering faith in the fiery furnace.                            |
+| **Mishael (Meshach)**   | Daniel's companion              | Refused idol worship despite the threat of death.                              |
+| **Azariah (Abednego)**  | Daniel's companion              | Trusted God completely in the fiery furnace.                                   |
+| **Nebuchadnezzar II**   | King of Babylon                 | Powerful ruler humbled by God; recognized God's sovereignty.                   |
+| **Belshazzar**          | Babylonian ruler                | His pride led to Babylon's downfall.                                           |
+| **Darius the Mede**     | Ruler after Babylon's fall      | Placed Daniel in authority and witnessed God's deliverance in the lions' den.  |
+| **Cyrus the Great**     | Persian king                    | Allowed the Jews to return to Jerusalem and rebuild the Temple.                |
+| **Gabriel**             | Angel                           | Explained Daniel's visions, including the prophecy of the Seventy Weeks.       |
+| **Michael**             | Archangel                       | Protector of God's people, especially Israel (Daniel 10–12).                   |
+
+---
+
+# Daniel's Character Study
+
+One reason Daniel is so admired is that Scripture records **no personal moral failure** about him. While this does not imply sinless perfection, his life consistently reflects exemplary godliness.
+
+| Characteristic | Scripture      | Lesson                                         |
+| -------------- | -------------- | ---------------------------------------------- |
+| Faithful       | Daniel 1:8     | Determined not to compromise.                  |
+| Prayerful      | Daniel 6:10    | Maintained daily communion with God.           |
+| Wise           | Daniel 2:20–23 | Recognized God as the source of wisdom.        |
+| Humble         | Daniel 2:27–30 | Gave God all the glory.                        |
+| Courageous     | Daniel 6       | Obeyed God despite the lions' den.             |
+| Trustworthy    | Daniel 6:4     | No corruption or negligence found in him.      |
+| Compassionate  | Daniel 4:19    | Showed concern even for Nebuchadnezzar.        |
+| Spirit-filled  | Daniel 5:11–12 | Recognized for exceptional wisdom and insight. |
+
+---
+
+# Babylonian Names Given to Daniel and His Friends
+
+The Babylonians attempted to reshape the identities of the Jewish captives by giving them names associated with Babylonian gods.
+
+| Hebrew Name | Meaning              | Babylonian Name | Meaning                                                             |
+| ----------- | -------------------- | --------------- | ------------------------------------------------------------------- |
+| Daniel      | God is my Judge      | Belteshazzar    | "Bel protect the king" (or similar meaning related to the god Bel). |
+| Hananiah    | The LORD is gracious | Shadrach        | Possibly "Command of Aku" (a Babylonian deity).                     |
+| Mishael     | Who is like God?     | Meshach         | Possibly "Who is like Aku?"                                         |
+| Azariah     | The LORD has helped  | Abednego        | "Servant of Nego (Nabu)."                                           |
+
+**Spiritual Insight:** Although their names were changed, **their hearts remained devoted to the LORD**. This reminds believers that cultural pressure cannot change a faithful identity rooted in God.
+
+---
+
+# Key Verses
+
+### Daniel 1:8
+
+> **"But Daniel purposed in his heart that he would not defile himself..."**
+
+**Explanation:** Daniel's commitment to holiness begins before any miracle occurs. His inward conviction shaped every outward action.
+
+**Significance:** A foundational verse on personal integrity and resisting compromise.
+
+---
+
+### Daniel 2:20–21
+
+> **"Blessed be the name of God forever and ever... He changes the times and the seasons; He removes kings and raises up kings."**
+
+**Explanation:** Daniel praises God as the sovereign ruler over history.
+
+**Significance:** One of the clearest declarations of God's control over world events.
+
+---
+
+### Daniel 3:17–18
+
+> **"Our God whom we serve is able to deliver us... But if not... we will not serve your gods."**
+
+**Explanation:** Shadrach, Meshach, and Abednego express unwavering faith, trusting God whether He delivers them or not.
+
+**Significance:** Demonstrates faith that is based on God's worthiness rather than desired outcomes.
+
+---
+
+### Daniel 4:34–35
+
+> **"His dominion is an everlasting dominion..."**
+
+**Explanation:** Nebuchadnezzar acknowledges God's absolute sovereignty after his period of humiliation.
+
+**Significance:** Even the world's greatest king recognizes God's supreme authority.
+
+---
+
+### Daniel 6:10
+
+> **"He knelt down on his knees three times that day, and prayed..."**
+
+**Explanation:** Daniel continues his regular practice of prayer despite a royal decree forbidding it.
+
+**Significance:** Highlights steadfast devotion under persecution.
+
+---
+
+### Daniel 7:13–14
+
+> **"One like the Son of Man..."**
+
+**Explanation:** Daniel sees a heavenly figure receiving everlasting dominion from the Ancient of Days.
+
+**Significance:** A major Messianic prophecy fulfilled in Jesus Christ, who frequently referred to Himself as the "Son of Man."
+
+---
+
+### Daniel 9:24–27
+
+> **The Prophecy of the Seventy Weeks**
+
+**Explanation:** This prophecy outlines God's redemptive plan culminating in the coming of the Anointed One (Messiah).
+
+**Significance:** One of the most significant prophetic passages concerning the Messiah and God's unfolding plan of redemption.
+
+---
+
+### Daniel 12:2–3
+
+> **"Many of those who sleep in the dust of the earth shall awake..."**
+
+**Explanation:** Daniel speaks of a future resurrection and final judgment.
+
+**Significance:** One of the clearest Old Testament teachings on bodily resurrection and eternal destiny.
+
+---
+
+# Number of Chapters
+
+* **Total Chapters:** 12
+
+## General Structure
+
+Daniel divides naturally into two major sections:
+
+| Section               | Chapters | Theme                                            |
+| --------------------- | -------- | ------------------------------------------------ |
+| Historical Narratives | 1–6      | Faithfulness in exile under pagan kings.         |
+| Prophetic Visions     | 7–12     | Future kingdoms, the Messiah, and the end times. |
+
+---
+
+# Chapter Divisions / Outline
+
+| Section                      | Chapters | Description                                                           |
+| ---------------------------- | -------- | --------------------------------------------------------------------- |
+| Daniel's Training in Babylon | 1        | Faithfulness begins with personal holiness.                           |
+| Nebuchadnezzar's Dream       | 2        | God reveals future world empires.                                     |
+| The Fiery Furnace            | 3        | Faithfulness under persecution.                                       |
+| Nebuchadnezzar's Humbling    | 4        | God humbles the proud.                                                |
+| Belshazzar's Feast           | 5        | Judgment upon Babylon.                                                |
+| Daniel in the Lions' Den     | 6        | God's protection of the faithful.                                     |
+| Vision of Four Beasts        | 7        | Four kingdoms and God's eternal kingdom.                              |
+| Ram and Goat Vision          | 8        | Medo-Persia and Greece foretold.                                      |
+| Prayer and Seventy Weeks     | 9        | Daniel's intercession and Messianic prophecy.                         |
+| Final Visions                | 10–12    | Spiritual warfare, future conflicts, resurrection, and final victory. |
+
+---
+
+# Chapter-by-Chapter Summary
+
+## Chapter 1 – Daniel's Faithfulness in Babylon
+
+### Main Events
+
+* Nebuchadnezzar besieges Jerusalem (605 BC).
+* Daniel and other young nobles are taken captive to Babylon.
+* They are selected for training in the royal court.
+* Their Hebrew names are changed to Babylonian names.
+* Daniel resolves not to defile himself with the king's food and wine.
+* God grants Daniel and his friends wisdom, knowledge, and favor.
+* They prove superior to all the Babylonian wise men.
+
+### Historical Background
+
+This chapter records the **first Babylonian deportation (605 BC)**, fulfilling Jeremiah's warnings that Judah would go into exile because of covenant unfaithfulness. Young men from noble families were taken to Babylon to be educated and assimilated into imperial service.
+
+### Important Teachings
+
+* Faithfulness begins with personal convictions.
+* God honors those who honor Him.
+* Spiritual integrity matters more than outward success.
+* God can use His people even in exile.
+
+### Key Persons
+
+* Daniel
+* Hananiah
+* Mishael
+* Azariah
+* Nebuchadnezzar
+* Ashpenaz (chief official)
+
+### Spiritual Lessons
+
+* Holiness often begins with small decisions.
+* Believers can influence secular environments without compromising.
+* God equips those who remain faithful.
+
+---
+
+## Chapter 2 – Nebuchadnezzar's Dream of the Great Statue
+
+### Main Events
+
+* Nebuchadnezzar dreams but cannot remember or interpret it.
+* He demands that the wise men both recount and explain the dream.
+* Daniel prays with his friends.
+* God reveals the mystery during the night.
+* Daniel praises God for His wisdom and sovereignty.
+* Daniel interprets the dream:
+
+  * Head of gold – Babylon.
+  * Chest and arms of silver – Medo-Persia.
+  * Belly and thighs of bronze – Greece.
+  * Legs of iron – Rome.
+  * Feet of iron and clay – A divided kingdom.
+  * Stone cut without human hands – God's everlasting Kingdom.
+* Daniel is promoted to high office.
+
+### Historical Importance
+
+This chapter provides one of the Bible's most remarkable outlines of world history, predicting successive empires centuries before many of them arose.
+
+### Important Teachings
+
+* God reveals hidden mysteries.
+* Human kingdoms are temporary.
+* God's kingdom will never be destroyed.
+
+### Key Persons
+
+* Daniel
+* Nebuchadnezzar
+* Babylonian wise men
+
+### Spiritual Lessons
+
+* Prayer precedes divine revelation.
+* Wisdom comes from God.
+* Earthly power is temporary; God's kingdom is eternal.
+
+---
+
+## Chapter 3 – The Fiery Furnace
+
+### Main Events
+
+* Nebuchadnezzar erects a massive golden image on the Plain of Dura.
+* All officials are commanded to worship it.
+* Shadrach, Meshach, and Abednego refuse.
+* They declare that God is able to deliver them, but even if He does not, they will not worship idols.
+* They are thrown into a blazing furnace.
+* A fourth figure appears with them in the fire.
+* They emerge unharmed.
+* Nebuchadnezzar praises the God of Israel and promotes the three men.
+
+### Historical Background
+
+In the ancient Near East, rulers often linked loyalty to the state with participation in state-sponsored religious ceremonies. Refusing to worship the king's image was viewed as both religious disobedience and political rebellion.
+
+### Important Teachings
+
+* God deserves exclusive worship.
+* Faithfulness may involve suffering.
+* God is present with His people in times of trial.
+* Deliverance comes according to God's will and timing.
+
+### Key Persons
+
+* Shadrach
+* Meshach
+* Abednego
+* Nebuchadnezzar
+
+### Spiritual Lessons
+
+* Courage flows from trust in God.
+* True worship belongs to God alone.
+* God's presence sustains believers through persecution.
+
+---
+
+## Christological Significance of Chapters 1–3
+
+* **Daniel's faithfulness** foreshadows Christ's perfect obedience under testing.
+* **The stone cut without hands** (Daniel 2:34–35, 44–45) points to Christ's eternal kingdom, established by God rather than human effort.
+* **The fourth figure in the fiery furnace** has traditionally been understood by many Christians as a pre-incarnate appearance of Christ (a Christophany), while others view Him as an angel sent by God. In either interpretation, the passage emphasizes God's presence with His faithful people.
+
+---
+
+## End of Part 2
+
+**Part 3** will cover **Chapters 4–6**, including:
+
+* Nebuchadnezzar's pride and humbling.
+* The writing on the wall at Belshazzar's feast.
+* The fall of Babylon.
+* Daniel in the lions' den.
+* Historical and archaeological insights.
+* Practical lessons on humility, integrity, prayer, and God's deliverance.
+
+
+# Daniel Survey (Part 3)
+
+---
+
+# Chapter-by-Chapter Summary (Continued)
+
+## Chapter 4 – Nebuchadnezzar's Pride and Humbling
+
+### Main Events
+
+* King Nebuchadnezzar issues a testimony describing how God humbled him.
+* He dreams of a magnificent tree that provides shelter and food for all.
+* A holy watcher from heaven commands that the tree be cut down, leaving only the stump.
+* Daniel interprets the dream:
+
+  * The tree represents Nebuchadnezzar.
+  * Because of his pride, he will lose his kingdom temporarily.
+  * He will live like an animal until he acknowledges that **"the Most High rules in the kingdom of men"** (Daniel 4:25).
+* Twelve months later, while boasting about Babylon's greatness, God's judgment falls immediately.
+* Nebuchadnezzar loses his sanity and lives in the fields like an ox for "seven times" (commonly understood as seven years or seven seasons).
+* After acknowledging God's sovereignty, his reason and kingdom are restored.
+* He publicly praises the God of heaven.
+
+### Historical Background
+
+Nebuchadnezzar II (605–562 BC) transformed Babylon into one of the greatest cities of the ancient world. He constructed:
+
+* The famous Ishtar Gate.
+* Massive city walls.
+* Royal palaces.
+* The Hanging Gardens (according to ancient tradition).
+* Numerous temples.
+
+His pride in these accomplishments forms the backdrop of this chapter.
+
+### Important Teachings
+
+* Pride invites God's discipline.
+* God rules over every human ruler.
+* Repentance brings restoration.
+* Earthly success should never replace dependence on God.
+
+### Key Persons
+
+* Nebuchadnezzar
+* Daniel
+
+### Spiritual Lessons
+
+* God opposes the proud but gives grace to the humble.
+* Leadership is stewardship under God's authority.
+* Success should produce gratitude, not self-exaltation.
+
+---
+
+## Chapter 5 – Belshazzar's Feast and the Fall of Babylon
+
+### Main Events
+
+* Belshazzar hosts a lavish banquet for a thousand nobles.
+* He orders the sacred vessels taken from Jerusalem's Temple to be used for drinking wine.
+* The king and his guests praise idols of gold, silver, bronze, iron, wood, and stone.
+* Suddenly, the fingers of a human hand appear and write on the palace wall.
+* The terrified king cannot understand the message.
+* Daniel is summoned by the queen's recommendation.
+* Daniel rebukes Belshazzar for failing to learn from Nebuchadnezzar's experience.
+* He interprets the inscription:
+
+| Word             | Meaning                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| Mene             | God has numbered your kingdom.                               |
+| Tekel            | You have been weighed and found wanting.                     |
+| Peres (Upharsin) | Your kingdom is divided and given to the Medes and Persians. |
+
+* That very night Babylon falls.
+* Belshazzar is killed.
+* Darius the Mede receives the kingdom.
+
+### Historical Background
+
+The fall of Babylon occurred in **539 BC** when the Medo-Persian forces under Cyrus the Great captured the city. Ancient historical sources describe how the invading army diverted the Euphrates River, allowing troops to enter the city through the riverbed while many inhabitants were celebrating.
+
+### Important Teachings
+
+* God judges arrogance and sacrilege.
+* Delayed judgment is not canceled judgment.
+* Nations are accountable to God.
+* God's word is always fulfilled.
+
+### Key Persons
+
+* Belshazzar
+* Daniel
+* Queen Mother
+* Darius the Mede
+
+### Spiritual Lessons
+
+* Wealth and power cannot protect against God's judgment.
+* Every person is accountable before God.
+* Reverence for what belongs to God is essential.
+
+---
+
+## Chapter 6 – Daniel in the Lions' Den
+
+### Main Events
+
+* Darius appoints 120 satraps with Daniel as one of three administrators.
+* Daniel distinguishes himself through exceptional integrity and wisdom.
+* Jealous officials persuade Darius to issue a decree forbidding prayer to anyone except the king for thirty days.
+* Daniel continues praying three times daily toward Jerusalem.
+* He is arrested and thrown into the lions' den.
+* God sends His angel to shut the lions' mouths.
+* At dawn, Darius finds Daniel unharmed.
+* Daniel is lifted out safely.
+* His accusers are judged.
+* Darius issues a decree honoring the God of Daniel throughout the empire.
+
+### Historical Background
+
+Prayer toward Jerusalem reflected Israel's hope for restoration, in keeping with Solomon's prayer at the dedication of the Temple (1 Kings 8:44–53). Daniel's practice demonstrated unwavering covenant faithfulness even in exile.
+
+### Important Teachings
+
+* Faithfulness often brings opposition.
+* Prayer should remain constant despite pressure.
+* God is able to deliver His servants.
+* Integrity is a powerful testimony before unbelievers.
+
+### Key Persons
+
+* Daniel
+* Darius
+* Persian officials
+
+### Spiritual Lessons
+
+* Consistent prayer strengthens believers.
+* Obedience to God takes precedence over human commands when the two conflict.
+* God honors those who trust Him.
+
+---
+
+# Historical Timeline of Daniel's Life (Approximate)
+
+| Year (BC)                     | Event                                              | Scripture   |
+| ----------------------------- | -------------------------------------------------- | ----------- |
+| 605                           | First deportation to Babylon; Daniel taken captive | Daniel 1    |
+| 605–602                       | Training in Babylon                                | Daniel 1    |
+| 603/602                       | Interpretation of Nebuchadnezzar's dream           | Daniel 2    |
+| Early reign of Nebuchadnezzar | Fiery furnace                                      | Daniel 3    |
+| Later reign of Nebuchadnezzar | King's humbling and restoration                    | Daniel 4    |
+| 539                           | Belshazzar's feast; Babylon falls                  | Daniel 5    |
+| 539–538                       | Daniel in the lions' den                           | Daniel 6    |
+| 553–536                       | Daniel receives prophetic visions                  | Daniel 7–12 |
+
+---
+
+# Character Study: Nebuchadnezzar
+
+Although remembered as Babylon's greatest king, Nebuchadnezzar's story is also one of spiritual transformation.
+
+| Characteristic      | Positive                                  | Negative                                     |
+| ------------------- | ----------------------------------------- | -------------------------------------------- |
+| Military leadership | Excellent strategist                      | Conquered Jerusalem and destroyed the Temple |
+| Builder             | Expanded Babylon magnificently            | Became proud of his achievements             |
+| Teachable           | Eventually acknowledged God's sovereignty | Initially resisted God's warnings            |
+| Authority           | Powerful ruler                            | Abused power through pride                   |
+
+### Spiritual Lessons from Nebuchadnezzar
+
+* Success without humility leads to downfall.
+* God can reach even the most powerful rulers.
+* Genuine repentance results in restoration.
+* Every earthly authority is subject to God's authority.
+
+---
+
+# Character Study: Daniel
+
+Daniel remains one of Scripture's clearest examples of steadfast faith.
+
+| Area         | Example                                                 |
+| ------------ | ------------------------------------------------------- |
+| Integrity    | No corruption found in him (Daniel 6:4).                |
+| Prayer       | Continued praying despite danger (Daniel 6:10).         |
+| Wisdom       | Interpreted dreams through God's revelation (Daniel 2). |
+| Humility     | Gave all glory to God (Daniel 2:27–30).                 |
+| Courage      | Served faithfully under multiple pagan kings.           |
+| Perseverance | Remained faithful throughout decades of exile.          |
+
+### Why Daniel Is an Example for Believers
+
+* He remained faithful in a secular culture.
+* He combined conviction with wisdom and respect.
+* He trusted God in every circumstance.
+* He modeled lifelong obedience.
+
+---
+
+# Major Lessons from Chapters 4–6
+
+### 1. God Humbles the Proud
+
+Nebuchadnezzar learned that greatness belongs ultimately to God alone.
+
+### 2. God Judges Nations
+
+Babylon's sudden fall reminds readers that no empire is beyond God's authority.
+
+### 3. Faithfulness Is Rewarded
+
+Daniel's consistent obedience became a testimony to kings and nations.
+
+### 4. Prayer Is Essential
+
+Daniel's strength came not from political influence but from regular communion with God.
+
+### 5. God's Deliverance Displays His Glory
+
+Whether through restoring a king, revealing hidden mysteries, or protecting Daniel in the lions' den, God demonstrates His power so that others may know Him.
+
+---
+
+# Archaeological and Historical Insights
+
+Several discoveries provide valuable background for Daniel:
+
+* The **Babylonian Chronicles** confirm Nebuchadnezzar's campaigns against Judah.
+* The **Ishtar Gate** and ruins of Babylon illustrate the grandeur described in the book.
+* The **Cyrus Cylinder** records Cyrus's policy of allowing displaced peoples to return to their homelands, consistent with the biblical account of the return from exile.
+* Ancient inscriptions identify **Belshazzar** as the son and co-regent of Nabonidus, explaining why he could offer Daniel the position of "third ruler" in the kingdom (Daniel 5:16), since Nabonidus was first and Belshazzar second.
+
+---
+
+## End of Part 3
+
+**Part 4** will cover **Daniel Chapters 7–9**, including:
+
+* The vision of the four beasts.
+* The Ancient of Days and the Son of Man.
+* The ram and the goat.
+* The rise of Medo-Persia and Greece.
+* Daniel's prayer of confession.
+* The prophecy of the Seventy Weeks and its Messianic significance.
+
+
+
+# Daniel Survey (Part 4)
+
+---
+
+# Chapter-by-Chapter Summary (Continued)
+
+## Chapter 7 – The Vision of the Four Beasts
+
+> **Theme:** God's eternal kingdom triumphs over all earthly kingdoms.
+
+Daniel 7 marks a major transition in the book. While Chapters 1–6 are primarily historical narratives, Chapters 7–12 focus on prophetic visions. The visions are not arranged chronologically with the previous chapters; Chapter 7 actually takes place during the reign of Belshazzar, before the events of Chapters 5 and 6.
+
+### Main Events
+
+* Daniel receives a night vision in the first year of Belshazzar (about 553 BC).
+* Four great beasts emerge from the sea, each representing a successive world empire.
+* A "Little Horn" arises from the fourth beast, speaking arrogantly against God.
+* The "Ancient of Days" sits in judgment.
+* The fourth beast is destroyed.
+* One "like the Son of Man" receives an everlasting kingdom.
+* An angel explains the vision to Daniel.
+
+---
+
+### The Four Beasts
+
+| Beast                                  | Description          | Empire Represented | Parallel in Daniel 2 |
+| -------------------------------------- | -------------------- | ------------------ | -------------------- |
+| Lion with eagle's wings                | Strength and majesty | Babylon            | Head of Gold         |
+| Bear raised on one side                | Powerful but uneven  | Medo-Persia        | Chest of Silver      |
+| Leopard with four wings and four heads | Speed and expansion  | Greece             | Belly of Bronze      |
+| Terrifying beast with iron teeth       | Extremely powerful   | Rome               | Legs of Iron         |
+
+The similarities with Daniel 2 demonstrate that God consistently revealed the same sequence of kingdoms using different imagery.
+
+---
+
+### The Little Horn
+
+Characteristics:
+
+* Speaks boastfully against God.
+* Persecutes God's people.
+* Attempts to change times and laws.
+* Exercises authority for a limited period.
+* Is ultimately judged by God.
+
+Many interpreters understand this figure as having:
+
+* A historical fulfillment in rulers who opposed God's people.
+* A future fulfillment associated with the final Antichrist (cf. 2 Thessalonians 2; Revelation 13).
+
+---
+
+### The Ancient of Days
+
+Daniel describes God as:
+
+* Eternal.
+* Holy.
+* Supreme Judge.
+* Sovereign King.
+
+His throne is surrounded by fire, symbolizing perfect holiness and righteous judgment.
+
+---
+
+### The Son of Man
+
+One of the greatest Messianic passages in the Old Testament.
+
+Daniel sees:
+
+* One "like a Son of Man."
+* Coming with the clouds of heaven.
+* Receiving everlasting dominion.
+* Worshiped by all peoples and nations.
+* Ruling forever.
+
+Jesus repeatedly referred to Himself as **"the Son of Man,"** directly connecting His ministry with this prophecy (Matthew 26:64; Mark 14:62).
+
+---
+
+### Important Teachings
+
+* Earthly kingdoms are temporary.
+* God's kingdom is eternal.
+* Evil rulers have limited authority.
+* Christ is the eternal King.
+
+---
+
+### Key Persons
+
+* Daniel
+* Ancient of Days
+* Son of Man
+* Angel interpreter
+
+---
+
+### Spiritual Lessons
+
+* God controls history.
+* Believers should focus on God's kingdom rather than worldly power.
+* Christ will reign forever.
+
+---
+
+## Chapter 8 – The Vision of the Ram and the Goat
+
+> **Theme:** God reveals future kingdoms with remarkable precision.
+
+### Main Events
+
+* Daniel receives another vision in the third year of Belshazzar (about 551 BC).
+* A ram with two horns appears.
+* A goat from the west defeats the ram.
+* The goat's great horn is broken.
+* Four horns replace it.
+* A little horn emerges and persecutes God's people.
+* Gabriel explains the vision.
+
+---
+
+### Meaning of the Vision
+
+Unlike Chapter 7, this chapter explicitly identifies the kingdoms.
+
+| Symbol             | Meaning                                                                                                      |
+| ------------------ | ------------------------------------------------------------------------------------------------------------ |
+| Ram with two horns | Medo-Persian Empire                                                                                          |
+| Higher horn        | Persia becoming dominant                                                                                     |
+| Goat               | Greek Empire                                                                                                 |
+| Large horn         | Alexander the Great                                                                                          |
+| Four horns         | Four divisions of Alexander's empire                                                                         |
+| Little horn        | Historically linked to Antiochus IV Epiphanes; also viewed by many as foreshadowing a future opponent of God |
+
+---
+
+### Historical Fulfillment
+
+Alexander the Great conquered the Persian Empire with extraordinary speed.
+
+After his death (323 BC):
+
+His empire was divided among four generals:
+
+* Cassander
+* Lysimachus
+* Seleucus
+* Ptolemy
+
+The prophecy accurately anticipates this historical development.
+
+---
+
+### Antiochus IV Epiphanes
+
+Many scholars identify the "little horn" of Chapter 8 with Antiochus IV (175–164 BC), who:
+
+* Desecrated the Jerusalem Temple.
+* Forbade Jewish worship.
+* Persecuted faithful Jews.
+* Sacrificed unclean animals on the altar.
+
+His actions became a historical picture of later end-time opposition to God.
+
+---
+
+### Important Teachings
+
+* God knows future history.
+* Evil rulers cannot escape God's judgment.
+* God's people may suffer temporarily but will ultimately be vindicated.
+
+---
+
+### Key Persons
+
+* Daniel
+* Gabriel
+
+---
+
+### Spiritual Lessons
+
+* God's prophecies are trustworthy.
+* History unfolds according to God's plan.
+* God remains faithful during persecution.
+
+---
+
+## Chapter 9 – Daniel's Prayer and the Prophecy of the Seventy Weeks
+
+> **Theme:** God's mercy answers sincere repentance and reveals His redemptive plan.
+
+This chapter contains one of the Bible's most important prophetic passages.
+
+---
+
+## Daniel's Prayer (9:1–19)
+
+### Historical Background
+
+Daniel studies the writings of Jeremiah.
+
+He realizes that Jeremiah prophesied:
+
+* Jerusalem would lie desolate for **70 years**.
+* God would afterward restore His people.
+
+Daniel understands that those seventy years are nearly complete.
+
+Instead of assuming restoration will happen automatically, Daniel responds with:
+
+* Prayer.
+* Fasting.
+* Confession.
+* Repentance.
+
+---
+
+### Structure of Daniel's Prayer
+
+#### 1. Praise
+
+Daniel acknowledges:
+
+* God's greatness.
+* God's covenant faithfulness.
+* God's mercy.
+
+#### 2. Confession
+
+He repeatedly says:
+
+> "We have sinned..."
+
+Notice Daniel includes himself among the people, though Scripture records no personal failure.
+
+This demonstrates true intercessory humility.
+
+---
+
+#### 3. Appeal
+
+Daniel asks God to:
+
+* Forgive Israel.
+* Restore Jerusalem.
+* Glorify His own name.
+
+---
+
+### Lessons from Daniel's Prayer
+
+* God's promises should encourage prayer, not replace it.
+* Revival begins with confession.
+* Spiritual leaders identify with the people they serve.
+* God's mercy exceeds human failure.
+
+---
+
+## Gabriel's Visit
+
+While Daniel is still praying:
+
+Gabriel arrives with an answer from God.
+
+This demonstrates:
+
+* God hears prayer immediately.
+* Heaven responds to faithful intercession.
+* Divine revelation follows humble dependence.
+
+---
+
+# The Prophecy of the Seventy Weeks (9:24–27)
+
+This is among the most discussed prophetic passages in Scripture.
+
+The prophecy concerns:
+
+* Israel.
+* Jerusalem.
+* God's plan of redemption.
+
+---
+
+## The Six Purposes of the Prophecy
+
+Gabriel explains that the seventy weeks are determined to:
+
+1. Finish transgression.
+2. Put an end to sin.
+3. Make atonement for wickedness.
+4. Bring everlasting righteousness.
+5. Seal up vision and prophecy.
+6. Anoint the Most Holy.
+
+These purposes point ultimately to God's complete work of redemption through the Messiah and the establishment of His righteous kingdom.
+
+---
+
+## The Seventy Weeks Overview
+
+Many interpreters understand the "weeks" as seventy sets of seven years (490 years).
+
+| Division        | Duration  | Major Event                                      |
+| --------------- | --------- | ------------------------------------------------ |
+| Seven Weeks     | 49 years  | Rebuilding Jerusalem                             |
+| Sixty-two Weeks | 434 years | Coming of the Messiah                            |
+| Final Week      | 7 years   | Climactic events leading to God's final purposes |
+
+Scholars differ on the precise chronology and interpretation of the final week. Major evangelical views include:
+
+* A continuous historical fulfillment.
+* A future fulfillment associated with the end times.
+* A combination of near and future fulfillments.
+
+Regardless of the view, the prophecy clearly emphasizes God's sovereign timetable and the central role of the Messiah.
+
+---
+
+### Important Teachings
+
+* God answers sincere prayer.
+* God's timetable is perfect.
+* The Messiah stands at the center of God's redemptive plan.
+* Prophecy strengthens faith in God's sovereign purposes.
+
+---
+
+### Key Persons
+
+* Daniel
+* Gabriel
+* Jeremiah (referenced)
+* The Messiah (prophesied)
+
+---
+
+### Spiritual Lessons
+
+* Study of Scripture should lead to prayer.
+* Confession precedes restoration.
+* God fulfills His promises in His perfect time.
+* The Messiah is the fulfillment of God's saving plan.
+
+---
+
+# Major Themes from Chapters 7–9
+
+| Theme              | Explanation                                                  |
+| ------------------ | ------------------------------------------------------------ |
+| God's Sovereignty  | God directs the rise and fall of empires.                    |
+| Judgment           | Evil kingdoms will not endure forever.                       |
+| The Kingdom of God | Christ's kingdom is everlasting.                             |
+| Prayer             | Earnest, Scripture-shaped prayer invites God's response.     |
+| Prophecy           | God declares the future because He rules over history.       |
+| Messiah            | The promised Redeemer is central to God's plan.              |
+| Hope               | God's people can trust Him even during exile and oppression. |
+
+---
+
+## End of Part 4
+
+**Part 5** will cover **Daniel Chapters 10–12**, including:
+
+* Daniel's final vision.
+* Spiritual warfare behind earthly kingdoms.
+* Michael the Archangel.
+* The Kings of the North and South.
+* The Great Tribulation.
+* The resurrection of the dead.
+* Daniel's final encouragement and the conclusion of the book.
+
+
+
+# Daniel Survey (Part 5)
+
+---
+
+# Chapter-by-Chapter Summary (Continued)
+
+## Chapter 10 – Daniel's Final Vision: The Unseen Spiritual Conflict
+
+> **Theme:** Behind the visible events of history lies an invisible spiritual battle, yet God remains sovereign.
+
+Daniel 10 serves as the introduction to the final prophetic vision that continues through Chapters 11 and 12.
+
+---
+
+## Historical Background
+
+* **Date:** Third year of Cyrus king of Persia (approximately **536 BC**).
+* The first group of Jewish exiles had already returned to Jerusalem under **Zerubbabel** (Ezra 1–3).
+* Although the decree to rebuild the Temple had been issued, the returned exiles were facing opposition and discouragement (Ezra 4).
+
+Daniel, now an elderly man in his eighties, remained in Babylon. Though he did not return to Judah, he continued to pray earnestly for God's people.
+
+---
+
+## Main Events
+
+* Daniel mourns and fasts for **three weeks**.
+* He receives a vision beside the **Tigris River**.
+* He sees a glorious heavenly being clothed in linen with a radiant appearance.
+* Daniel loses all strength and falls to the ground.
+* The heavenly messenger strengthens him.
+* The messenger explains that his prayer was heard on the first day, but his arrival was delayed due to spiritual conflict.
+* Michael, one of the chief princes (archangels), comes to assist.
+* Daniel is prepared to receive revelation concerning Israel's future.
+
+---
+
+## The Glorious Heavenly Figure
+
+Daniel describes the figure with remarkable detail:
+
+* Clothed in linen.
+* Belt of pure gold.
+* Body like beryl.
+* Face like lightning.
+* Eyes like flaming torches.
+* Arms and feet like polished bronze.
+* Voice like the sound of a great multitude.
+
+Some scholars identify this as:
+
+1. A pre-incarnate appearance of Christ (Christophany).
+2. A mighty angel sent by God.
+
+Because the messenger later speaks of being delayed and assisted by Michael, many conclude that the being who continues the conversation is an angel, while others suggest Daniel first saw a glorious manifestation of Christ followed by an angelic messenger. Scripture does not explicitly resolve the question.
+
+---
+
+## Spiritual Warfare Revealed
+
+One of the most significant teachings in Scripture about spiritual warfare appears here.
+
+The messenger explains:
+
+* Daniel's prayer was heard immediately.
+* The answer was delayed for twenty-one days.
+* The "Prince of Persia" resisted him.
+* Michael came to assist.
+
+This passage suggests that spiritual beings operate behind earthly kingdoms, while affirming that God remains supreme over all.
+
+---
+
+## Michael the Archangel
+
+Michael is presented as:
+
+* One of the chief princes.
+* Protector of God's people.
+* A warrior in God's service.
+
+He is also mentioned in:
+
+* Jude 9.
+* Revelation 12:7–9.
+
+---
+
+## Important Teachings
+
+* Prayer has spiritual significance beyond what we can see.
+* Spiritual warfare is real.
+* God hears prayer immediately, even when answers seem delayed.
+* Angels minister according to God's purposes.
+
+---
+
+## Key Persons
+
+* Daniel.
+* Michael.
+* Heavenly messenger.
+* Cyrus (historical setting).
+
+---
+
+## Spiritual Lessons
+
+* Continue praying even when answers seem delayed.
+* God's timing is perfect.
+* Believers should recognize spiritual realities without becoming fearful.
+* God is always greater than spiritual opposition.
+
+---
+
+## Chapter 11 – The Kings of the North and South
+
+> **Theme:** God accurately foretells the course of history, demonstrating His absolute sovereignty.
+
+Chapter 11 contains one of the most detailed prophetic sections in the Old Testament. Much of it corresponds closely with later historical events, especially the struggles between the Seleucid and Ptolemaic kingdoms after the death of Alexander the Great.
+
+---
+
+## Main Events
+
+### Persian Kings
+
+The prophecy begins with the Persian Empire.
+
+Several Persian kings are mentioned, culminating in a wealthy ruler whose actions contribute to later conflicts with Greece.
+
+---
+
+### Rise of Greece
+
+A mighty king arises.
+
+This is widely understood to refer to **Alexander the Great**.
+
+After Alexander's death:
+
+* His empire is divided.
+* It is not inherited by his descendants.
+* Four kingdoms emerge under his generals.
+
+This fulfills the pattern introduced in Daniel 8.
+
+---
+
+### The Kings of the North and South
+
+The prophecy focuses on two major dynasties:
+
+| Kingdom           | Dynasty   | Region |
+| ----------------- | --------- | ------ |
+| King of the North | Seleucid  | Syria  |
+| King of the South | Ptolemaic | Egypt  |
+
+Because Israel lay between these empires, it repeatedly suffered during their conflicts.
+
+---
+
+### Antiochus IV Epiphanes
+
+A major figure in this chapter is Antiochus IV.
+
+He:
+
+* Desecrated the Temple.
+* Stopped regular sacrifices.
+* Persecuted faithful Jews.
+* Exalted himself.
+* Attempted to eradicate Jewish worship.
+
+His actions foreshadow later end-time opposition to God.
+
+---
+
+### Prophetic Perspective
+
+Many interpreters understand the final section of Chapter 11 (especially verses 36–45) as moving beyond Antiochus to an ultimate future ruler who opposes God before the establishment of God's kingdom.
+
+Views differ among scholars, but all agree that God remains in control of history.
+
+---
+
+## Important Teachings
+
+* God knows history before it happens.
+* Earthly kingdoms continually change.
+* God's covenant purposes endure despite political upheaval.
+* Evil rulers have limited authority.
+
+---
+
+## Key Persons
+
+* Persian kings.
+* Alexander the Great.
+* Kings of the North.
+* Kings of the South.
+* Antiochus IV Epiphanes.
+
+---
+
+## Spiritual Lessons
+
+* Trust God's sovereignty amid political instability.
+* God's purposes cannot be overturned.
+* Faithfulness matters even during persecution.
+
+---
+
+## Chapter 12 – The End Times and Final Hope
+
+> **Theme:** God's people will ultimately experience resurrection, everlasting life, and final victory.
+
+This chapter concludes both Daniel's final vision and the entire book.
+
+---
+
+## Main Events
+
+* Michael arises to defend God's people.
+* A time of unparalleled distress is foretold.
+* God's faithful people are delivered.
+* The resurrection of the dead is revealed.
+* The righteous receive everlasting life.
+* Daniel is instructed to seal the book until the appointed time.
+* Daniel is promised that he will receive his inheritance at the end of the days.
+
+---
+
+## Michael Protects Israel
+
+Michael again appears as:
+
+* Protector of Israel.
+* Defender during a future time of great trouble.
+
+---
+
+## The Great Tribulation
+
+Daniel speaks of:
+
+> "A time of trouble such as never has been..."
+
+Jesus later refers to this passage when speaking about future tribulation (Matthew 24:21).
+
+---
+
+## Resurrection
+
+Daniel gives one of the clearest Old Testament teachings on bodily resurrection.
+
+He declares:
+
+* Some will rise to everlasting life.
+* Others to shame and everlasting contempt.
+
+This anticipates New Testament teaching concerning the final resurrection and judgment (John 5:28–29; Revelation 20:11–15).
+
+---
+
+## The Wise
+
+Daniel emphasizes that:
+
+* The wise will understand God's truth.
+* Those who lead many to righteousness will shine like the stars forever.
+
+Wisdom here refers to faithful obedience to God rather than mere intellectual knowledge.
+
+---
+
+## Sealing the Book
+
+Daniel is instructed to preserve the prophecy because much of it concerns future generations.
+
+The instruction to "seal" does not mean hiding the message forever but preserving it until the appointed time for its fulfillment.
+
+---
+
+## Daniel's Final Promise
+
+The book closes with a deeply personal promise.
+
+Daniel is told:
+
+* Continue faithfully.
+* Rest in death.
+* Rise at the end of the age.
+* Receive his allotted inheritance.
+
+This ending beautifully assures every faithful believer that God remembers His servants.
+
+---
+
+## Important Teachings
+
+* Resurrection is certain.
+* Eternal life belongs to God's faithful people.
+* God rewards perseverance.
+* Hope extends beyond earthly life.
+
+---
+
+## Key Persons
+
+* Daniel.
+* Michael.
+* The heavenly messenger.
+
+---
+
+## Spiritual Lessons
+
+* Remain faithful until the end.
+* God's promises extend beyond death.
+* Eternal hope gives strength for present trials.
+* God's kingdom will ultimately triumph over every earthly power.
+
+---
+
+# Complete Outline of Daniel
+
+| Section                     | Chapters | Theme                                            |
+| --------------------------- | -------- | ------------------------------------------------ |
+| Faithfulness in Babylon     | 1        | Conviction and holiness.                         |
+| God's Rule Over Kingdoms    | 2        | The statue and future empires.                   |
+| Faith Under Persecution     | 3        | The fiery furnace.                               |
+| God's Humbling of the Proud | 4        | Nebuchadnezzar's restoration.                    |
+| Judgment on Babylon         | 5        | The writing on the wall.                         |
+| Faithful Prayer Rewarded    | 6        | Daniel in the lions' den.                        |
+| Vision of Four Beasts       | 7        | Four kingdoms and God's eternal kingdom.         |
+| Ram and Goat                | 8        | Medo-Persia and Greece foretold.                 |
+| Prayer and Seventy Weeks    | 9        | National confession and Messianic prophecy.      |
+| Spiritual Warfare           | 10       | Heavenly conflict behind earthly events.         |
+| Future Kings                | 11       | Detailed prophecy of coming empires and rulers.  |
+| Final Victory               | 12       | Resurrection, judgment, and everlasting kingdom. |
+
+---
+
+# Historical Chronology of Daniel's Life
+
+| Approximate Date              | Event                                     |
+| ----------------------------- | ----------------------------------------- |
+| 605 BC                        | Daniel taken to Babylon.                  |
+| 603 BC                        | Interpretation of Nebuchadnezzar's dream. |
+| Early 6th century BC          | Fiery furnace incident.                   |
+| Later reign of Nebuchadnezzar | King's humbling.                          |
+| 553 BC                        | Vision of the four beasts.                |
+| 551 BC                        | Vision of the ram and goat.               |
+| 539 BC                        | Fall of Babylon; Belshazzar's feast.      |
+| 539–538 BC                    | Daniel in the lions' den.                 |
+| 538 BC                        | Prayer and prophecy of the Seventy Weeks. |
+| 536 BC                        | Final vision (Chapters 10–12).            |
+
+---
+
+## End of Part 5
+
+**Part 6 (Final Part)** will complete the survey with:
+
+* Life Lessons from Daniel.
+* Major Theological Themes.
+* Foreshadows and Types of Jesus Christ.
+* Other Biblical Books Written During This Period.
+* Teaching Plan.
+* Brief Timeline.
+* Major Prophecies and Their Fulfillment.
+* Summary.
+* Additional Important Information.
+* Conclusion.
+
+
+# Daniel Survey (Part 6 – Final)
+
+---
+
+# Life Lessons from the Book
+
+The Book of Daniel provides timeless principles for believers who seek to remain faithful in a world that often opposes God's truth.
+
+## Practical Christian Applications
+
+* **Stand firm in your convictions.** Daniel and his friends refused to compromise even when pressured by powerful authorities (Daniel 1:8; 3:16–18).
+* **Maintain a consistent prayer life.** Daniel's daily prayers sustained him throughout decades of exile (Daniel 6:10).
+* **Trust God in difficult circumstances.** Whether facing a fiery furnace or a lions' den, God's people can rely on His presence.
+* **Seek God's wisdom.** Daniel acknowledged that wisdom comes from God alone (Daniel 2:20–23).
+* **Live with integrity.** Daniel's enemies could find no fault in his character (Daniel 6:4).
+* **Remember God's sovereignty.** Political powers rise and fall, but God's kingdom is eternal.
+* **Study God's Word.** Daniel's understanding of Jeremiah's prophecy led him to prayer and repentance (Daniel 9:2).
+* **Live with eternal hope.** The promise of resurrection encourages perseverance in present trials (Daniel 12:2–3).
+
+## Spiritual Lessons
+
+* Faithfulness is possible in a corrupt culture.
+* Prayer changes lives and aligns us with God's will.
+* God honors those who honor Him.
+* Suffering for righteousness is never wasted.
+* God is working even when His purposes are not immediately visible.
+
+## Lessons for Churches
+
+* Remain faithful to biblical truth regardless of cultural pressure.
+* Prioritize prayer and dependence on God.
+* Trust God's sovereignty during times of uncertainty.
+* Encourage believers to live as faithful witnesses in society.
+
+## Lessons for Families
+
+* Parents should cultivate strong biblical convictions in children.
+* Families should practice regular prayer together.
+* Faithfulness to God often requires courage and perseverance.
+
+## Lessons for Leaders
+
+* Leadership should be marked by humility and integrity.
+* Success belongs ultimately to God.
+* Wise leaders seek God's guidance before making decisions.
+
+---
+
+# Theological Themes
+
+## God's Character
+
+* God is sovereign over history.
+* He is faithful to His covenant promises.
+* He is righteous in judgment.
+* He is merciful to those who repent.
+* He is all-wise and all-powerful.
+
+## Salvation
+
+* Salvation belongs to God alone.
+* Deliverance comes through God's grace.
+* Physical deliverance in Daniel points to the greater spiritual deliverance found in Christ.
+
+## Covenant
+
+* God remembers His covenant with Israel even during exile.
+* Restoration follows repentance and God's appointed timing.
+
+## Faith
+
+* Genuine faith remains steadfast under persecution.
+* Faith trusts God whether deliverance comes immediately or not.
+
+## Grace
+
+* God repeatedly shows mercy to undeserving people.
+* Nebuchadnezzar's restoration demonstrates God's willingness to forgive the humble.
+
+## Judgment
+
+* God judges individuals and nations impartially.
+* Pride, idolatry, and rebellion ultimately lead to judgment.
+
+## Holiness
+
+* God's people are called to remain distinct from the surrounding culture.
+* Holiness involves both inward devotion and outward obedience.
+
+## Kingdom of God
+
+* The central theological theme of Daniel.
+* Earthly kingdoms are temporary.
+* God's kingdom is everlasting and universal.
+
+## Worship
+
+* Worship belongs to God alone.
+* Idolatry is consistently condemned.
+
+## Sin and Redemption
+
+* Sin separates people from God.
+* Repentance opens the way for restoration.
+* God's ultimate plan of redemption centers on the Messiah.
+
+## Obedience
+
+* Obedience requires courage.
+* Faithful obedience often involves sacrifice.
+* God honors those who remain faithful.
+
+---
+
+# Foreshadows / Types of Jesus Christ
+
+The Book of Daniel contains some of the clearest Old Testament foreshadowings of Jesus Christ.
+
+| Foreshadow                  | Scripture             | Christological Significance                                                                                                |
+| --------------------------- | --------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| The Stone Cut Without Hands | Daniel 2:34–35, 44–45 | Christ establishes God's eternal kingdom, not by human power but by divine authority.                                      |
+| The Son of Man              | Daniel 7:13–14        | Jesus frequently identified Himself with this figure who receives everlasting dominion from the Ancient of Days.           |
+| Deliverer in the Furnace    | Daniel 3:24–25        | Many Christians see the fourth figure as a pre-incarnate appearance of Christ, symbolizing God's presence with His people. |
+| The Anointed One (Messiah)  | Daniel 9:24–27        | Points to the coming Messiah who brings atonement and everlasting righteousness.                                           |
+| Daniel's Faithfulness       | Throughout the book   | Daniel's righteous life foreshadows Christ's perfect obedience, though Christ alone is sinless.                            |
+| Resurrection Hope           | Daniel 12:2–3         | Anticipates Christ's resurrection and His promise of eternal life to believers.                                            |
+
+---
+
+# Other Biblical Books Written During This Period
+
+| Book      | Time Period                            | Relationship                                                                      |
+| --------- | -------------------------------------- | --------------------------------------------------------------------------------- |
+| Jeremiah  | Before and during the Babylonian Exile | Daniel studied Jeremiah's prophecy of the seventy years (Daniel 9:2).             |
+| Ezekiel   | During the Babylonian Exile            | Ezekiel ministered among the exiles while Daniel served in Babylon's royal court. |
+| Habakkuk  | Before the Exile                       | Explained God's use of Babylon as an instrument of judgment.                      |
+| Obadiah   | Around the fall of Jerusalem           | Condemned Edom for opposing Judah.                                                |
+| Haggai    | Early Persian Period                   | Encouraged the rebuilding of the Temple after the return from exile.              |
+| Zechariah | Early Persian Period                   | Encouraged restoration and pointed to the coming Messiah.                         |
+| Ezra      | Return from Exile                      | Records the return under Cyrus, an event anticipated during Daniel's lifetime.    |
+
+---
+
+# Teaching Plan for the Book
+
+| Session | Chapters | Topic                  | Key Lesson                                  |
+| ------- | -------- | ---------------------- | ------------------------------------------- |
+| 1       | 1        | Convictions in Babylon | Faithfulness begins with personal holiness. |
+| 2       | 2        | Nebuchadnezzar's Dream | God rules over history.                     |
+| 3       | 3        | The Fiery Furnace      | Trust God in persecution.                   |
+| 4       | 4        | Pride and Humility     | God humbles the proud.                      |
+| 5       | 5        | Writing on the Wall    | God's judgment is certain.                  |
+| 6       | 6        | Lions' Den             | Prayer and perseverance.                    |
+| 7       | 7        | Four Beasts            | God's eternal kingdom triumphs.             |
+| 8       | 8        | Ram and Goat           | Prophecy confirms God's sovereignty.        |
+| 9       | 9        | Daniel's Prayer        | Repentance and God's redemptive plan.       |
+| 10      | 10–12    | Final Visions          | Hope, resurrection, and ultimate victory.   |
+
+---
+
+# Brief Timeline of the Book
+
+| Event                             | Approximate Date              | Scripture Reference |
+| --------------------------------- | ----------------------------- | ------------------- |
+| First deportation to Babylon      | 605 BC                        | Daniel 1            |
+| Daniel trained in Babylon         | 605–602 BC                    | Daniel 1            |
+| Nebuchadnezzar's dream            | c. 603/602 BC                 | Daniel 2            |
+| Fiery furnace                     | Early reign of Nebuchadnezzar | Daniel 3            |
+| Nebuchadnezzar humbled            | Later reign of Nebuchadnezzar | Daniel 4            |
+| Vision of the four beasts         | 553 BC                        | Daniel 7            |
+| Vision of the ram and goat        | 551 BC                        | Daniel 8            |
+| Belshazzar's feast; Babylon falls | 539 BC                        | Daniel 5            |
+| Daniel in the lions' den          | 539–538 BC                    | Daniel 6            |
+| Prayer and Seventy Weeks          | 538 BC                        | Daniel 9            |
+| Final vision                      | 536 BC                        | Daniel 10–12        |
+
+---
+
+# Prophecies in the Book
+
+| Prophecy                          | Prophet / Speaker | Reference      | Fulfillment                                                                                                                    |
+| --------------------------------- | ----------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Four successive world empires     | Daniel            | Daniel 2; 7    | Fulfilled historically in Babylon, Medo-Persia, Greece, and Rome; culminates in God's eternal kingdom.                         |
+| Medo-Persia defeated by Greece    | Daniel            | Daniel 8       | Fulfilled through Alexander the Great's conquest of Persia.                                                                    |
+| Division of Alexander's empire    | Daniel            | Daniel 8:8, 22 | Fulfilled after Alexander's death as his empire was divided among his generals.                                                |
+| Persecution under a "little horn" | Daniel            | Daniel 8       | Historically fulfilled in Antiochus IV Epiphanes; many see a future typological fulfillment.                                   |
+| Seventy Weeks                     | Gabriel           | Daniel 9:24–27 | Widely understood as pointing to God's redemptive plan centered on the Messiah; interpretations vary regarding the final week. |
+| Coming of the Son of Man          | Daniel            | Daniel 7:13–14 | Fulfilled in Jesus Christ's first coming and consummated in His eternal reign.                                                 |
+| Resurrection of the dead          | Daniel            | Daniel 12:2–3  | To be fulfilled at the final resurrection and judgment.                                                                        |
+
+---
+
+# Summary of the Book
+
+## Overall Summary
+
+The Book of Daniel tells the story of a faithful servant of God who lived in exile yet remained uncompromising in his devotion to the Lord. Through historical narratives and prophetic visions, Daniel reveals that God sovereignly directs history, protects His people, judges evil, and will establish His everlasting kingdom through the Messiah.
+
+## Main Theological Message
+
+**God is absolutely sovereign over history, and His eternal kingdom will triumph over every earthly kingdom.**
+
+## Spiritual Takeaway
+
+Believers are called to live faithfully, pray consistently, trust God's sovereign plan, and look forward with hope to the everlasting kingdom of Christ.
+
+## Importance in the Bible
+
+* Bridges Old Testament history and prophecy.
+* Contains some of Scripture's clearest Messianic and apocalyptic prophecies.
+* Provides foundational teaching for understanding later prophetic books and the New Testament's teaching on the Kingdom of God and the end times.
+
+---
+
+# Additional Important Information
+
+## Literary Structure
+
+Daniel is written in two languages:
+
+* **Hebrew:** Daniel 1:1–2:4a; 8:1–12:13.
+* **Aramaic:** Daniel 2:4b–7:28.
+
+This reflects its dual focus on Israel and the surrounding Gentile nations.
+
+## Literary Genre
+
+* Historical Narrative (Chapters 1–6).
+* Apocalyptic Literature (Chapters 7–12), characterized by symbolic visions, angelic interpretations, and revelations about God's ultimate purposes.
+
+## Important Symbols
+
+* Great statue.
+* Four beasts.
+* Little horn.
+* Ram and goat.
+* Ancient of Days.
+* Son of Man.
+* Stone cut without hands.
+* Seventy Weeks.
+
+## Historical Significance
+
+Daniel spans the transition from the Babylonian Empire to the Medo-Persian Empire and provides a theological interpretation of these major world events.
+
+## Hebrew and Aramaic Insights
+
+* **Daniel** means *"God is my Judge."*
+* **Son of Man** emphasizes both true humanity and the divine authority granted by God.
+* The Aramaic section highlights God's sovereignty over the Gentile world.
+
+## Connections to the Gospel
+
+* Jesus identified Himself as the **Son of Man** from Daniel 7.
+* The prophecy of the **Seventy Weeks** points toward God's plan of redemption through the Messiah.
+* Daniel's message of resurrection anticipates Christ's victory over death.
+
+## Archaeological Insights
+
+* The Babylonian Chronicles confirm Nebuchadnezzar's campaigns.
+* The Cyrus Cylinder reflects Cyrus's policy of allowing exiled peoples to return home.
+* Inscriptions mentioning Belshazzar illuminate the historical background of Daniel 5.
+
+## Important Study Notes for Bible Teachers
+
+* Distinguish between historical narrative (Chapters 1–6) and apocalyptic visions (Chapters 7–12).
+* Recognize that Chapters 7–12 are not arranged in strict chronological order.
+* Emphasize God's sovereignty as the unifying theme of the entire book.
+* Present prophetic passages with humility, acknowledging faithful evangelical differences on some end-time details while focusing on the clear central truths.
+
+---
+
+# Conclusion
+
+The Book of Daniel is a powerful testimony to God's sovereignty, faithfulness, and redemptive purposes. From the courts of Babylon to visions of the everlasting Kingdom, Daniel demonstrates that no earthly empire can thwart God's plan.
+
+Daniel's unwavering devotion, consistent prayer life, and courageous obedience challenge believers to remain faithful regardless of cultural pressures or personal trials. His prophetic visions lift our eyes beyond the kingdoms of this world to the eternal reign of Jesus Christ—the **Son of Man**, whose kingdom will never be destroyed.
+
+For Bible teachers, pastors, seminary students, church leaders, and every follower of Christ, Daniel remains an indispensable book for understanding biblical prophecy, faithful discipleship, and the certainty of God's ultimate victory. It reminds us that **history is not random—God is directing it toward His glorious and everlasting kingdom**.
+
+---
+
+## Daniel Survey Complete
+
+This completes the comprehensive **Daniel Survey**. The next book in canonical order is **Hosea**, the first of the Minor Prophets. For Hosea, I can provide additional historical connections explaining how the northern kingdom of Israel declined after the events of **2 Kings**, helping readers understand exactly where Hosea fits into Israel's history before beginning the survey.

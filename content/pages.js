@@ -42,8 +42,48 @@ Object.assign(CONTENT, {
   'audio-podcast': {
     title: 'Audio Podcast Sermons',
     body: `
-      <p>Audio sermon podcasts will be available here soon. We are preparing sound biblical teaching for you to listen to anywhere.</p>
-      <blockquote>"Faith comes from hearing, and hearing through the word of Christ." — Romans 10:17</blockquote>`
+<div class="ap-page">
+
+  <!-- ── PAGE HEADER ── -->
+  <div class="ap-header">
+    <div class="ap-header-icon">🎙</div>
+    <div class="ap-header-text">
+      <h2>Audio Podcast Sermons</h2>
+      <p>Sound biblical teaching — listen anytime, anywhere</p>
+    </div>
+  </div>
+
+  <div class="ap-verse-banner">
+    <span class="ap-verse-text">"Faith comes from hearing, and hearing through the word of Christ."</span>
+    <span class="ap-verse-cite">Romans 10:17</span>
+  </div>
+
+  <!-- ── EPISODE LIST ── -->
+  <div class="ap-episode-list">
+
+    <!-- Episode 1 -->
+    <div class="ap-episode-card">
+      <div class="ap-ep-left">
+        <div class="ap-ep-num">01</div>
+        <div class="ap-ep-book">Jeremiah</div>
+      </div>
+      <div class="ap-ep-body">
+        <div class="ap-ep-ref">Jeremiah 1:8</div>
+        <div class="ap-ep-title">Do Not Be Afraid</div>
+        <p class="ap-ep-desc">God reassures Jeremiah at the moment of his calling — reminding him that divine presence removes the need for fear. A message for every believer facing uncertainty.</p>
+        <div class="ap-player-wrap">
+          <audio class="ap-player" controls preload="metadata">
+            <source src="audio/1_Jeremiah-1.8-Dont not be Afraid.wav" type="audio/wav">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /.ap-episode-list -->
+
+</div><!-- /.ap-page -->
+`
   },
 
   // UPLOAD SERMON

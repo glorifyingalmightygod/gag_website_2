@@ -1,0 +1,2368 @@
+# Ezekiel Survey (Part 1)
+
+---
+
+# Introduction
+
+The **Book of Ezekiel** is one of the four Major Prophets of the Old Testament (Isaiah, Jeremiah, Lamentations, and Ezekiel). It is the **26th book of the Bible** and contains **48 chapters**. The book records God's messages to His people during one of the darkest periods in Israel's history—the **Babylonian Exile**.
+
+Unlike Jeremiah, who remained in Jerusalem until its destruction, **Ezekiel ministered among the Jewish exiles in Babylon**. While Jeremiah warned those still living in Judah, Ezekiel encouraged and rebuked those who had already been taken captive.
+
+Ezekiel is a unique combination of:
+
+* Prophecy
+* Visions
+* Symbolic actions
+* Historical narratives
+* Future restoration
+* Messianic hope
+
+More than any other prophet, Ezekiel emphasizes **the glory of God**. God's glory appears in the opening chapter, departs from the Temple because of Judah's sin (chapters 8–11), and returns to the future Temple in chapter 43. This movement forms the theological heart of the book.
+
+The book can be divided into three major themes:
+
+1. **Judgment on Judah (Chapters 1–24)**
+2. **Judgment on the Nations (Chapters 25–32)**
+3. **Hope and Restoration (Chapters 33–48)**
+
+---
+
+## Why Ezekiel Is Important
+
+Ezekiel explains:
+
+* Why Judah went into exile.
+* How God remained sovereign even outside the Promised Land.
+* Why God's glory departed from the Temple.
+* God's promise to restore Israel.
+* God's promise of a New Heart and New Spirit.
+* The future Messianic Kingdom.
+* The restoration of true worship.
+
+Without Ezekiel, many New Testament teachings about spiritual rebirth, the Good Shepherd, resurrection, and the Kingdom of God would be more difficult to understand.
+
+---
+
+# Historical Background – Connecting the Previous Books
+
+Understanding Ezekiel requires seeing where it fits in Israel's history.
+
+## The Story So Far
+
+### United Kingdom
+
+* Saul became Israel's first king.
+* David established Jerusalem as Israel's capital.
+* Solomon built the First Temple.
+
+---
+
+### Divided Kingdom
+
+After Solomon's death:
+
+* Northern Kingdom = Israel
+* Southern Kingdom = Judah
+
+Both kingdoms repeatedly turned away from God.
+
+---
+
+### Fall of Israel
+
+In **722 BC**, the Assyrians conquered the Northern Kingdom.
+
+Only Judah remained.
+
+---
+
+### Jeremiah's Ministry
+
+God sent Jeremiah to warn Judah.
+
+For approximately **40 years**, Jeremiah pleaded with the nation to repent.
+
+The people refused.
+
+---
+
+### Babylon Becomes the World Power
+
+Babylon defeated Assyria and Egypt.
+
+King **Nebuchadnezzar II** became ruler of the Babylonian Empire.
+
+Judah became Babylon's servant.
+
+---
+
+## Three Babylonian Deportations
+
+Understanding these deportations is essential for reading Ezekiel.
+
+| Year       | Event              | Important People                                              |
+| ---------- | ------------------ | ------------------------------------------------------------- |
+| **605 BC** | First Deportation  | Daniel and young nobles taken to Babylon                      |
+| **597 BC** | Second Deportation | Ezekiel, King Jehoiachin, priests, craftsmen taken into exile |
+| **586 BC** | Third Deportation  | Jerusalem destroyed; Solomon's Temple burned                  |
+
+---
+
+## Where Does Ezekiel Fit?
+
+This timeline helps connect several Old Testament books.
+
+| Book         | Location  | Time                                               |
+| ------------ | --------- | -------------------------------------------------- |
+| Jeremiah     | Jerusalem | Before and during Jerusalem's fall                 |
+| Lamentations | Jerusalem | Immediately after the destruction                  |
+| Ezekiel      | Babylon   | Among the exiles before and after Jerusalem's fall |
+| Daniel       | Babylon   | Royal court of Babylon                             |
+| Ezra         | Jerusalem | Return from exile (538 BC onward)                  |
+| Nehemiah     | Jerusalem | Rebuilding Jerusalem's walls                       |
+
+Thus:
+
+* Jeremiah warned **before** judgment.
+* Lamentations mourned **after** judgment.
+* Ezekiel explained **why** judgment occurred and proclaimed **future hope**.
+* Daniel demonstrated faithful living in exile.
+* Ezra and Nehemiah recorded restoration.
+
+---
+
+# Name of the Book
+
+## Hebrew Name
+
+**יְחֶזְקֵאל (Yeḥezqel)**
+
+---
+
+## Root Word
+
+The Hebrew name combines two elements:
+
+* **ḥazaq (חזק)** – "to strengthen" or "to make strong"
+* **El (אֵל)** – God
+
+---
+
+## Literal Meaning
+
+**"God Strengthens"**
+
+or
+
+**"Strengthened by God."**
+
+---
+
+## Why Is It Called Ezekiel?
+
+The book bears the prophet's own name because it records:
+
+* His prophetic ministry
+* His visions
+* His symbolic actions
+* His messages from God
+* His hope for Israel's restoration
+
+The name beautifully reflects the prophet's calling.
+
+Although Israel had become weak through sin, **God would strengthen His servant to strengthen His people.**
+
+---
+
+# Author of the Book
+
+## Traditional Author
+
+The traditional author is **the prophet Ezekiel**, son of Buzi.
+
+He was both:
+
+* A priest
+* A prophet
+
+This unique combination explains why the book gives extraordinary attention to:
+
+* The Temple
+* Worship
+* Holiness
+* Priestly duties
+* God's glory
+
+---
+
+## Internal Evidence
+
+The book repeatedly identifies Ezekiel as its author.
+
+Examples include:
+
+* Ezekiel 1:3
+* Ezekiel 24:24
+* Ezekiel 33:33
+
+The frequent use of first-person narration strongly supports Ezekiel's authorship.
+
+---
+
+## External Evidence
+
+Jewish tradition consistently accepted Ezekiel as the author.
+
+Early Christian writers also affirmed this view.
+
+The unity of language, style, historical setting, and theological emphasis strongly supports single authorship.
+
+---
+
+## Scholarly Discussion
+
+Some modern scholars suggest later editorial additions.
+
+However, the overwhelming literary unity of the book supports the traditional understanding that Ezekiel himself wrote the book, possibly with minor editorial organization after his ministry.
+
+---
+
+# Characteristics of Ezekiel
+
+Understanding Ezekiel helps readers appreciate the uniqueness of his ministry.
+
+| Characteristic | Description                                     | Spiritual Lesson                                 |
+| -------------- | ----------------------------------------------- | ------------------------------------------------ |
+| Priest         | Descended from Aaron's priestly family          | Worship and holiness matter to God.              |
+| Prophet        | Delivered God's messages faithfully             | Obedience is more important than popularity.     |
+| Watchman       | Warned people of coming judgment                | Spiritual leaders are accountable.               |
+| Visionary      | Received extraordinary visions from God         | God's glory transcends earthly circumstances.    |
+| Faithful Exile | Served God far from Jerusalem                   | God can use His people anywhere.                 |
+| Courageous     | Delivered difficult messages without compromise | Truth should never be diluted.                   |
+| Compassionate  | Shared the grief of his people                  | Leaders should care deeply for those they serve. |
+| Hope-filled    | Declared future restoration                     | God's judgment is never His final word.          |
+
+---
+
+## Leadership Lessons from Ezekiel
+
+* God often prepares leaders through difficult circumstances.
+* Spiritual leadership requires courage and obedience.
+* Leaders must proclaim God's Word faithfully, regardless of public opinion.
+* Holiness should characterize every servant of God.
+* God's presence is not limited to buildings or nations.
+* Great leaders point people toward hope in God rather than themselves.
+
+---
+
+# Date Written
+
+## Approximate Date
+
+Ezekiel's ministry occurred approximately between:
+
+**593 BC – 571 BC**
+
+The book was likely completed around **571–570 BC**.
+
+---
+
+## Historical Timeline
+
+| Year       | Event                                    |
+| ---------- | ---------------------------------------- |
+| **722 BC** | Northern Kingdom destroyed by Assyria    |
+| **627 BC** | Jeremiah begins ministry                 |
+| **605 BC** | Daniel taken to Babylon                  |
+| **597 BC** | Ezekiel taken into Babylonian exile      |
+| **593 BC** | Ezekiel receives his first vision        |
+| **586 BC** | Jerusalem and Solomon's Temple destroyed |
+| **571 BC** | Final dated prophecy in Ezekiel          |
+| **538 BC** | Jews return under Cyrus (Ezra)           |
+
+---
+
+## Historical Background
+
+Ezekiel ministered during one of Israel's greatest crises.
+
+Many Jews believed:
+
+* God would never allow Jerusalem to fall.
+* The Temple guaranteed God's protection.
+* Their exile would be brief.
+
+Ezekiel corrected these false assumptions.
+
+He proclaimed:
+
+* Jerusalem would indeed be destroyed.
+* God's glory would depart because of sin.
+* God remained King over every nation.
+* The exile would accomplish God's purpose.
+* One day God would restore His people completely.
+
+---
+
+# Audience / To Whom Was It Written
+
+## Primary Audience
+
+Jewish exiles living in Babylon.
+
+---
+
+## Historical Audience
+
+Those deported in 597 BC who struggled with:
+
+* Discouragement
+* Confusion
+* False hope
+* Questions about God's faithfulness
+
+---
+
+## Spiritual Purpose
+
+God sent Ezekiel to:
+
+* Explain why judgment came.
+* Call people to repentance.
+* Encourage faithfulness during exile.
+* Give hope of restoration.
+* Reveal God's future kingdom.
+
+---
+
+## Relevance for Modern Believers
+
+Ezekiel teaches Christians:
+
+* God is sovereign everywhere.
+* Holiness matters.
+* God disciplines His people in love.
+* God gives new hearts through His grace.
+* God's promises never fail.
+* Christ is the Good Shepherd who fulfills God's restoration promises.
+
+---
+
+## End of Part 1
+
+**Part 2** will cover:
+
+* **Historical and Geographical Setting**
+* **Places Mentioned in the Book** (chapter-wise table)
+* **Purpose of the Book**
+* **Key Persons** (including detailed profiles of Ezekiel, Nebuchadnezzar, Jehoiachin, Gog, the Shepherd imagery, and others)
+* **Key Verses**
+* **Number of Chapters**
+* **Chapter Divisions / Outline**
+
+These sections will provide the foundation needed before beginning the chapter-by-chapter study of Ezekiel's visions and prophecies.
+
+
+
+# Ezekiel Survey (Part 2)
+
+---
+
+# Historical and Geographical Setting
+
+The Book of Ezekiel is set during the **Babylonian Exile**, one of the most significant turning points in Israel's history. Unlike Isaiah, who prophesied before the exile, and Jeremiah, who ministered during Jerusalem's final days, Ezekiel served **among the Jewish captives in Babylon** after the second deportation (597 BC).
+
+The people of Judah believed that because they possessed the Temple and the city of Jerusalem, God would never allow them to be conquered. However, generations of idolatry, injustice, covenant-breaking, and rebellion against God's prophets brought divine judgment. Through Ezekiel, God explained that the exile was not a sign of His weakness but an act of His righteous discipline.
+
+Ezekiel received his first vision while living near the **Chebar (Kebar) Canal** in Babylon (Ezekiel 1:1–3). This was shocking to the exiles because it demonstrated that **God's glory was not confined to Jerusalem**. The Lord could reveal Himself anywhere, even in a foreign land.
+
+Throughout the book, Ezekiel addresses three periods:
+
+1. **Before Jerusalem's destruction (593–586 BC)** – Warnings that the city would fall.
+2. **The fall of Jerusalem (586 BC)** – Confirmation that God's judgment had come.
+3. **After Jerusalem's fall** – Messages of hope, restoration, and the future Messianic Kingdom.
+
+---
+
+## Political Background
+
+Several world powers shaped Ezekiel's ministry.
+
+### Assyrian Empire (Before Ezekiel)
+
+* Destroyed the Northern Kingdom (Israel) in **722 BC**.
+* Demonstrated God's judgment upon covenant unfaithfulness.
+
+### Babylonian Empire
+
+Under **King Nebuchadnezzar II**, Babylon became the dominant empire of the ancient Near East.
+
+Babylon invaded Judah three times:
+
+| Year       | Event                                 |
+| ---------- | ------------------------------------- |
+| **605 BC** | First deportation (Daniel taken)      |
+| **597 BC** | Second deportation (Ezekiel taken)    |
+| **586 BC** | Jerusalem destroyed and Temple burned |
+
+During Ezekiel's ministry, Judah no longer existed as an independent kingdom.
+
+---
+
+## Cultural Setting
+
+The Jewish exiles faced enormous challenges.
+
+They had lost:
+
+* Their homeland
+* Their Temple
+* Their king
+* Their national identity
+* Their sense of security
+
+Many wondered:
+
+* Has God abandoned us?
+* Can we worship outside Jerusalem?
+* Are His promises finished?
+* Will Israel ever exist again?
+
+Ezekiel answered these questions by revealing that:
+
+* God remained sovereign.
+* His covenant promises still stood.
+* Restoration would come in God's timing.
+
+---
+
+## Religious Condition of the People
+
+Spiritually, Judah had fallen into serious sin.
+
+Common sins included:
+
+* Idol worship
+* Child sacrifice
+* Corrupt priests
+* False prophets
+* Social injustice
+* Sabbath-breaking
+* Religious hypocrisy
+* Pride
+* Trust in political alliances instead of God
+
+One of Ezekiel's central messages is:
+
+> **The problem was never God's unfaithfulness—it was Israel's rebellion.**
+
+Yet God also promised:
+
+> "I will give you a new heart and put a new spirit within you" (Ezekiel 36:26).
+
+---
+
+# Places Mentioned in the Book
+
+Below are the principal geographical locations associated with each section of Ezekiel.
+
+| Chapter(s) | Place / Region               | Event                                           |
+| ---------- | ---------------------------- | ----------------------------------------------- |
+| 1          | Chebar Canal (Babylon)       | Ezekiel's inaugural vision of God's glory       |
+| 2–3        | Babylon                      | Ezekiel commissioned as prophet and watchman    |
+| 4–7        | Jerusalem (symbolically)     | Prophecies announcing judgment                  |
+| 8–11       | Jerusalem Temple             | Vision of idolatry and departure of God's glory |
+| 12–24      | Judah & Jerusalem            | Final warnings before destruction               |
+| 25         | Ammon, Moab, Edom, Philistia | Judgments against neighboring nations           |
+| 26–28      | Tyre                         | Judgment against Tyre and its ruler             |
+| 29–32      | Egypt                        | Prophecies against Pharaoh and Egypt            |
+| 33         | Babylon                      | News arrives that Jerusalem has fallen          |
+| 34         | Israel                       | Prophecy of the Good Shepherd                   |
+| 35         | Mount Seir (Edom)            | Judgment on Edom                                |
+| 36         | Mountains of Israel          | Promise of restoration                          |
+| 37         | Valley of Dry Bones          | Vision of national restoration                  |
+| 38–39      | Gog and Magog                | Future invasion defeated by God                 |
+| 40–48      | Future Jerusalem             | Vision of the restored Temple and land          |
+
+---
+
+## Major Places Explained
+
+| Place                   | Importance                                                                   |
+| ----------------------- | ---------------------------------------------------------------------------- |
+| **Chebar Canal**        | Location where Ezekiel received many visions while living in exile.          |
+| **Babylon**             | Center of Israel's captivity and God's prophetic work through Ezekiel.       |
+| **Jerusalem**           | City under judgment because of covenant unfaithfulness.                      |
+| **Temple**              | Symbol of God's dwelling; His glory departs and later returns.               |
+| **Tyre**                | Wealthy commercial city judged for pride.                                    |
+| **Egypt**               | Symbol of worldly power and false security.                                  |
+| **Mount Seir (Edom)**   | Represents hostility toward God's covenant people.                           |
+| **Valley of Dry Bones** | Symbolic location representing Israel's spiritual and national resurrection. |
+
+---
+
+# Purpose of the Book
+
+The Book of Ezekiel was written to explain God's judgment, reveal His holiness, and proclaim His promise of restoration.
+
+## Why Was the Book Written?
+
+God raised up Ezekiel to:
+
+* Explain why Judah went into exile.
+* Warn that Jerusalem would fall.
+* Expose the nation's sin.
+* Condemn false prophets.
+* Declare judgment on surrounding nations.
+* Encourage faithful exiles.
+* Reveal God's future restoration of Israel.
+* Announce the coming New Covenant blessings.
+
+---
+
+## Main Message
+
+**God's holiness requires judgment on sin, but His covenant faithfulness guarantees restoration for those who trust Him.**
+
+---
+
+## Spiritual Objective
+
+The repeated phrase throughout the book is:
+
+> **"Then they shall know that I am the LORD."**
+
+This statement (or a close variation) appears more than **60 times**, emphasizing that God's actions—whether judgment or restoration—are designed to reveal His glory and sovereignty.
+
+---
+
+## Major Themes and Goals
+
+* God's absolute holiness.
+* Individual responsibility before God.
+* National accountability.
+* God's glory.
+* Judgment leading to repentance.
+* Restoration after discipline.
+* The promise of a New Heart.
+* The work of the Holy Spirit.
+* The coming Shepherd-King.
+* The future Kingdom of God.
+
+---
+
+# Key Persons in the Book
+
+| Person                    | Role in the Book     | Importance                                                                       |
+| ------------------------- | -------------------- | -------------------------------------------------------------------------------- |
+| **Ezekiel**               | Priest and prophet   | God's messenger to the exiles; emphasizes holiness and restoration.              |
+| **God (Yahweh)**          | Central figure       | Reveals His glory, justice, mercy, and sovereign rule over all nations.          |
+| **Nebuchadnezzar II**     | King of Babylon      | Instrument used by God to judge Judah and surrounding nations.                   |
+| **King Jehoiachin**       | Exiled king of Judah | His captivity provides the chronological framework for many visions.             |
+| **Zedekiah**              | Judah's final king   | His rebellion led to Jerusalem's destruction.                                    |
+| **False Prophets**        | Opposed Ezekiel      | Spread false hope, claiming peace when judgment was near.                        |
+| **False Prophetesses**    | Misled the people    | Condemned for deceiving God's people (Ezekiel 13).                               |
+| **Pharaoh**               | King of Egypt        | Symbol of pride and misplaced human confidence.                                  |
+| **Prince of Tyre**        | Proud ruler          | Illustrates the danger of arrogance before God.                                  |
+| **Gog of Magog**          | Future enemy         | Represents the final opposition to God's people before divine victory.           |
+| **David (prophetically)** | Future Shepherd-King | Foreshadows the Messiah who will shepherd God's people forever (Ezekiel 34; 37). |
+
+---
+
+## Profile of Ezekiel
+
+| Characteristic       | Description                                                  |
+| -------------------- | ------------------------------------------------------------ |
+| Occupation           | Priest and Prophet                                           |
+| Father's Name        | Buzi (Ezekiel 1:3)                                           |
+| Tribe                | Priestly line (descendant of Aaron)                          |
+| Place of Ministry    | Babylonian Exile                                             |
+| Years of Ministry    | Approximately 593–571 BC                                     |
+| Major Responsibility | Watchman for Israel                                          |
+| Primary Theme        | God's Glory                                                  |
+| Most Famous Vision   | Valley of Dry Bones                                          |
+| Distinctive Method   | Symbolic actions, visions, allegories, and prophetic oracles |
+
+---
+
+## Why Ezekiel Is Unique Among the Prophets
+
+* Performed more symbolic acts than any other prophet.
+* Recorded some of Scripture's most detailed visions.
+* Received an extensive vision of the future Temple.
+* Frequently dated his prophecies with remarkable precision.
+* Combined priestly knowledge with prophetic ministry.
+* Emphasized God's glory more than any other Old Testament prophet.
+
+---
+
+# Key Verses
+
+### Ezekiel 1:28
+
+> "This was the appearance of the likeness of the glory of the LORD."
+
+**Explanation:** Introduces the dominant theme of God's glorious presence.
+
+---
+
+### Ezekiel 11:19
+
+> "I will give them one heart, and I will put a new spirit within them."
+
+**Explanation:** God promises inward spiritual transformation rather than mere external religion.
+
+---
+
+### Ezekiel 18:20
+
+> "The soul who sins shall die."
+
+**Explanation:** Teaches individual responsibility before God.
+
+---
+
+### Ezekiel 33:11
+
+> "I have no pleasure in the death of the wicked, but that the wicked turn from his way and live."
+
+**Explanation:** Reveals God's compassionate desire for repentance rather than judgment.
+
+---
+
+### Ezekiel 34:23
+
+> "I will establish one shepherd over them, My servant David."
+
+**Explanation:** A Messianic prophecy pointing ultimately to Jesus Christ, the Good Shepherd.
+
+---
+
+### Ezekiel 36:26–27
+
+> "I will give you a new heart and put a new spirit within you."
+
+**Explanation:** One of the clearest Old Testament promises of spiritual renewal fulfilled through the New Covenant.
+
+---
+
+### Ezekiel 37:5
+
+> "I will cause breath to enter you, and you shall live."
+
+**Explanation:** The Valley of Dry Bones symbolizes God's power to restore His spiritually dead people.
+
+---
+
+### Ezekiel 43:2
+
+> "The glory of the God of Israel came from the east."
+
+**Explanation:** Marks the return of God's glory to the restored Temple, reversing its departure in chapters 8–11.
+
+---
+
+# Number of Chapters
+
+* **Total Chapters:** 48
+
+## General Structure
+
+| Division                | Chapters | Theme                                              |
+| ----------------------- | -------- | -------------------------------------------------- |
+| Ezekiel's Call          | 1–3      | God's glory and prophetic commission               |
+| Judgment on Judah       | 4–24     | Warnings before Jerusalem's fall                   |
+| Judgment on the Nations | 25–32    | Oracles against surrounding nations                |
+| Restoration of Israel   | 33–39    | Hope, renewal, and future victory                  |
+| Future Temple & Kingdom | 40–48    | Worship, restored land, and God's abiding presence |
+
+---
+
+## End of Part 2
+
+**Part 3** begins the detailed **Chapter-by-Chapter Summary**, covering **Ezekiel Chapters 1–12**, including:
+
+* The Vision of God's Glory
+* The Call of Ezekiel
+* The Watchman Commission
+* Symbolic Acts of Judgment
+* The Siege of Jerusalem
+* The Departure of God's Glory
+* False Confidence Exposed
+* Lessons on repentance, holiness, and God's sovereignty.
+
+
+# Ezekiel Survey (Part 3)
+
+# Chapter-by-Chapter Summary (Chapters 1–12)
+
+The first twelve chapters introduce Ezekiel's prophetic ministry and contain warnings given **before the destruction of Jerusalem in 586 BC**. God reveals His glory, commissions Ezekiel as a watchman, and uses dramatic symbolic acts to demonstrate that Judah's judgment is certain because of persistent rebellion.
+
+---
+
+# Chapter 1 – The Vision of God's Glory
+
+### Main Events
+
+* Ezekiel receives his first vision by the **Chebar Canal** in Babylon (1:1–3).
+* A great storm approaches from the north.
+* Four living creatures (cherubim) appear, each with four faces (man, lion, ox, eagle) and four wings.
+* Wheels within wheels accompany the creatures, symbolizing God's omnipresent activity.
+* Above them is a crystal-like expanse and a sapphire throne.
+* Ezekiel sees the radiant appearance of **the glory of the LORD** and falls on his face.
+
+### Important Teachings
+
+* God's glory is not limited to Jerusalem.
+* God reigns over all creation and nations.
+* His sovereignty extends even into exile.
+
+### Key Persons
+
+* Ezekiel
+* The four living creatures (cherubim)
+* God
+
+### Spiritual Lessons
+
+* God is present wherever His people are.
+* Worship begins with reverence for God's holiness.
+* Even in difficult circumstances, God reveals Himself.
+
+---
+
+# Chapter 2 – Ezekiel's Commission
+
+### Main Events
+
+* God addresses Ezekiel as **"Son of Man,"** a title used over ninety times in the book.
+* Ezekiel is sent to a rebellious nation.
+* He receives a scroll filled with words of lamentation and judgment.
+* God commands him not to fear opposition.
+
+### Important Teachings
+
+* A prophet must faithfully proclaim God's Word.
+* Success is measured by obedience, not by people's response.
+
+### Key Persons
+
+* Ezekiel
+* God
+
+### Spiritual Lessons
+
+* God's servants must speak truth courageously.
+* Obedience requires faithfulness even when rejected.
+
+---
+
+# Chapter 3 – The Watchman for Israel
+
+### Main Events
+
+* Ezekiel eats the scroll, symbolizing complete acceptance of God's message.
+* The Spirit empowers him.
+* God appoints him as Israel's **watchman**.
+* Ezekiel is held accountable to warn sinners.
+* He remains silent for seven days, overwhelmed by his calling.
+
+### Important Teachings
+
+* Spiritual leaders bear responsibility for warning others.
+* God's Word must first be internalized before it is proclaimed.
+
+### Key Persons
+
+* Ezekiel
+* God
+
+### Spiritual Lessons
+
+* Leaders must know God's Word before teaching it.
+* Silence in the face of sin can bring accountability.
+
+---
+
+# Chapter 4 – The Siege of Jerusalem Illustrated
+
+### Main Events
+
+God commands Ezekiel to perform symbolic actions:
+
+* Draw Jerusalem on a clay tablet.
+* Build miniature siege works.
+* Lie on his left side for **390 days**, representing Israel's sin.
+* Lie on his right side for **40 days**, representing Judah's sin.
+* Eat measured food and drink limited water.
+* Bake bread under difficult conditions to symbolize defilement.
+
+### Important Teachings
+
+* Judgment is certain.
+* Sin has long-term consequences.
+* God's warnings are illustrated through vivid signs.
+
+### Key Persons
+
+* Ezekiel
+
+### Spiritual Lessons
+
+* God patiently warns before judging.
+* Symbolic actions can communicate profound spiritual truths.
+
+---
+
+# Chapter 5 – Judgment Against Jerusalem
+
+### Main Events
+
+* Ezekiel shaves his head and beard.
+* The hair is divided into three parts:
+
+  * Burned
+  * Struck with the sword
+  * Scattered to the wind
+* A few hairs are preserved, symbolizing the faithful remnant.
+
+### Important Teachings
+
+* Jerusalem's punishment is deserved.
+* God always preserves a faithful remnant.
+
+### Key Persons
+
+* Ezekiel
+* The people of Jerusalem
+
+### Spiritual Lessons
+
+* God disciplines His people because of covenant unfaithfulness.
+* Mercy is always present, even in judgment.
+
+---
+
+# Chapter 6 – Judgment on the Mountains of Israel
+
+### Main Events
+
+* God condemns Israel's high places where idols were worshiped.
+* Altars will be destroyed.
+* Idols will be broken.
+* A remnant will remember the Lord in exile.
+
+### Important Teachings
+
+* Idolatry provokes God's judgment.
+* Repentance begins when people recognize their sin.
+
+### Key Persons
+
+* Ezekiel
+* The Israelites
+
+### Spiritual Lessons
+
+* Anything that replaces God becomes an idol.
+* God's discipline aims to bring people back to Him.
+
+---
+
+# Chapter 7 – The End Has Come
+
+### Main Events
+
+* God declares the end for Judah.
+* Wealth cannot save the nation.
+* The Temple will not prevent judgment.
+* Violence and corruption have reached their climax.
+
+### Important Teachings
+
+* Judgment comes when God's patience has been continually rejected.
+* Material possessions cannot provide spiritual security.
+
+### Key Persons
+
+* Ezekiel
+
+### Spiritual Lessons
+
+* Only God provides lasting security.
+* Delayed judgment is not canceled judgment.
+
+---
+
+# Chapter 8 – Idolatry in the Temple
+
+### Main Events
+
+* Ezekiel is transported in a vision to Jerusalem.
+* He sees shocking acts of idolatry within the Temple:
+
+  * Secret idol worship by the elders.
+  * Women mourning for Tammuz.
+  * Men worshiping the sun.
+
+### Important Teachings
+
+* Religious hypocrisy grieves God.
+* Sin hidden from people is never hidden from God.
+
+### Key Persons
+
+* Ezekiel
+* Seventy elders
+* Women worshipers
+* Temple priests
+
+### Spiritual Lessons
+
+* God examines the heart, not merely outward worship.
+* Hidden sin eventually brings judgment.
+
+---
+
+# Chapter 9 – Judgment Begins at the Temple
+
+### Main Events
+
+* Six executioners appear.
+* A seventh man marks the faithful with a protective sign.
+* Judgment begins with the leaders in the Temple.
+
+### Important Teachings
+
+* God's people are accountable first.
+* The faithful are known and protected by God.
+
+### Key Persons
+
+* Ezekiel
+* Angelic executioners
+* The man with the writing case
+
+### Spiritual Lessons
+
+* God distinguishes between the righteous and the wicked.
+* Spiritual leadership carries great responsibility.
+
+---
+
+# Chapter 10 – The Glory Departs
+
+### Main Events
+
+* Ezekiel again sees the cherubim.
+* Burning coals symbolize coming judgment.
+* The glory of the Lord begins departing from the Temple.
+
+### Important Teachings
+
+* Persistent sin causes God's presence to withdraw.
+* God's glory cannot coexist with unrepentant rebellion.
+
+### Key Persons
+
+* Ezekiel
+* Cherubim
+* God
+
+### Spiritual Lessons
+
+* Holiness is essential for fellowship with God.
+* God's presence is His greatest blessing.
+
+---
+
+# Chapter 11 – Promise of Restoration
+
+### Main Events
+
+* Wicked leaders are condemned.
+* One leader dies during the vision.
+* God's glory departs from Jerusalem.
+* God promises:
+
+  * A faithful remnant.
+  * A new heart.
+  * A new spirit.
+  * Future restoration.
+
+### Important Teachings
+
+* Judgment is never God's final word.
+* God promises inward transformation.
+
+### Key Persons
+
+* Ezekiel
+* Jaazaniah
+* Pelatiah
+
+### Spiritual Lessons
+
+* God changes hearts before changing circumstances.
+* Restoration begins with repentance.
+
+---
+
+# Chapter 12 – Signs of the Coming Exile
+
+### Main Events
+
+* Ezekiel packs his belongings and digs through a wall, symbolizing exile.
+* He trembles while eating and drinking, illustrating fear.
+* False optimism is exposed.
+* God declares that His word will soon be fulfilled.
+
+### Important Teachings
+
+* God's prophecies are certain.
+* False confidence leads to destruction.
+
+### Key Persons
+
+* Ezekiel
+* The rebellious house of Israel
+
+### Spiritual Lessons
+
+* God's timing is perfect.
+* His warnings should never be ignored.
+
+---
+
+# Major Themes in Chapters 1–12
+
+| Theme                    | Explanation                                                                      |
+| ------------------------ | -------------------------------------------------------------------------------- |
+| **The Glory of God**     | God's presence is not confined to Jerusalem; He reigns everywhere.               |
+| **Prophetic Calling**    | Ezekiel is commissioned to speak faithfully regardless of the people's response. |
+| **The Watchman**         | God's servants are responsible for warning others of spiritual danger.           |
+| **Judgment for Sin**     | Persistent rebellion inevitably brings divine discipline.                        |
+| **Idolatry**             | The root cause of Judah's downfall is covenant unfaithfulness and idol worship.  |
+| **God's Holiness**       | God's presence cannot remain where sin is embraced without repentance.           |
+| **Hope for the Remnant** | Even in judgment, God preserves a faithful people and promises restoration.      |
+
+---
+
+## Christ in Ezekiel 1–12
+
+Even in these chapters of judgment, we see foreshadows of Christ:
+
+* **The "Son of Man"** title anticipates Jesus, who frequently used this title for Himself (cf. Matthew 8:20).
+* **The faithful remnant** points to those preserved by God's grace through faith.
+* **The promise of a new heart and new spirit (11:19)** anticipates the New Covenant fulfilled in Christ and the gift of the Holy Spirit (cf. John 3:5–8; Acts 2).
+* **The marked faithful (Chapter 9)** foreshadow God's protection and sealing of His people (cf. Revelation 7:3–4).
+
+---
+
+**End of Part 3**
+
+**Part 4** will cover **Ezekiel Chapters 13–24**, including:
+
+* False prophets and prophetesses
+* The allegories of the vine and the abandoned infant
+* Jerusalem as the unfaithful bride
+* Individual responsibility for sin (Chapter 18)
+* The fall of Judah
+* The death of Ezekiel's wife as a prophetic sign
+* The final prophecies before Jerusalem's destruction.
+
+
+
+# Ezekiel Survey (Part 4)
+
+# Chapter-by-Chapter Summary (Chapters 13–24)
+
+This section concludes Ezekiel's prophecies **before the fall of Jerusalem (586 BC)**. God exposes false spiritual leaders, calls His people to repentance, emphasizes personal responsibility, and announces that Jerusalem's destruction is inevitable because of persistent rebellion. These chapters prepare the way for the transition from judgment to hope in the second half of the book.
+
+---
+
+# Chapter 13 – Judgment on False Prophets
+
+### Main Events
+
+* God condemns false prophets who proclaim peace when judgment is imminent.
+* They are compared to builders using weak mortar to construct unstable walls.
+* False prophetesses who deceive people through occult practices are also rebuked.
+
+### Important Teachings
+
+* God rejects messages that contradict His truth.
+* Spiritual leaders are accountable for misleading God's people.
+
+### Key Persons
+
+* Ezekiel
+* False prophets
+* False prophetesses
+
+### Spiritual Lessons
+
+* Every teaching must be tested against God's Word.
+* False hope can be more dangerous than obvious opposition.
+
+---
+
+# Chapter 14 – Idolatry in the Heart
+
+### Main Events
+
+* Elders seek Ezekiel while secretly cherishing idols.
+* God declares that hidden idolatry separates people from Him.
+* Even if **Noah, Daniel, and Job** were present, they could save only themselves by their righteousness.
+
+### Important Teachings
+
+* Idolatry begins in the heart before it appears outwardly.
+* Each person is responsible for his or her own relationship with God.
+
+### Key Persons
+
+* Ezekiel
+* Elders of Israel
+* Noah
+* Daniel
+* Job
+
+### Spiritual Lessons
+
+* God examines motives, not merely actions.
+* Personal faith cannot be borrowed from others.
+
+---
+
+# Chapter 15 – The Worthless Vine
+
+### Main Events
+
+* Jerusalem is compared to a vine that produces no fruit.
+* A fruitless vine is useful only for burning.
+
+### Important Teachings
+
+* Privilege without obedience brings judgment.
+* God's people are called to bear spiritual fruit.
+
+### Key Persons
+
+* Ezekiel
+
+### Spiritual Lessons
+
+* A believer's value is found in faithful obedience to God.
+* Fruitfulness is evidence of a living relationship with the Lord.
+
+---
+
+# Chapter 16 – Jerusalem: The Unfaithful Bride
+
+### Main Events
+
+* Jerusalem is portrayed as an abandoned infant rescued and lovingly raised by God.
+* God enters into covenant with her.
+* She becomes beautiful but turns to spiritual adultery through idolatry and alliances with pagan nations.
+* Despite judgment, God promises to remember His covenant.
+
+### Important Teachings
+
+* God's grace precedes Israel's blessings.
+* Sin is spiritual unfaithfulness against a loving God.
+* Divine mercy triumphs through covenant faithfulness.
+
+### Key Persons
+
+* God
+* Jerusalem (symbolically portrayed as a bride)
+
+### Spiritual Lessons
+
+* Never forget the grace that saved you.
+* Prosperity should deepen gratitude, not breed pride.
+
+---
+
+# Chapter 17 – The Two Eagles and the Vine
+
+### Main Events
+
+* Ezekiel tells a parable involving two eagles and a vine.
+* The first eagle represents Babylon.
+* The second eagle represents Egypt.
+* Judah's alliance with Egypt is condemned.
+* God promises to plant a tender branch that will become a great cedar.
+
+### Important Teachings
+
+* Trusting political alliances instead of God leads to failure.
+* God ultimately establishes His own righteous King.
+
+### Key Persons
+
+* Nebuchadnezzar (symbolized)
+* Zedekiah
+* God
+
+### Spiritual Lessons
+
+* Human strategies cannot replace trust in God.
+* God's kingdom will ultimately prevail.
+
+---
+
+# Chapter 18 – Individual Responsibility
+
+### Main Events
+
+* God rejects the proverb:
+
+  > "The fathers have eaten sour grapes, and the children's teeth are set on edge."
+* Every individual is accountable for personal sin.
+* The wicked who repent will live.
+* The righteous who turn to evil will be judged.
+
+### Important Teachings
+
+* Each person stands responsible before God.
+* Genuine repentance brings forgiveness.
+
+### Key Persons
+
+* Ezekiel
+* God
+
+### Spiritual Lessons
+
+* Our present choices matter.
+* God's mercy is available to all who truly repent.
+
+---
+
+# Chapter 19 – A Lament for Israel's Princes
+
+### Main Events
+
+* Israel's kings are compared to young lions.
+* Another illustration portrays Israel as a vine uprooted and burned.
+* The chapter mourns the collapse of Judah's monarchy.
+
+### Important Teachings
+
+* Leadership without obedience leads to national ruin.
+* God's judgment fulfills His covenant warnings.
+
+### Key Persons
+
+* Judah's kings
+* Ezekiel
+
+### Spiritual Lessons
+
+* Leadership is a sacred responsibility.
+* Pride often precedes downfall.
+
+---
+
+# Chapter 20 – Israel's History of Rebellion
+
+### Main Events
+
+God reviews Israel's continual rebellion through four stages:
+
+1. Egypt
+2. Wilderness
+3. Promised Land
+4. Present generation
+
+Despite repeated rebellion, God repeatedly acts **for the sake of His holy name**.
+
+### Important Teachings
+
+* God's patience is extraordinary.
+* History teaches the consequences of disobedience.
+
+### Key Persons
+
+* Ezekiel
+* Elders
+* God
+
+### Spiritual Lessons
+
+* Remembering God's faithfulness should inspire obedience.
+* God's reputation among the nations matters.
+
+---
+
+# Chapter 21 – The Sword of the LORD
+
+### Main Events
+
+* God's sword of judgment is drawn against Jerusalem.
+* Nebuchadnezzar is depicted as God's instrument.
+* The coming destruction is certain.
+* The crown of Judah will be removed until the rightful King comes.
+
+### Important Teachings
+
+* God governs the rise and fall of nations.
+* The Davidic throne awaits its ultimate fulfillment in the Messiah.
+
+### Key Persons
+
+* Nebuchadnezzar
+* Zedekiah
+* Ezekiel
+
+### Spiritual Lessons
+
+* God remains sovereign even when using pagan nations.
+* Earthly kingdoms are temporary; God's Kingdom is eternal.
+
+---
+
+# Chapter 22 – Jerusalem's Sins Exposed
+
+### Main Events
+
+Jerusalem's sins include:
+
+* Murder
+* Idolatry
+* Oppression
+* Corrupt princes
+* Dishonest priests
+* False prophets
+* Greedy officials
+
+God searches for someone to stand in the gap but finds no one.
+
+### Important Teachings
+
+* National corruption begins with spiritual compromise.
+* God seeks faithful intercessors.
+
+### Key Persons
+
+* Princes
+* Priests
+* Prophets
+* People of Judah
+
+### Spiritual Lessons
+
+* God desires individuals who will faithfully stand for truth.
+* Holiness must characterize every level of leadership.
+
+---
+
+# Chapter 23 – Oholah and Oholibah
+
+### Main Events
+
+* Two sisters symbolize:
+
+  * **Oholah** = Samaria (Northern Kingdom)
+  * **Oholibah** = Jerusalem (Southern Kingdom)
+* Both commit spiritual adultery through idolatry and foreign alliances.
+* Judgment follows persistent unfaithfulness.
+
+### Important Teachings
+
+* God views idolatry as covenant unfaithfulness.
+* Repeated rejection of God's grace leads to judgment.
+
+### Key Persons
+
+* Oholah (Samaria)
+* Oholibah (Jerusalem)
+
+### Spiritual Lessons
+
+* Spiritual compromise rarely begins suddenly—it develops over time.
+* Faithfulness to God requires exclusive devotion.
+
+---
+
+# Chapter 24 – The Boiling Pot and Ezekiel's Personal Loss
+
+### Main Events
+
+* Jerusalem is compared to a boiling pot filled with corruption.
+* God announces that the Babylonian siege has begun.
+* Ezekiel's beloved wife dies suddenly.
+* God commands him not to mourn publicly, making his grief a sign to the people.
+* The people will be stunned when Jerusalem and the Temple are destroyed.
+
+### Important Teachings
+
+* Judgment has become unavoidable.
+* God's servants sometimes experience profound personal sacrifice in fulfilling their calling.
+
+### Key Persons
+
+* Ezekiel
+* Ezekiel's wife
+* God
+
+### Spiritual Lessons
+
+* Faithfulness to God may involve personal suffering.
+* Even in grief, God remains sovereign and worthy of trust.
+
+---
+
+# Major Themes in Chapters 13–24
+
+| Theme                         | Explanation                                                                              |
+| ----------------------------- | ---------------------------------------------------------------------------------------- |
+| **False Prophecy**            | God's truth must never be replaced with comforting lies.                                 |
+| **Heart Idolatry**            | Sin begins internally before becoming outward behavior.                                  |
+| **Covenant Faithfulness**     | God's relationship with His people is compared to a faithful marriage covenant.          |
+| **Personal Responsibility**   | Every individual is accountable for his or her response to God.                          |
+| **Leadership Accountability** | Kings, priests, prophets, and officials are judged for leading others astray.            |
+| **The Certainty of Judgment** | God's warnings are fulfilled when people refuse to repent.                               |
+| **Hope Beyond Judgment**      | Even amid severe discipline, God remembers His covenant and promises future restoration. |
+
+---
+
+# Christ in Ezekiel 13–24
+
+These chapters contain several important foreshadows of Christ:
+
+| Passage              | Foreshadow                                                   | New Testament Fulfillment                                                                                  |
+| -------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
+| **Ezekiel 16**       | God as the faithful Bridegroom pursuing His unfaithful bride | Christ loves and sanctifies His Church (Ephesians 5:25–27).                                                |
+| **Ezekiel 17:22–24** | The tender branch planted by God grows into a great cedar    | Jesus, the promised Messianic King from David's line (Isaiah 11:1; Luke 1:32–33).                          |
+| **Ezekiel 18**       | Repentance brings life                                       | The Gospel call to repentance and faith (Acts 3:19).                                                       |
+| **Ezekiel 21:27**    | "Until He comes whose right it is"                           | The rightful King is fulfilled in Jesus Christ, the eternal Son of David (Luke 1:32–33; Revelation 19:16). |
+
+---
+
+## Historical Timeline (593–586 BC)
+
+| Approximate Date | Event                                                        | Chapters |
+| ---------------- | ------------------------------------------------------------ | -------- |
+| **593 BC**       | Ezekiel denounces false prophets and idolatry                | 13–16    |
+| **592–591 BC**   | Parables of the vine and lessons on personal responsibility  | 17–18    |
+| **591–590 BC**   | Lament over Judah's leaders and review of Israel's rebellion | 19–20    |
+| **589 BC**       | The sword of God's judgment announced                        | 21       |
+| **588 BC**       | Jerusalem's corruption fully exposed                         | 22–23    |
+| **588/587 BC**   | Babylon begins the final siege of Jerusalem                  | 24       |
+
+---
+
+## Transition to the Next Section
+
+With **Chapter 24**, the first major division of Ezekiel concludes. Jerusalem's fate has been sealed, and the Babylonian siege is underway. From this point, Ezekiel's focus shifts outward to the surrounding nations that rejoiced over Judah's downfall.
+
+---
+
+**End of Part 4**
+
+**Part 5** will cover **Ezekiel Chapters 25–39**, including:
+
+* God's judgments against Ammon, Moab, Edom, Philistia, Tyre, Sidon, and Egypt.
+* The turning point after the fall of Jerusalem.
+* The prophecy of the **Good Shepherd** (Chapter 34).
+* The promise of a **new heart and a new spirit** (Chapter 36).
+* The **Valley of Dry Bones** (Chapter 37).
+* The prophecy of **Gog and Magog** (Chapters 38–39).
+* The transition from judgment to hope and restoration.
+
+
+
+# Ezekiel Survey (Part 5)
+
+# Chapter-by-Chapter Summary (Chapters 25–39)
+
+With Jerusalem's judgment announced, Ezekiel's ministry enters a new phase. These chapters contain **judgment against Israel's surrounding nations** and then transition into one of the greatest messages of hope in the Old Testament—Israel's restoration, the promise of a New Heart, the Valley of Dry Bones, the reunification of God's people, and the future defeat of Gog and Magog.
+
+---
+
+# SECTION I – Judgment Against the Nations (Chapters 25–32)
+
+God judges not only Israel but also the surrounding nations that mocked, exploited, or rejoiced over Judah's fall.
+
+---
+
+# Chapter 25 – Judgment on Four Neighboring Nations
+
+### Main Events
+
+God pronounces judgment against:
+
+* **Ammon** – Rejoiced over Jerusalem's destruction.
+* **Moab** – Denied Israel's special relationship with God.
+* **Edom** – Sought revenge against Judah.
+* **Philistia** – Acted with long-standing hatred.
+
+### Important Teachings
+
+* God judges all nations impartially.
+* Pride, revenge, and hatred invite divine judgment.
+
+### Key Persons
+
+* Ezekiel
+* Nations of Ammon, Moab, Edom, and Philistia
+
+### Spiritual Lessons
+
+* Never rejoice over another's downfall.
+* God's justice extends to every nation.
+
+---
+
+# Chapter 26 – Prophecy Against Tyre
+
+### Main Events
+
+* Tyre celebrates Jerusalem's fall.
+* God announces Tyre's destruction.
+* Nebuchadnezzar will begin the siege.
+* Tyre will become like a bare rock where fishermen spread their nets.
+
+### Important Teachings
+
+* Commercial success cannot protect a nation from God's judgment.
+
+### Spiritual Lessons
+
+* Wealth without humility leads to destruction.
+
+---
+
+# Chapter 27 – Lament for Tyre
+
+### Main Events
+
+* Tyre is portrayed as a magnificent trading ship.
+* Its worldwide commerce and prosperity are described.
+* The ship ultimately sinks under God's judgment.
+
+### Important Teachings
+
+* Earthly prosperity is temporary.
+* Pride often accompanies success.
+
+### Spiritual Lessons
+
+* Security must rest in God rather than possessions.
+
+---
+
+# Chapter 28 – The King of Tyre and Sidon
+
+### Main Events
+
+* The prince of Tyre is condemned for claiming to be divine.
+* A poetic description portrays his pride and downfall.
+* Sidon also receives judgment.
+* God promises Israel's future restoration.
+
+### Important Teachings
+
+* Pride is the root of many sins.
+* God opposes those who exalt themselves.
+
+### Key Persons
+
+* Prince of Tyre
+* King of Sidon
+
+### Spiritual Lessons
+
+* Humility is essential before God.
+* No earthly ruler is above divine authority.
+
+> **Study Note:** Some interpreters understand parts of Ezekiel 28 (especially verses 11–19) as extending beyond the historical king of Tyre to symbolically reflect the fall of Satan because of the exalted language used. Others interpret the passage as poetic language describing only the king's arrogance. Both views should be presented carefully in Bible study.
+
+---
+
+# Chapters 29–32 – Judgment on Egypt
+
+---
+
+# Chapter 29 – Pharaoh the Crocodile
+
+### Main Events
+
+* Pharaoh is compared to a great crocodile in the Nile.
+* Egypt's pride is condemned.
+* Nebuchadnezzar will invade Egypt.
+
+### Spiritual Lesson
+
+God alone rules the nations.
+
+---
+
+# Chapter 30 – The Day of the LORD Against Egypt
+
+### Main Events
+
+* Egypt's allies will fall.
+* Babylon becomes God's instrument of judgment.
+
+### Spiritual Lesson
+
+Human alliances cannot prevent God's purposes.
+
+---
+
+# Chapter 31 – Pharaoh Compared to Assyria
+
+### Main Events
+
+* Assyria is compared to a majestic cedar tree.
+* Pride led to its destruction.
+* Egypt is warned not to follow the same path.
+
+### Spiritual Lesson
+
+Pride precedes downfall.
+
+---
+
+# Chapter 32 – Funeral Lament for Pharaoh
+
+### Main Events
+
+* Pharaoh's downfall is mourned.
+* Egypt joins other defeated nations in the realm of the dead.
+
+### Spiritual Lesson
+
+No kingdom escapes God's judgment.
+
+---
+
+# SECTION II – Restoration of Israel (Chapters 33–39)
+
+With Jerusalem now destroyed, Ezekiel's message changes dramatically—from judgment to hope.
+
+---
+
+# Chapter 33 – Ezekiel the Watchman Again
+
+### Main Events
+
+* Ezekiel is recommissioned as God's watchman.
+* News finally arrives that Jerusalem has fallen.
+* God calls the people to genuine repentance.
+
+### Important Teachings
+
+* God takes no pleasure in the death of the wicked.
+* Individual responsibility continues to be emphasized.
+
+### Spiritual Lessons
+
+* It is never too late to repent.
+* God's mercy remains available.
+
+---
+
+# Chapter 34 – The Good Shepherd
+
+### Main Events
+
+* Israel's shepherds (leaders) are condemned.
+* God promises to shepherd His people Himself.
+* God promises **one Shepherd, My servant David**.
+
+### Important Teachings
+
+* God cares for His sheep.
+* The Messiah will perfectly shepherd God's people.
+
+### Key Persons
+
+* False shepherds
+* David (Messianic reference)
+
+### Spiritual Lessons
+
+* Spiritual leaders must care for people rather than exploit them.
+* Jesus fulfills this prophecy as the **Good Shepherd** (John 10).
+
+---
+
+# Chapter 35 – Judgment on Mount Seir (Edom)
+
+### Main Events
+
+* Edom is judged for its perpetual hatred toward Israel.
+* God promises to restore His people while judging their enemies.
+
+### Spiritual Lessons
+
+* Bitterness eventually destroys the one who holds it.
+
+---
+
+# Chapter 36 – Israel's Restoration and the New Heart
+
+### Main Events
+
+* Israel's mountains will become fruitful again.
+* God gathers His scattered people.
+* He promises:
+
+  * A new heart.
+  * A new spirit.
+  * Cleansing from sin.
+  * The indwelling of His Spirit.
+
+### Important Teachings
+
+* Salvation is God's gracious work.
+* Spiritual renewal precedes national restoration.
+
+### Key Verse
+
+> "I will give you a new heart and put a new spirit within you." (36:26)
+
+### Spiritual Lessons
+
+* True transformation begins inside.
+* God changes hearts before circumstances.
+
+---
+
+# Chapter 37 – The Valley of Dry Bones
+
+### Main Events
+
+* Ezekiel sees a valley filled with dry bones.
+* God commands him to prophesy.
+* Bones assemble.
+* Flesh appears.
+* Breath enters them.
+* The vision symbolizes Israel's national and spiritual restoration.
+* Two sticks (Judah and Israel) become one.
+
+### Important Teachings
+
+* God brings life where there is hopelessness.
+* Israel will one day be reunited.
+
+### Spiritual Lessons
+
+* No situation is beyond God's power.
+* The Holy Spirit brings spiritual life.
+
+---
+
+## Why Is the Valley of Dry Bones Important?
+
+This is one of the Bible's greatest pictures of:
+
+* Spiritual revival
+* National restoration
+* Resurrection imagery
+* God's sovereign power
+
+Although the immediate context concerns Israel's restoration, the imagery also points forward to God's life-giving power demonstrated in the resurrection and the believer's new life in Christ.
+
+---
+
+# Chapters 38–39 – Gog and Magog
+
+These chapters contain one of Scripture's most discussed prophetic passages.
+
+---
+
+# Chapter 38 – Gog's Invasion
+
+### Main Events
+
+* Gog from Magog gathers many nations.
+* They attack restored Israel.
+* God intervenes supernaturally.
+
+### Important Teachings
+
+* God's people are ultimately secure.
+* The Lord alone wins the final victory.
+
+### Spiritual Lessons
+
+* Believers need not fear future opposition.
+* God's purposes cannot be defeated.
+
+---
+
+# Chapter 39 – God's Final Victory
+
+### Main Events
+
+* Gog's armies are destroyed.
+* Israel spends months cleansing the land.
+* God's glory is revealed among the nations.
+* Israel recognizes God's faithfulness.
+
+### Important Teachings
+
+* God triumphs over every enemy.
+* His holiness is displayed before all nations.
+
+### Spiritual Lessons
+
+* God's promises always come to completion.
+* Final victory belongs to the Lord.
+
+> **Study Note:** Christian scholars hold different views on the timing of Gog and Magog (premillennial, amillennial, and other interpretations). Regardless of one's prophetic framework, the central message is clear: **God will decisively defeat all opposition to His kingdom.**
+
+---
+
+# Major Themes in Chapters 25–39
+
+| Theme                              | Explanation                                                                  |
+| ---------------------------------- | ---------------------------------------------------------------------------- |
+| **God's Sovereignty Over Nations** | Every nation is accountable to God, not only Israel.                         |
+| **Judgment on Pride**              | Tyre, Egypt, and Edom demonstrate that arrogance leads to downfall.          |
+| **The Good Shepherd**              | God promises the coming Shepherd-King who faithfully cares for His people.   |
+| **The New Heart**                  | God transforms His people inwardly through His grace.                        |
+| **The Holy Spirit**                | Spiritual renewal comes from God's Spirit, not human effort.                 |
+| **Restoration**                    | God restores what sin and judgment have devastated.                          |
+| **Hope After Exile**               | Judgment is not the final chapter of God's covenant relationship.            |
+| **Ultimate Victory**               | Gog and Magog symbolize that all rebellion against God will ultimately fail. |
+
+---
+
+# Christ in Ezekiel 25–39
+
+| Passage              | Foreshadow                           | New Testament Fulfillment                                                               |
+| -------------------- | ------------------------------------ | --------------------------------------------------------------------------------------- |
+| **Ezekiel 34:23**    | The one Shepherd, "My servant David" | Jesus is the Good Shepherd (John 10:11–16).                                             |
+| **Ezekiel 36:25–27** | Cleansing, new heart, new spirit     | Fulfilled in the New Covenant through Christ and the Holy Spirit (John 3:5; Titus 3:5). |
+| **Ezekiel 37**       | New life through God's breath        | The Holy Spirit gives life (John 20:22; Romans 8:11).                                   |
+| **Ezekiel 37:24–28** | Davidic King reigning forever        | Jesus, the eternal Son of David (Luke 1:32–33).                                         |
+| **Ezekiel 39**       | God's final victory over evil        | Christ's ultimate triumph over all enemies (Revelation 19–20).                          |
+
+---
+
+# Chronological Overview of Chapters 25–39
+
+| Approximate Date | Event                                           | Chapters |
+| ---------------- | ----------------------------------------------- | -------- |
+| **587–586 BC**   | Judgments against neighboring nations           | 25–32    |
+| **586 BC**       | News of Jerusalem's destruction reaches Ezekiel | 33       |
+| **After 586 BC** | Promise of the Good Shepherd                    | 34       |
+| **After 586 BC** | Judgment on Edom                                | 35       |
+| **After 586 BC** | Promise of restoration and a new heart          | 36       |
+| **After 586 BC** | Valley of Dry Bones and reunification of Israel | 37       |
+| **Future**       | Gog and Magog defeated by God                   | 38–39    |
+
+---
+
+## End of Part 5
+
+**Part 6** will conclude the chapter-by-chapter survey with **Ezekiel Chapters 40–48**, including:
+
+* The vision of the future Temple.
+* The return of the **Glory of the LORD**.
+* Regulations for worship and the priesthood.
+* The division of the land among the tribes.
+* The life-giving river flowing from the Temple.
+* The restored city named **"The LORD Is There" (Yahweh Shammah)**.
+* Theological significance of these closing visions and their connections to the New Testament and the eternal Kingdom.
+
+
+# Ezekiel Survey (Part 6 – Final)
+
+# Chapter-by-Chapter Summary (Chapters 40–48)
+
+The final nine chapters of Ezekiel form one continuous vision given in the **25th year of the exile (573 BC)** (Ezekiel 40:1). These chapters shift entirely from judgment to hope. Ezekiel is shown a magnificent future temple, renewed worship, a restored land, and a city where God's presence permanently dwells.
+
+These chapters have been interpreted in different ways by faithful Christian scholars:
+
+* **Literal (Premillennial) View:** A future millennial temple will be built during Christ's earthly reign.
+* **Symbolic / Typological View:** The temple symbolizes God's restored presence among His people, ultimately fulfilled in Christ, the Church, and finally the New Jerusalem.
+* **Combination View:** Some elements may be literal while others are symbolic.
+
+Regardless of interpretation, the central message remains the same:
+
+> **God will once again dwell with His redeemed people forever.**
+
+---
+
+# Chapter 40 – The Vision of the New Temple
+
+## Main Events
+
+* Ezekiel is transported in a vision to Israel.
+* A heavenly messenger measures every part of a magnificent temple.
+* Gates, courts, walls, and chambers are carefully measured.
+
+## Important Teachings
+
+* God is orderly and intentional.
+* Worship should reflect reverence and holiness.
+* God's restoration includes renewed worship.
+
+## Key Persons
+
+* Ezekiel
+* The heavenly messenger (measuring man)
+
+## Spiritual Lessons
+
+* God prepares a place for His people.
+* Every detail matters in God's kingdom.
+
+---
+
+# Chapter 41 – The Inner Temple
+
+## Main Events
+
+* Measurements continue.
+* The Holy Place and Most Holy Place are described.
+* Decorative carvings of cherubim and palm trees are noted.
+
+## Important Teachings
+
+* God's holiness remains central.
+* The temple reflects His beauty and majesty.
+
+## Spiritual Lessons
+
+* Worship begins with recognizing God's holiness.
+
+---
+
+# Chapter 42 – Priestly Chambers
+
+## Main Events
+
+* Chambers for priests are described.
+* The temple complex is separated from common areas.
+
+## Important Teachings
+
+* Holiness requires separation for God's service.
+* Those who minister before God have sacred responsibilities.
+
+## Spiritual Lessons
+
+* Believers are called to lives of holiness (1 Peter 1:15–16).
+
+---
+
+# Chapter 43 – The Glory of God Returns
+
+## Main Events
+
+* The glory of the LORD returns to the temple.
+* God's presence fills the sanctuary.
+* Instructions concerning the altar are given.
+
+## Important Teachings
+
+* God's departure (chapters 10–11) is reversed.
+* Restoration is complete only when God dwells among His people.
+
+## Spiritual Lessons
+
+* God's greatest blessing is His presence.
+
+---
+
+## Why This Chapter Is So Important
+
+Earlier in Ezekiel:
+
+* God's glory left Jerusalem because of sin (Ezekiel 10–11).
+
+Now:
+
+* God's glory returns permanently.
+
+This is one of the greatest restoration scenes in Scripture.
+
+It points forward to:
+
+* Christ dwelling among humanity (John 1:14)
+* The indwelling Holy Spirit
+* The eternal New Jerusalem (Revelation 21)
+
+---
+
+# Chapter 44 – Regulations for Worship
+
+## Main Events
+
+* Rules for priests are established.
+* Faithful priests are honored.
+* Unfaithful priests receive lesser responsibilities.
+
+## Important Teachings
+
+* God rewards faithfulness.
+* Leadership requires holiness.
+
+## Spiritual Lessons
+
+* Spiritual leaders are accountable to God.
+
+---
+
+# Chapter 45 – Holy Portions of the Land
+
+## Main Events
+
+* Land is divided.
+
+* Portions are reserved for:
+
+  * The Temple
+  * Priests
+  * Levites
+  * The Prince
+
+* Instructions about offerings are given.
+
+## Spiritual Lessons
+
+* God deserves first place.
+* Worship affects every area of life.
+
+---
+
+# Chapter 46 – Worship of the Prince
+
+## Main Events
+
+* Regulations for the prince.
+* Sabbath worship.
+* Festival offerings.
+* Justice concerning inheritance.
+
+## Important Teachings
+
+* Even rulers submit to God.
+* Leadership exists to serve, not exploit.
+
+## Spiritual Lessons
+
+* Authority should reflect God's righteousness.
+
+---
+
+# Chapter 47 – The River of Life
+
+## Main Events
+
+One of Ezekiel's most beautiful visions:
+
+* Water flows from beneath the temple.
+* The river becomes deeper as it flows.
+* Trees grow on both sides.
+* The Dead Sea becomes fresh.
+* Fish multiply abundantly.
+* The land flourishes.
+
+## Important Teachings
+
+* God's presence brings life.
+* Blessing spreads outward from Him.
+
+## Spiritual Lessons
+
+* Wherever God reigns, life replaces death.
+
+---
+
+## Christological Significance
+
+The River of Life points forward to:
+
+* Jesus offering Living Water (John 4:10–14; John 7:37–39).
+* The River of the Water of Life flowing from God's throne (Revelation 22:1–2).
+
+---
+
+# Chapter 48 – The New Division of the Land
+
+## Main Events
+
+* Tribal inheritances are assigned.
+* Jerusalem receives its final dimensions.
+* The city's new name is revealed.
+
+### The Final Verse
+
+> "The name of the city from that day shall be: THE LORD IS THERE." (Ezekiel 48:35)
+
+Hebrew:
+
+**Yahweh Shammah**
+
+Meaning:
+
+**"The LORD Is There."**
+
+## Important Teachings
+
+God's greatest promise is not merely restored land or prosperity, but His abiding presence with His people.
+
+## Spiritual Lessons
+
+* Heaven is glorious because God is there.
+* God's presence is the believer's greatest hope.
+
+---
+
+# Overview of Chapters 40–48
+
+| Chapter | Theme               | Key Lesson                                      |
+| ------- | ------------------- | ----------------------------------------------- |
+| 40      | Temple measurements | God restores true worship.                      |
+| 41      | Inner sanctuary     | God's holiness remains central.                 |
+| 42      | Priestly chambers   | Holiness is required in ministry.               |
+| 43      | God's glory returns | Restoration is complete through God's presence. |
+| 44      | Faithful priests    | God honors obedience.                           |
+| 45      | Holy land portions  | Worship affects every aspect of life.           |
+| 46      | Prince's worship    | Leaders submit to God.                          |
+| 47      | River of Life       | God's presence brings healing and life.         |
+| 48      | New Jerusalem       | The LORD dwells forever with His people.        |
+
+---
+
+# Life Lessons from the Book
+
+## Practical Christian Applications
+
+* God disciplines His people because He loves them.
+* Repentance opens the door to restoration.
+* Obedience is better than outward religion.
+* Every believer is responsible before God.
+* Hope remains even after failure.
+* God can restore what seems impossible.
+* The Holy Spirit gives new life.
+* God is always working toward redemption.
+
+## Lessons for Churches
+
+* Worship must be centered on God's holiness.
+* Leaders must shepherd God's people faithfully.
+* Compromise leads to spiritual decline.
+* God's Word should remain the foundation of ministry.
+
+## Lessons for Families
+
+* Parents influence future generations.
+* Faithfulness at home reflects faithfulness to God.
+* God restores broken families through repentance.
+
+## Lessons for Leaders
+
+* Leadership is stewardship.
+* Pride destroys ministries.
+* God expects integrity and humility.
+
+---
+
+# Theological Themes
+
+## God's Character
+
+* Holy
+* Just
+* Sovereign
+* Merciful
+* Faithful to His covenant
+
+## Salvation
+
+* God restores sinners through grace.
+* Spiritual cleansing comes from Him.
+
+## Covenant
+
+* God remembers His everlasting covenant.
+* Restoration fulfills His covenant promises.
+
+## Faith
+
+* True faith obeys God's Word.
+* Faith trusts God even in exile.
+
+## Grace
+
+* God promises a new heart and Spirit.
+* Restoration is initiated by God's mercy.
+
+## Judgment
+
+* Sin always has consequences.
+* God judges individuals and nations impartially.
+
+## Holiness
+
+* God's holiness shapes worship, leadership, and daily life.
+
+## Kingdom of God
+
+* God's kingdom will ultimately triumph over every earthly power.
+
+## Worship
+
+* Worship must honor God's holiness and presence.
+
+## Sin and Redemption
+
+* Sin brings exile.
+* Repentance leads to restoration.
+* God provides hope beyond judgment.
+
+## Obedience
+
+* Obedience flows from a transformed heart.
+* God's Spirit empowers faithful living.
+
+---
+
+# Foreshadows / Types of Jesus Christ
+
+| Ezekiel Passage    | Christological Significance                                                                                    |
+| ------------------ | -------------------------------------------------------------------------------------------------------------- |
+| Ezekiel 1          | The glorious Son of Man shares God's divine glory (cf. Revelation 1).                                          |
+| Ezekiel 17:22–24   | The tender cedar shoot points to the Messiah establishing God's kingdom.                                       |
+| Ezekiel 34         | Jesus is the Good Shepherd (John 10:11–16).                                                                    |
+| Ezekiel 36:25–27   | New Covenant cleansing and the gift of the Holy Spirit.                                                        |
+| Ezekiel 37         | Christ gives resurrection life through the Spirit.                                                             |
+| Ezekiel 37:24–28   | Jesus is the eternal Davidic King.                                                                             |
+| Ezekiel 40–48      | God's dwelling among His people is fulfilled in Christ and consummated in the New Creation (Revelation 21–22). |
+| River of Life (47) | Jesus is the source of Living Water; fulfilled ultimately in Revelation 22.                                    |
+
+---
+
+# Other Biblical Books Written During This Period
+
+| Book         | Time Period                 | Relationship                               |
+| ------------ | --------------------------- | ------------------------------------------ |
+| Jeremiah     | Before and during the exile | Warned Judah before Jerusalem's fall.      |
+| Lamentations | Immediately after 586 BC    | Mourns Jerusalem's destruction.            |
+| Daniel       | During the Babylonian exile | Focuses on God's sovereignty over empires. |
+| Obadiah      | After Jerusalem's fall      | Announces judgment on Edom.                |
+
+---
+
+# Teaching Plan for the Book
+
+| Session | Chapters | Topic                   | Key Lesson                                      |
+| ------- | -------- | ----------------------- | ----------------------------------------------- |
+| 1       | 1–3      | God's Call              | God equips those He calls.                      |
+| 2       | 4–24     | Judgment on Judah       | Sin has consequences.                           |
+| 3       | 25–32    | Judgment on the Nations | God rules all nations.                          |
+| 4       | 33–37    | Hope and Restoration    | God gives new hearts and new life.              |
+| 5       | 38–39    | God's Final Victory     | The Lord triumphs over evil.                    |
+| 6       | 40–48    | Future Hope             | God's presence is humanity's greatest blessing. |
+
+---
+
+# Brief Timeline of the Book
+
+| Event                         | Approximate Date | Scripture Reference |
+| ----------------------------- | ---------------- | ------------------- |
+| Ezekiel taken into exile      | 597 BC           | 2 Kings 24:10–17    |
+| Call of Ezekiel               | 593 BC           | Ezekiel 1–3         |
+| Symbolic acts and warnings    | 593–588 BC       | Ezekiel 4–24        |
+| Fall of Jerusalem             | 586 BC           | Ezekiel 33          |
+| Restoration prophecies        | After 586 BC     | Ezekiel 34–39       |
+| Temple vision                 | 573 BC           | Ezekiel 40:1        |
+| Final vision of restored land | 573 BC           | Ezekiel 40–48       |
+
+---
+
+# Prophecies in the Book
+
+| Prophecy                 | Prophet / Speaker   | Reference          | Fulfillment                                                                          |
+| ------------------------ | ------------------- | ------------------ | ------------------------------------------------------------------------------------ |
+| Jerusalem will fall      | Ezekiel             | Chapters 4–24      | Fulfilled in 586 BC.                                                                 |
+| Tyre will be judged      | Ezekiel             | Chapters 26–28     | Began with Nebuchadnezzar; later completed through successive conquests.             |
+| Egypt humbled            | Ezekiel             | Chapters 29–32     | Fulfilled through Babylonian domination and later decline.                           |
+| Israel restored          | God through Ezekiel | Chapters 36–37     | Began with the return from exile; many see an ongoing and future dimension.          |
+| Davidic Shepherd         | God                 | 34:23–24; 37:24–25 | Fulfilled in Jesus Christ.                                                           |
+| New Heart and New Spirit | God                 | 36:25–27           | Fulfilled in the New Covenant through Christ and the Holy Spirit.                    |
+| Gog's defeat             | God                 | Chapters 38–39     | Understood by Christians as a future demonstration of God's final victory over evil. |
+
+---
+
+# Summary of the Book
+
+Ezekiel presents one of the Bible's clearest portraits of both God's holiness and His mercy. Through dramatic visions, symbolic actions, and prophetic messages, Ezekiel explains why Judah went into exile: persistent covenant unfaithfulness. Yet judgment is not the end of the story. God promises to gather His people, cleanse them, give them a new heart and Spirit, raise them from spiritual death, and dwell among them forever.
+
+The book moves from **judgment (chapters 1–24)**, to **judgment on the nations (25–32)**, to **hope and restoration (33–48)**, culminating in the promise that **"The LORD Is There"** (48:35).
+
+---
+
+# Additional Important Information
+
+## Literary Structure
+
+* Vision reports
+* Symbolic actions
+* Judgment oracles
+* Restoration prophecies
+* Apocalyptic imagery
+
+## Important Symbols
+
+* Four living creatures
+* Wheels within wheels
+* Watchman
+* Dry bones
+* Shepherd
+* New heart
+* River of Life
+* Temple
+* Glory of God
+
+## Covenantal Emphasis
+
+Ezekiel emphasizes that God's covenant faithfulness endures despite Israel's failure. The promise of a new heart anticipates the New Covenant.
+
+## Hebrew Insights
+
+* **Kābôd (כָּבוֹד)** – "Glory," referring to God's majestic presence.
+* **Rûaḥ (רוּחַ)** – "Spirit," "breath," or "wind," a key term especially in chapter 37.
+* **Yahweh Shammah (יְהוָה שָׁמָּה)** – "The LORD Is There" (48:35).
+
+## Connections to the Gospel
+
+* Jesus is the Good Shepherd.
+* Jesus fulfills the promise of the New Covenant.
+* The Holy Spirit gives the new heart promised in Ezekiel.
+* Christ is the true Temple in whom God dwells with His people, and Revelation echoes Ezekiel's vision of the restored creation.
+
+## Archaeological Insights
+
+* Babylonian records confirm the exile of King Jehoiachin in 597 BC.
+* Excavations illuminate the Babylonian world in which Ezekiel ministered, supporting the historical setting of the book.
+
+## Study Notes for Bible Teachers
+
+* Emphasize the transition from judgment to hope.
+* Explain symbolic visions in their historical context before exploring prophetic applications.
+* Present major interpretive views of the temple vision respectfully, keeping the focus on the certainty of God's presence and ultimate restoration.
+
+---
+
+# Conclusion
+
+The Book of Ezekiel is a profound testimony to God's holiness, justice, and unfailing mercy. Though Judah experienced exile because of persistent rebellion, God never abandoned His covenant purposes. Through visions of restoration, a new heart, a faithful Shepherd, and a renewed dwelling place, Ezekiel points readers toward the ultimate hope fulfilled in Jesus Christ and consummated in God's eternal kingdom.
+
+For Bible teachers, pastors, students, and believers, Ezekiel offers enduring lessons on repentance, faithful leadership, the work of the Holy Spirit, and the assurance that God's presence is the greatest blessing His people can receive. The book closes not with despair, but with one of Scripture's most hope-filled declarations:
+
+> **"The name of the city from that day shall be, 'The LORD Is There.'" (Ezekiel 48:35)**
+
+This final promise reminds every generation that God's ultimate purpose is to dwell forever with His redeemed people.
+
