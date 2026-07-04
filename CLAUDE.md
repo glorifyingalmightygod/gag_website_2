@@ -18,11 +18,12 @@ A static Bible teaching website ("Glorifying Almighty GOD" / GAG) built with 4 p
 
 **Rule:** Keep everything in this 4-file pattern. No new files unless absolutely necessary.
 
-## Theme — Soft Azure Sky
-- Primary: azure (`#3a86c8`) + dark azure (`#1d5e96`)
-- Accent: gold (`#f0cc5a`) — title text and Scripture accents
-- Background: `#f0f8ff` (sky blue-white)
-- Dark mode: toggled via `body.dark` class, persisted in `localStorage` key `gag-dark-mode`
+## Theme — Serene Indigo & Cream
+- Primary: indigo (`#2b2f6b`) + dark indigo (`#1a1d4d`) — CSS vars `--indigo`, `--indigo-dark`, `--indigo-mid`, `--indigo-light`, `--indigo-pale`
+- Accent: muted gold (`#c9a24b`) — used sparingly for Scripture accents, title text, verse callouts
+- Background: `#faf8f4` (warm cream) via `--cream-bg` / `--cream-mid`
+- Flat, minimal surfaces: thin hairline borders (`--sidebar-border`) + soft neutral shadows (`--shadow`, `--shadow-md`) instead of heavy colored drop-shadows or gradients
+- Dark mode: toggled via `body.dark` class, persisted in `localStorage` key `gag-dark-mode`. `--indigo`/`--indigo-dark` stay constant across themes (brand colors); anywhere they're used as *foreground text* on a hover/active background needs a dark-mode swap to `--indigo-light` (see the dark-mode override block right after `DARK MODE OVERRIDES` in styles.css) or it goes low-contrast on dark surfaces — check this when adding new hover/active states.
 
 ## Fonts (all via Google Fonts)
 | Font | Used For |
@@ -35,11 +36,22 @@ A static Bible teaching website ("Glorifying Almighty GOD" / GAG) built with 4 p
 **Note:** Playfair Display has been fully removed and replaced with Merriweather sitewide.
 
 ## Header
-- Height: `165px` desktop, `125px` mobile
-- Padding: `10px 70px 50px` (50px bottom keeps text above the wave divider)
-- Logo: `logo.png` — positioned absolute left, `148px` tall, `object-fit: contain`, hidden on mobile
-- Title: Cinzel 900, warm gold `#f0cc5a` — both "Glorifying" and "Almighty GOD" same gold color
-- Verse: Open Sans Bold Italic — cite is `display: block; white-space: nowrap` to prevent line breaks
+- Compact sticky bar, not a decorative banner: `--header-height: 76px` desktop, `60px` mobile
+- Flat white/`--white` background, 1px bottom hairline border, no gradients/SVG art
+- Single flex row: hamburger (mobile/tablet, <1024px) → `.header-brand` (logo + `.header-text` title/verse, clickable → Home; `min-width:0` + `text-overflow:ellipsis` so it truncates instead of overflowing on narrow phones) → `.header-controls` (search button + dark toggle) pushed right via `margin-left:auto`
+- Logo: `logo.png`, `40px` tall inline, hidden on mobile
+- Title: Cinzel 900, gold accent color, single line
+- Verse: only shown at `min-width:900px` (hidden below to keep the mobile bar compact); Open Sans Bold Italic
+
+## Navigation architecture — top mega-menu, no persistent sidebar
+There is **no persistent sidebar** — the page content is full-width. Navigation is two things:
+
+1. **`#top-nav`** — a sticky top bar shown only at `min-width:1024px`, built by `buildTopNav()`. Deliberately styled as an **indigo ribbon** (`linear-gradient(90deg, var(--indigo-dark), var(--indigo))` + 2px gold bottom border), not white — it needs to read as a distinct navigation bar against the white header above and cream body below. Nav labels are uppercase + letter-spaced (`.tn-btn`), matching the drawer accordion's typographic treatment for consistency. Active/open section highlights in gold (`var(--gold-light)`), not the default indigo-on-white pattern used elsewhere, since the ribbon's own background is already indigo. One button per `NAV_STRUCTURE` top-level section; sections with more than one leaf item become a `.tn-item` with a click-to-open mega-menu `.tn-panel` (multi-column dropdown, one `.tn-col` per subsection, built by `positionMegaPanel()`/`toggleMegaMenu()` — the panel has a gold top border to visually connect it back to the ribbon). Sections with exactly one subsection and one item (Gospel Presentation, Theology Videos, Video/Audio Podcast, Maps, Photos) render as plain direct links, no dropdown. `Upload Sermon` / `Contact` sit at the right end of the bar (`.tn-btn-util`, pushed via `margin-left:auto` on the first one).
+   - **`.tn-panel` is `position:fixed`, not `absolute`** — positioned in JS from the button's `getBoundingClientRect()`. This is required because `.top-nav-inner` has `overflow-x:auto` (so the bar can scroll on medium desktop widths), and per spec that forces `overflow-y` to `auto` too, which would clip an `absolute` dropdown. Don't change `.tn-panel` back to `absolute` without re-checking this.
+   - Nav labels in the bar are shortened (`NAV_SHORT_LABELS` in script.js) — the full `section.label` is still used everywhere else (breadcrumbs, page headers).
+2. **`#sidebar` (the nav drawer)** — the full accordion tree (unchanged structure: `.nav-section` → `.nav-subsection` → `.nav-item`) plus the search box, always off-canvas (`transform:translateX(-100%)`, `.open` slides it in) regardless of screen width. Opened via the hamburger (mobile/tablet) **or** the header's search button (desktop) — `openDrawer()` / `closeDrawer()` / `toggleDrawer()` in script.js. This is the one place search lives; there's no separate desktop search UI.
+- Accordion headers (`.nav-section-header`, `.nav-subsection-header`) are flat (no 3D ribbon/gradient/clip-path tail) — left-border accent + background tint on hover/open.
+- `updateTopNavActive()` / `findNavIdForContentId()` keep the top-nav button highlighted in sync with whatever content is loaded, called from `loadContent()`.
 
 ## Navigation (script.js — NAV_STRUCTURE)
 8 root-level sections:
@@ -91,11 +103,15 @@ WhatsApp shows as two side-by-side cards (Community + Group), each with QR image
 | `.theology-video-grid` / `.tv-card` | 5-col responsive YouTube video grid |
 | `.wa-section` / `.wa-cards-grid` / `.wa-card` | Two WhatsApp cards layout |
 | `.wa-join-btn` | Green WhatsApp join button |
+| `.top-nav-links` / `.tn-btn` / `.tn-item` / `.tn-panel` / `.tn-col` / `.tn-link` | Top mega-menu bar + dropdown (see Navigation architecture above) |
+| `.header-brand` / `.header-text` | Header logo+title/verse grouping, clickable to go Home |
 
 ## Key Functions (script.js)
 | Function | Purpose |
 |----------|---------|
-| `buildSidebar()` | Renders entire sidebar from `NAV_STRUCTURE` |
+| `buildSidebar()` | Renders the accordion tree (nav drawer) from `NAV_STRUCTURE` |
+| `buildTopNav()` / `toggleMegaMenu()` / `positionMegaPanel()` / `updateTopNavActive()` | Builds and drives the top mega-menu bar |
+| `openDrawer()` / `closeDrawer()` / `toggleDrawer()` | Show/hide the nav drawer (hamburger on mobile, search button on desktop) |
 | `loadContent(id, section, subsection, label)` | Loads content, scrolls with `window.scrollTo({top:0})` |
 | `renderHome()` | Renders home welcome card + grid |
 | `initSermonForm()` | Form validation + fetch to formsubmit.co |

@@ -260,14 +260,13 @@ const NAV_STRUCTURE = [
 
 const state = {
   currentId: 'home',
-  sidebarOpen: true,
   darkMode: false,
   breadcrumb: [{ label: 'Home', id: 'home' }]
 };
 
 // ─── DOM References ────────────────────────────────────────────────────────────
 
-let sidebar, sidebarToggle, hamburger, overlay, mainEl, footerEl,
+let sidebar, hamburger, overlay, mainEl, footerEl,
     contentArea, heroSection, breadcrumbEl, searchInput, darkToggleBtn;
 
 // ─── Build Sidebar ─────────────────────────────────────────────────────────────
@@ -363,6 +362,145 @@ function toggleSubsection(subEl) {
   subEl.classList.toggle('open');
 }
 
+// ─── Top Nav (desktop mega-menu) ────────────────────────────────────────────
+
+// Shorter labels for the top-nav bar only — full section.label is still used
+// everywhere else (breadcrumbs, page headers, the drawer accordion).
+const NAV_SHORT_LABELS = {
+  'old-testament': 'Old Testament',
+  'new-testament': 'New Testament',
+  'gospel-section': 'Gospel',
+  'doctrines': 'Doctrines',
+  'theology-section': 'Theology Videos',
+  'video-podcast-section': 'Video Podcast',
+  'audio-podcast-section': 'Audio Podcast',
+  'bible-maps-section': 'Bible Maps',
+  'bible-photos-section': 'Historical Photos'
+};
+
+function buildTopNav() {
+  const wrap = document.getElementById('top-nav-links');
+  if (!wrap) return;
+
+  NAV_STRUCTURE.forEach(section => {
+    const isSimple = section.subsections.length === 1 && section.subsections[0].items.length === 1;
+    const navLabel = NAV_SHORT_LABELS[section.id] || section.label;
+
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'tn-btn';
+    btn.setAttribute('data-nav-id', section.id);
+    btn.innerHTML = navLabel + (isSimple ? '' : `<span class="tn-caret">▾</span>`);
+
+    if (isSimple) {
+      const only = section.subsections[0].items[0];
+      btn.addEventListener('click', () => loadContent(only.id, section.label, section.subsections[0].label, only.label));
+      wrap.appendChild(btn);
+      return;
+    }
+
+    const item = document.createElement('div');
+    item.className = 'tn-item';
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleMegaMenu(item);
+    });
+    item.appendChild(btn);
+
+    const panel = document.createElement('div');
+    panel.className = 'tn-panel';
+
+    const addLink = (container, it, subLabel) => {
+      const a = document.createElement('div');
+      a.className = 'tn-link';
+      a.textContent = it.label;
+      a.addEventListener('click', () => {
+        loadContent(it.id, section.label, subLabel, it.label);
+        closeAllMegaMenus();
+      });
+      container.appendChild(a);
+    };
+
+    if (section.subsections.length > 1) {
+      section.subsections.forEach(sub => {
+        const col = document.createElement('div');
+        col.className = 'tn-col';
+        const title = document.createElement('div');
+        title.className = 'tn-col-title';
+        title.textContent = sub.label;
+        col.appendChild(title);
+        sub.items.forEach(it => addLink(col, it, sub.label));
+        panel.appendChild(col);
+      });
+    } else {
+      section.subsections[0].items.forEach(it => addLink(panel, it, section.subsections[0].label));
+    }
+
+    item.appendChild(panel);
+    wrap.appendChild(item);
+  });
+
+  const utilBtn = (id, label) => {
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'tn-btn tn-btn-util';
+    btn.setAttribute('data-nav-id', id);
+    btn.textContent = label;
+    btn.addEventListener('click', () => loadContent(id, null, null, label));
+    wrap.appendChild(btn);
+  };
+  utilBtn('upload-sermon', 'Upload Sermon');
+  utilBtn('contact-us', 'Contact');
+
+  document.addEventListener('click', () => closeAllMegaMenus());
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeAllMegaMenus(); });
+}
+
+function toggleMegaMenu(item) {
+  const wasOpen = item.classList.contains('open');
+  closeAllMegaMenus();
+  if (!wasOpen) {
+    item.classList.add('open');
+    positionMegaPanel(item);
+  }
+}
+
+function positionMegaPanel(item) {
+  const btn = item.querySelector('.tn-btn');
+  const panel = item.querySelector('.tn-panel');
+  const topNav = document.getElementById('top-nav');
+  if (!btn || !panel || !topNav) return;
+  const btnRect = btn.getBoundingClientRect();
+  const navBottom = topNav.getBoundingClientRect().bottom;
+  let left = Math.round(btnRect.left);
+  const maxLeft = window.innerWidth - panel.offsetWidth - 16;
+  if (left > maxLeft) left = Math.max(16, maxLeft);
+  panel.style.left = left + 'px';
+  panel.style.top = Math.round(navBottom + 8) + 'px';
+}
+
+function closeAllMegaMenus() {
+  document.querySelectorAll('.tn-item.open').forEach(el => el.classList.remove('open'));
+}
+
+function updateTopNavActive(navId) {
+  document.querySelectorAll('.tn-btn').forEach(el => {
+    el.classList.toggle('active', el.getAttribute('data-nav-id') === navId);
+  });
+}
+
+function findNavIdForContentId(id) {
+  if (id === 'home' || id === 'upload-sermon' || id === 'contact-us') return id;
+  for (const section of NAV_STRUCTURE) {
+    for (const sub of section.subsections) {
+      for (const item of sub.items) {
+        if (item.id === id) return section.id;
+      }
+    }
+  }
+  return null;
+}
+
 // ─── Load Content ──────────────────────────────────────────────────────────────
 
 function loadContent(id, sectionLabel, subsectionLabel, itemLabel) {
@@ -376,6 +514,7 @@ function loadContent(id, sectionLabel, subsectionLabel, itemLabel) {
   document.querySelectorAll('.nav-home').forEach(el => {
     el.classList.toggle('active', el.getAttribute('data-id') === id);
   });
+  updateTopNavActive(findNavIdForContentId(id));
 
   // Hero visibility
   heroSection.style.display = id === 'home' ? '' : 'none';
@@ -397,7 +536,7 @@ function loadContent(id, sectionLabel, subsectionLabel, itemLabel) {
     contentArea.innerHTML = pg ? pg.body : '<div class="content-card"><h2>Coming Soon</h2></div>';
     if (id === 'upload-sermon') setTimeout(initSermonForm, 0);
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    if (window.innerWidth <= 768) closeMobileSidebar();
+    closeDrawer();
     return;
   }
 
@@ -408,7 +547,7 @@ function loadContent(id, sectionLabel, subsectionLabel, itemLabel) {
     contentArea.innerHTML = pg ? pg.body : '<div class="content-card"><p>Loading…</p></div>';
     setTimeout(loadVideoPodcastContent, 0);
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    if (window.innerWidth <= 768) closeMobileSidebar();
+    closeDrawer();
     return;
   }
 
@@ -437,10 +576,8 @@ function loadContent(id, sectionLabel, subsectionLabel, itemLabel) {
   // Scroll to top of content
   window.scrollTo({ top: 0, behavior: 'smooth' });
 
-  // On mobile, close sidebar after selection
-  if (window.innerWidth <= 768) {
-    closeMobileSidebar();
-  }
+  // Close the drawer after a selection (mobile drawer, or desktop search drawer)
+  closeDrawer();
 }
 
 function getDailyVerse() {
@@ -494,14 +631,11 @@ function renderHome() {
 
 function openSection(sectionId) {
   const sectionEl = document.getElementById('section-' + sectionId);
-  if (sectionEl && !sectionEl.classList.contains('open')) {
-    sectionEl.classList.add('open');
-  }
-  sidebarEl().scrollIntoView && sectionEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-}
-
-function sidebarEl() {
-  return document.getElementById('sidebar');
+  if (sectionEl) sectionEl.classList.add('open');
+  openDrawer();
+  setTimeout(() => {
+    if (sectionEl) sectionEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 50);
 }
 
 function autoExpandToItem(id) {
@@ -538,52 +672,38 @@ function updateBreadcrumb(id, sectionLabel, subsectionLabel, itemLabel) {
   breadcrumbEl.innerHTML = html;
 }
 
-// ─── Sidebar Toggle ────────────────────────────────────────────────────────────
+// ─── Nav Drawer (search + full tree) ────────────────────────────────────────
+// Used on mobile/tablet (via hamburger) and on desktop (via the search button),
+// since there's no persistent sidebar anymore — just the top mega-menu.
 
-function initSidebarToggle() {
-  if (window.innerWidth > 768) {
-    // Desktop: use the toggle button
-    sidebarToggle.addEventListener('click', toggleDesktopSidebar);
+function initDrawer() {
+  hamburger.addEventListener('click', toggleDrawer);
+  overlay.addEventListener('click', closeDrawer);
+  const searchBtn = document.getElementById('nav-search-btn');
+  if (searchBtn) {
+    searchBtn.addEventListener('click', () => {
+      openDrawer();
+      if (searchInput) setTimeout(() => searchInput.focus(), 100);
+    });
   }
-
-  hamburger.addEventListener('click', toggleMobileSidebar);
-  overlay.addEventListener('click', closeMobileSidebar);
 }
 
-function toggleDesktopSidebar() {
-  state.sidebarOpen = !state.sidebarOpen;
-  const sb = document.getElementById('sidebar');
-
-  if (state.sidebarOpen) {
-    sb.classList.remove('collapsed');
-    mainEl.classList.remove('expanded');
-    footerEl.classList.remove('expanded');
-    sidebarToggle.classList.remove('collapsed');
-    sidebarToggle.textContent = '◀';
+function toggleDrawer() {
+  if (sidebar.classList.contains('open')) {
+    closeDrawer();
   } else {
-    sb.classList.add('collapsed');
-    mainEl.classList.add('expanded');
-    footerEl.classList.add('expanded');
-    sidebarToggle.classList.add('collapsed');
-    sidebarToggle.textContent = '▶';
+    openDrawer();
   }
 }
 
-function toggleMobileSidebar() {
-  const sb = document.getElementById('sidebar');
-  const isOpen = sb.classList.contains('open');
-  if (isOpen) {
-    closeMobileSidebar();
-  } else {
-    sb.classList.add('open');
-    overlay.classList.add('active');
-    hamburger.textContent = '✕';
-  }
+function openDrawer() {
+  sidebar.classList.add('open');
+  overlay.classList.add('active');
+  hamburger.textContent = '✕';
 }
 
-function closeMobileSidebar() {
-  const sb = document.getElementById('sidebar');
-  sb.classList.remove('open');
+function closeDrawer() {
+  sidebar.classList.remove('open');
   overlay.classList.remove('active');
   hamburger.textContent = '☰';
 }
@@ -926,7 +1046,6 @@ function downloadBookPDF(title) {
 
 function init() {
   sidebar = document.getElementById('sidebar');
-  sidebarToggle = document.getElementById('sidebar-toggle');
   hamburger = document.getElementById('hamburger');
   overlay = document.getElementById('overlay');
   mainEl = document.getElementById('main');
@@ -938,13 +1057,23 @@ function init() {
   darkToggleBtn = document.getElementById('dark-toggle');
 
   buildSidebar();
+  buildTopNav();
+  updateTopNavActive('home');
   renderHome();
-  initSidebarToggle();
+  initDrawer();
   initDarkMode();
   initSearch();
   initVisitCounter();
   trackPageView('home');
   trackCountry();
+
+  const brand = document.getElementById('header-brand');
+  if (brand) {
+    brand.addEventListener('click', () => loadContent('home'));
+    brand.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); loadContent('home'); }
+    });
+  }
 
   // Admin page routing — triggered by #admin in URL
   if (location.hash === '#admin') showAdminPage();
@@ -954,8 +1083,8 @@ function init() {
 
   // Handle resize
   window.addEventListener('resize', () => {
-    if (window.innerWidth > 768) {
-      closeMobileSidebar();
+    if (window.innerWidth > 1024) {
+      closeDrawer();
     }
   });
 }

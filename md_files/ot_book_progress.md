@@ -147,6 +147,8 @@ Output JS files: `content/ot/[bookname].js`
 ## Progress Summary
 
 - **27 of 39 OT books complete** (Genesis → Daniel)
-- **12 remaining** — all Minor Prophets
+- **12 remaining** — all Minor Prophets (no source .txt files uploaded yet)
 - **Audio Podcast:** 1 episode live
 - **All Major Prophets done** as of 2026-06-29
+
+> See `website_progress.md` for the full site-wide status including NT books, Bible Doctrines, and special pages.

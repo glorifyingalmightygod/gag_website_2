@@ -30,61 +30,62 @@
 
   <!-- ====================== HEADER ====================== -->
   <header id="site-header" role="banner">
-    <!-- Mobile hamburger -->
+    <!-- Mobile / tablet menu trigger -->
     <button id="hamburger" aria-label="Toggle navigation menu">☰</button>
 
-    <!-- Logo (top-left) -->
-    <img src="images/logo.png" alt="Glorifying Almighty GOD Logo" class="header-logo" />
+    <div class="header-brand" id="header-brand" role="button" tabindex="0" aria-label="Go to home">
+      <!-- Logo -->
+      <img src="images/logo.png" alt="Glorifying Almighty GOD Logo" class="header-logo" />
 
-    <!-- Title & verse -->
-    <h1 class="header-title">
-      <span>Glorifying </span>Almighty GOD
-    </h1>
-    <p class="header-verse">
-      "So whether you eat or drink or whatever you do, do it all for the glory of God."
-      <cite>— 1 Corinthians 10:31</cite>
-    </p>
+      <!-- Title & verse -->
+      <div class="header-text">
+        <h1 class="header-title">
+          <span>Glorifying </span>Almighty GOD
+        </h1>
+        <p class="header-verse">
+          "So whether you eat or drink or whatever you do, do it all for the glory of God."
+          <cite>— 1 Corinthians 10:31</cite>
+        </p>
+      </div>
+    </div>
 
     <!-- Controls -->
     <div class="header-controls">
+      <button id="nav-search-btn" aria-label="Search books &amp; topics">🔍 <span class="ctrl-label">Search</span></button>
       <button id="dark-toggle" aria-label="Toggle dark mode">🌙 Dark</button>
     </div>
   </header>
 
-  <!-- ====================== SIDEBAR TOGGLE (Desktop) ====================== -->
-  <button
-    id="sidebar-toggle"
-    title="Toggle sidebar"
-    aria-label="Toggle sidebar"
-    aria-expanded="true"
-  >◀</button>
+  <!-- ====================== TOP NAV (desktop mega-menu) ====================== -->
+  <nav id="top-nav" aria-label="Primary navigation">
+    <div class="top-nav-inner">
+      <div class="top-nav-links" id="top-nav-links"></div>
+    </div>
+  </nav>
+
+  <!-- ====================== NAV DRAWER (search + full tree — mobile/tablet + desktop search) ====================== -->
+  <nav id="sidebar" aria-label="Bible navigation">
+    <div class="sidebar-search">
+      <div class="search-wrapper">
+        <input
+          type="search"
+          id="sidebar-search"
+          placeholder="Search books &amp; topics…"
+          aria-label="Search sidebar"
+          autocomplete="off"
+        />
+      </div>
+    </div>
+
+    <!-- Navigation tree (built by JS) -->
+    <div class="sidebar-nav" id="sidebar-nav"></div>
+  </nav>
+
+  <!-- Drawer overlay -->
+  <div id="overlay" class="overlay" role="presentation"></div>
 
   <!-- ====================== LAYOUT ====================== -->
   <div id="layout">
-
-    <!-- ───── SIDEBAR ───── -->
-    <nav id="sidebar" aria-label="Bible navigation">
-
-      <!-- Search -->
-      <div class="sidebar-search">
-        <div class="search-wrapper">
-          <input
-            type="search"
-            id="sidebar-search"
-            placeholder="Search books &amp; topics…"
-            aria-label="Search sidebar"
-            autocomplete="off"
-          />
-        </div>
-      </div>
-
-      <!-- Navigation tree (built by JS) -->
-      <div class="sidebar-nav" id="sidebar-nav"></div>
-
-    </nav>
-
-    <!-- Mobile overlay -->
-    <div id="overlay" class="overlay" role="presentation"></div>
 
     <!-- ───── MAIN ───── -->
     <main id="main" role="main">
