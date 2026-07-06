@@ -50,16 +50,20 @@ Output JS files: `content/ot/[bookname].js`
 | 26 | Ezekiel | `content/ot/ezekiel.js` | 48 chapters; central theme: Glory of God |
 | 27 | Daniel | `content/ot/daniel.js` | Babylonian names table, 7 major prophecies, 12 chapters |
 
+### Minor Prophets (3/12 done)
+| # | Book | File | Notable Feature |
+|---|------|------|----------------|
+| 28 | Hosea | `content/ot/hosea.js` | Kings-of-Israel/Judah tables, Hosea's marriage to Gomer as central symbol |
+| 29 | Joel | `content/ot/joel.js` | Early vs. late date scholarly-view table, locust plague as Day-of-the-LORD picture, only 3 chapters |
+| 30 | Amos | `content/ot/amos.js` | Shepherd-prophet from Tekoa, 9-row per-nation prophecy table, full Theological Themes table |
+
 ---
 
 ## ⏳ Remaining Books (Placeholder Only)
 
-### Minor Prophets (0/12 done)
+### Minor Prophets (0/9 remaining)
 | # | Book | File |
 |---|------|------|
-| 28 | Hosea | `content/ot/hosea.js` |
-| 29 | Joel | `content/ot/joel.js` |
-| 30 | Amos | `content/ot/amos.js` |
 | 31 | Obadiah | `content/ot/obadiah.js` |
 | 32 | Jonah | `content/ot/jonah.js` |
 | 33 | Micah | `content/ot/micah.js` |
@@ -70,7 +74,7 @@ Output JS files: `content/ot/[bookname].js`
 | 38 | Zechariah | `content/ot/zechariah.js` |
 | 39 | Malachi | `content/ot/malachi.js` |
 
-**Next up: Hosea** (first of the Minor Prophets)
+**Next up: Obadiah** (fourth of the Minor Prophets)
 
 ---
 
@@ -146,9 +150,9 @@ Output JS files: `content/ot/[bookname].js`
 
 ## Progress Summary
 
-- **27 of 39 OT books complete** (Genesis → Daniel)
-- **12 remaining** — all Minor Prophets (no source .txt files uploaded yet)
+- **30 of 39 OT books complete** (Genesis → Amos)
+- **9 remaining** — Minor Prophets Obadiah through Malachi (no source .txt files uploaded yet)
 - **Audio Podcast:** 1 episode live
-- **All Major Prophets done** as of 2026-06-29
+- **All Major Prophets done** as of 2026-06-29; **Hosea, Joel, and Amos done** as of 2026-07-06
 
 > See `website_progress.md` for the full site-wide status including NT books, Bible Doctrines, and special pages.

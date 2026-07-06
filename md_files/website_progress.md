@@ -5,7 +5,7 @@ _Last updated: 2026-06-29_
 
 ## ✅ FULLY COMPLETE
 
-### Old Testament Survey — 27 of 39 Books (Full Survey Pages)
+### Old Testament Survey — 30 of 39 Books (Full Survey Pages)
 
 | Group | Books | Status |
 |-------|-------|--------|
@@ -13,6 +13,7 @@ _Last updated: 2026-06-29_
 | Historical (12) | Joshua, Judges, Ruth, 1 Samuel, 2 Samuel, 1 Kings, 2 Kings, 1 Chronicles, 2 Chronicles, Ezra, Nehemiah, Esther | ✅ Full survey |
 | Poetry & Wisdom (5) | Job, Psalms, Proverbs, Ecclesiastes, Song of Solomon | ✅ Full survey |
 | Major Prophets (5) | Isaiah, Jeremiah, Lamentations, Ezekiel, Daniel | ✅ Full survey |
+| Minor Prophets (3) | Hosea, Joel, Amos | ✅ Full survey |
 
 Each OT book page includes: book-meta-bar, 2-col intro + timeline, Key Persons table, Places table, Book Structure, Chapter grids, Key Verses, Foreshadows of Christ, Theme Tags, Teaching Plan, Life Lessons, Summary Banner.
 
@@ -78,15 +79,12 @@ All 27 NT books have **short 2–3 sentence summaries** — NOT full survey page
 
 ## ⏳ PENDING (Not Yet Started)
 
-### OT Minor Prophets — 12 Books (Placeholder Only)
+### OT Minor Prophets — 9 Books Remaining (Placeholder Only)
 
 These all show a 2-sentence placeholder. **No source text files have been uploaded yet.**
 
 | # | Book | File | Source Text? |
 |---|------|------|-------------|
-| 28 | Hosea | `content/ot/hosea.js` | ❌ No txt file |
-| 29 | Joel | `content/ot/joel.js` | ❌ No txt file |
-| 30 | Amos | `content/ot/amos.js` | ❌ No txt file |
 | 31 | Obadiah | `content/ot/obadiah.js` | ❌ No txt file |
 | 32 | Jonah | `content/ot/jonah.js` | ❌ No txt file |
 | 33 | Micah | `content/ot/micah.js` | ❌ No txt file |
@@ -117,7 +115,7 @@ These all show a 2-sentence placeholder. **No source text files have been upload
 
 | Section | Complete | Remaining | % Done |
 |---------|----------|-----------|--------|
-| OT Books (full surveys) | 27 | 12 Minor Prophets | 69% |
+| OT Books (full surveys) | 30 | 9 Minor Prophets | 77% |
 | NT Books (full surveys) | 0 | 27 | 0% |
 | Bible Doctrines | 10 / 10 | — | 100% |
 | Theology Videos (real links) | 0 | 10 video IDs needed | Layout done |
@@ -131,7 +129,7 @@ These all show a 2-sentence placeholder. **No source text files have been upload
 
 ## 🚀 Recommended Next Steps (Priority Order)
 
-1. **Upload Minor Prophet .txt files** → build Hosea, Joel, Amos... one by one (12 books)
+1. **Upload Minor Prophet .txt files** → build Obadiah, Jonah, Micah... one by one (9 books remaining)
 2. **Update Theology Videos** → replace the placeholder YouTube link with the real video ID for each of the 10 doctrine videos
 3. **Add more Audio Podcast episodes** → drop `.wav`/`.mp3` files in `audio/` folder, add episode cards in `content/pages.js`
 4. **NT Survey pages** → build full survey pages for the Gospels and key NT books (Matthew, John, Romans, Revelation would be highest impact)
