@@ -103,8 +103,9 @@ Output JS files: `content/ot/[bookname].js`
 - ✅ `var(--cream-bg)` / `var(--cream-mid)` — background (auto-switches in dark mode)
 
 ### 5. Two-column intro layout
+**Must use `repeat(auto-fit,minmax(280px,1fr))`, never a fixed `1fr 1fr`** — a fixed two-track grid never collapses to one column on mobile, no matter how narrow the viewport, which cuts off the Historical Timeline column entirely on phones. `auto-fit`/`minmax` collapses to a single stacked column automatically once the viewport is too narrow for two 280px tracks — no media query needed. (This bug shipped in 13 books — Hosea through Malachi plus Daniel — before being caught and fixed on 2026-09-16; every other book already used the correct pattern.)
 ```html
-<div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start;">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;align-items:start;">
   <div>
     <!-- book-meta-bar + intro paragraphs -->
   </div>

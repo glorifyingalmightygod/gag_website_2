@@ -8,7 +8,7 @@ Object.assign(CONTENT, {
 <div class="bk-section">
   <div class="bk-section-header"><h3>📖 Introduction</h3></div>
   <div class="bk-section-body">
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:start;">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;align-items:start;">
       <div>
         <div class="book-meta-bar">
           <div class="bm-item"><span class="bm-label">Author</span><span class="bm-value">Malachi ("My Messenger")</span></div>
