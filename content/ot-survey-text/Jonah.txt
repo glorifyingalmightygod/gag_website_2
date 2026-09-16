@@ -1,0 +1,1316 @@
+# Jonah Survey
+
+---
+
+# Introduction
+
+The **Book of Jonah** is one of the twelve Minor Prophets in the Old Testament and the fifth book in the collection commonly called the **Minor Prophets**. Although short—only four chapters—it contains profound teaching about **God's mercy, human disobedience, repentance, divine sovereignty, compassion, and God's concern for the nations**.
+
+Jonah is unusual among the prophetic books because much of the book is presented as a **narrative about the prophet himself**, rather than as a collection of prophetic sermons. Jonah is sent by God to preach against **Nineveh**, the great city of Assyria. Instead of obeying, he attempts to flee from God's presence. Through a storm, a great fish, the repentance of Nineveh, and finally a lesson involving a plant, God exposes Jonah's limited understanding of divine compassion.
+
+The book is historically important because **Nineveh was the capital of the Assyrian Empire**, one of Israel's most powerful and threatening enemies. Yet God demonstrates compassion toward the very people Jonah does not want to see spared.
+
+For Christians today, Jonah teaches that:
+
+* God is sovereign over creation and nations.
+* God's mercy extends beyond ethnic and national boundaries.
+* Genuine repentance matters to God.
+* Religious knowledge does not automatically produce a compassionate heart.
+* God's servants must obey His call.
+* God's compassion is greater than human prejudice and resentment.
+* God cares about people who are spiritually lost.
+
+The New Testament gives Jonah particular significance because **Jesus Himself refers to "the sign of Jonah"** (Matthew 12:38–41; Matthew 16:4; Luke 11:29–32).
+
+---
+
+# Name of the Book
+
+The Hebrew name of the book is:
+
+**יוֹנָה — Yônâh (Yonah)**
+
+### Meaning of "Jonah"
+
+The Hebrew word **יֹונָה (yônâh)** means:
+
+> **"Dove"**
+
+The name is also associated with the Hebrew noun for a dove or pigeon.
+
+### Why is the book called Jonah?
+
+The book is named after its principal human character, **Jonah son of Amittai**.
+
+Jonah is identified in:
+
+> **Jonah 1:1** — "Now the word of the LORD came to Jonah the son of Amittai..."
+
+He is also mentioned in **2 Kings 14:25**, where he is identified as a prophet from **Gath-hepher** who ministered during the reign of **Jeroboam II of Israel**.
+
+---
+
+# Author of the Book
+
+## Traditional Authorship
+
+Jewish and Christian tradition has generally associated the book with **Jonah son of Amittai**.
+
+However, the book does not explicitly state, "Jonah wrote this book." It is therefore important to distinguish between:
+
+* **Jonah as the principal figure of the narrative**
+* **Jonah as the possible source or author**
+* **The final literary composition of the book**
+
+### Internal Evidence
+
+The book identifies Jonah as:
+
+* Son of Amittai — **Jonah 1:1**
+* A prophet of the LORD — **Jonah 1:1**
+* A Hebrew — **Jonah 1:9**
+* A prophet who previously ministered in Israel — **2 Kings 14:25**
+
+The narrative is written largely in the **third person**, which does not by itself rule out Jonah as the source or author. Biblical narratives sometimes refer to their central figures in the third person.
+
+### External Evidence
+
+Jonah was accepted as part of the Jewish prophetic collection, and the book appears within the **Twelve Minor Prophets** in the Hebrew Bible.
+
+The book was also recognized in early Jewish and Christian biblical tradition.
+
+### Scholarly Views
+
+Scholars differ regarding:
+
+* The precise date of composition
+* Whether Jonah himself wrote the final form
+* The historical character of some details
+* The literary relationship between the narrative and the prophetic tradition
+
+Some scholars understand the book as a historical account of Jonah's prophetic mission. Others emphasize its carefully constructed **prophetic narrative and theological teaching**.
+
+The text itself presents Jonah and Nineveh within a recognizable historical framework, including the Assyrian city of Nineveh and Jonah's connection with the reign of Jeroboam II.
+
+---
+
+# Date Written
+
+The precise date of the final composition of Jonah is debated.
+
+## Historical Setting of Jonah's Ministry
+
+The prophet Jonah lived during the reign of **Jeroboam II**, king of Israel:
+
+> **2 Kings 14:25**
+
+Jeroboam II ruled approximately:
+
+**793–753 BC**
+
+Jonah's prophetic ministry therefore belongs broadly to the **8th century BC**.
+
+### Approximate Historical Period
+
+A reasonable historical framework is:
+
+**8th century BC, probably during the reign of Jeroboam II**
+
+However, the date when the **present literary form of the Book of Jonah** was composed is more difficult to establish.
+
+### Assyrian Background
+
+Nineveh belonged to the Assyrian world. Assyria became an increasingly powerful empire during the 9th–7th centuries BC.
+
+Important Assyrian developments included:
+
+* Expansion into the ancient Near East
+* Military campaigns against Israel and Judah
+* Increasing imperial power
+* The eventual destruction of the northern kingdom of Israel in **722 BC**
+
+Jonah's ministry therefore occurs against the backdrop of a region where Assyria represented a significant political and military threat.
+
+---
+
+# Audience / To Whom Was It Written
+
+The book does not identify a specific original readership.
+
+### Primary Audience
+
+The original Israelite/Jewish audience was confronted with an important question:
+
+> **Would God's mercy extend even to Israel's enemies?**
+
+### Historical Audience
+
+The book particularly speaks to God's covenant people by exposing:
+
+* Disobedience
+* National pride
+* Limited compassion
+* Resistance to God's purposes
+* A misunderstanding of God's mercy
+
+### Spiritual Purpose for the Audience
+
+The book teaches Israel that:
+
+> **The LORD is not merely the God of Israel; He is sovereign over all nations and compassionate toward repentant sinners.**
+
+### Relevance for Modern Believers
+
+Jonah challenges Christians to examine:
+
+* Whether we obey God only when His commands are comfortable
+* Whether we desire mercy for ourselves but judgment for others
+* Whether we care about people outside our own community
+* Whether our theology produces compassion
+* Whether we trust God's wisdom when His purposes differ from ours
+
+---
+
+# Historical and Geographical Setting
+
+## Historical Context
+
+Jonah belongs to the period of the divided monarchy.
+
+After Solomon's reign, Israel divided into:
+
+* **Northern Kingdom — Israel**
+* **Southern Kingdom — Judah**
+
+Jonah was associated with the **Northern Kingdom**.
+
+According to **2 Kings 14:25**, Jonah prophesied during the reign of Jeroboam II.
+
+## Political Background
+
+Assyria was a major power in the ancient Near East.
+
+Nineveh became one of the great centers of the Assyrian Empire.
+
+The Assyrians were eventually responsible for the destruction of the northern kingdom of Israel in **722 BC**.
+
+This later historical relationship makes Jonah's message especially striking: God sends an Israelite prophet to warn a major foreign city.
+
+## Cultural Setting
+
+Jonah's world was characterized by:
+
+* City-states and kingdoms
+* Imperial expansion
+* International trade
+* Pagan religious practices
+* Polytheistic cultures
+* Strong national identities
+
+## Religious Condition
+
+Israel knew and worshiped the LORD but frequently struggled with:
+
+* Idolatry
+* Syncretism
+* Injustice
+* Disobedience
+* Covenant unfaithfulness
+
+Jonah himself demonstrates that knowing the true God does not automatically guarantee obedience to God.
+
+---
+
+## Places Mentioned in the Book
+
+| Chapter | Place / Region    | Event                                           |
+| ------- | ----------------- | ----------------------------------------------- |
+| Jonah 1 | Nineveh           | God commands Jonah to preach against Nineveh    |
+| Jonah 1 | Joppa             | Jonah travels there to flee by ship             |
+| Jonah 1 | Mediterranean Sea | God sends a great storm                         |
+| Jonah 1 | Ship              | Jonah is confronted by the sailors              |
+| Jonah 1 | Sea               | Jonah is thrown into the sea                    |
+| Jonah 2 | Sea / Fish        | Jonah prays from inside the great fish          |
+| Jonah 3 | Nineveh           | Jonah preaches and Nineveh repents              |
+| Jonah 4 | East of Nineveh   | Jonah waits to see what will happen to the city |
+
+### Gath-hepher
+
+Jonah's hometown was **Gath-hepher**, identified in:
+
+> **2 Kings 14:25**
+
+It was located in the territory of Zebulun, in the northern part of Israel.
+
+### Joppa
+
+Joppa was a significant Mediterranean port.
+
+Jonah traveled there intending to escape God's commission:
+
+> **Jonah 1:3**
+
+Joppa later appears in the New Testament in connection with **Peter's ministry** (Acts 9:36–43).
+
+### Nineveh
+
+Nineveh was an important Assyrian city located near the **Tigris River** in Mesopotamia.
+
+Jonah describes it as:
+
+> "an exceedingly great city"
+> — **Jonah 1:2; 3:3**
+
+---
+
+# Purpose of the Book
+
+The Book of Jonah has several interconnected purposes.
+
+### 1. To Reveal God's Sovereignty
+
+God controls:
+
+* Wind
+* Sea
+* Fish
+* Plants
+* Worms
+* Winds
+* Nations
+
+The repeated phrase **"the LORD appointed"** emphasizes divine sovereignty:
+
+* God appointed a great fish — **Jonah 1:17**
+* God appointed a plant — **Jonah 4:6**
+* God appointed a worm — **Jonah 4:7**
+* God appointed a scorching east wind — **Jonah 4:8**
+
+### 2. To Demonstrate God's Mercy
+
+God shows mercy to:
+
+* Jonah
+* The sailors
+* Nineveh
+* Even the animals of Nineveh — **Jonah 4:11**
+
+### 3. To Teach the Necessity of Repentance
+
+Nineveh responds to Jonah's preaching with fasting, mourning, and turning from evil:
+
+> **Jonah 3:5–10**
+
+### 4. To Expose Jonah's Heart
+
+Jonah obeys outwardly in chapter 3 but becomes angry when God shows mercy.
+
+The final chapter reveals that the prophet's heart needs correction as much as Nineveh's did.
+
+### 5. To Reveal God's Concern for the Nations
+
+The book presents God's compassion extending beyond Israel.
+
+---
+
+# Key Persons in the Book
+
+| Person                 | Role in the Book                 | Importance                                                                         |
+| ---------------------- | -------------------------------- | ---------------------------------------------------------------------------------- |
+| **Jonah**              | Prophet of Israel                | Receives God's command, flees, preaches to Nineveh, and struggles with God's mercy |
+| **Amittai**            | Jonah's father                   | Identifies Jonah as "son of Amittai"                                               |
+| **The LORD**           | Sovereign God                    | Directs every major event and reveals His compassion                               |
+| **King of Nineveh**    | Ruler of Nineveh                 | Responds to Jonah's warning with repentance                                        |
+| **Sailors**            | Crew of the ship                 | Fear the LORD and eventually worship Him                                           |
+| **People of Nineveh**  | Recipients of Jonah's preaching  | Repent and turn from their evil                                                    |
+| **Great Fish**         | Instrument used by God           | Swallows Jonah and preserves his life                                              |
+| **Plant**              | Instrument used by God           | Provides shade and becomes an object lesson                                        |
+| **Worm**               | Instrument used by God           | Destroys the plant                                                                 |
+| **Animals of Nineveh** | Included in Nineveh's repentance | Highlight God's compassion for His creation                                        |
+
+---
+
+# Key Verses
+
+## Jonah 1:1–2
+
+**Verse Text:**
+
+> "Now the word of the LORD came to Jonah the son of Amittai, saying, 'Arise, go to Nineveh, that great city, and call out against it...'"
+
+**Explanation:**
+The book begins with God's initiative. Jonah's ministry is not self-appointed. God sends him to a foreign city.
+
+**Significance:**
+God's mission extends beyond Israel.
+
+---
+
+## Jonah 1:3
+
+**Verse Text:**
+
+> "But Jonah rose to flee to Tarshish from the presence of the LORD..."
+
+**Explanation:**
+Jonah deliberately moves in the opposite direction from God's command.
+
+**Significance:**
+This verse introduces the central conflict between **divine calling and human resistance**.
+
+---
+
+## Jonah 2:9
+
+**Verse Text:**
+
+> "Salvation belongs to the LORD!"
+
+**Explanation:**
+Jonah recognizes that deliverance ultimately comes from God.
+
+**Significance:**
+This is one of the book's central theological statements.
+
+---
+
+## Jonah 3:5
+
+**Verse Text:**
+
+> "And the people of Nineveh believed God."
+
+**Explanation:**
+The pagan population responds to the prophetic warning with faith and repentance.
+
+**Significance:**
+The response of Nineveh contrasts dramatically with Jonah's earlier resistance.
+
+---
+
+## Jonah 3:10
+
+**Verse Text:**
+
+> "When God saw what they did, how they turned from their evil way, God relented of the disaster..."
+
+**Explanation:**
+God responds to genuine repentance with mercy.
+
+**Significance:**
+The verse demonstrates the biblical relationship between divine warning, human repentance, and God's mercy.
+
+---
+
+## Jonah 4:2
+
+**Verse Text:**
+
+> "For I knew that you are a gracious God and merciful, slow to anger and abounding in steadfast love..."
+
+**Explanation:**
+Ironically, Jonah's complaint describes God's character correctly.
+
+**Significance:**
+Jonah knows God's theology but struggles with God's mercy.
+
+---
+
+## Jonah 4:11
+
+**Verse Text:**
+
+> "And should not I pity Nineveh, that great city...?"
+
+**Explanation:**
+The book ends with God's question.
+
+**Significance:**
+The unanswered question invites readers to examine whether their hearts reflect God's compassion.
+
+---
+
+# Number of Chapters
+
+The Book of Jonah contains:
+
+**4 chapters**
+
+It contains approximately **48 verses**.
+
+### General Structure
+
+1. **Chapter 1 — Jonah Flees**
+2. **Chapter 2 — Jonah Prays**
+3. **Chapter 3 — Jonah Preaches**
+4. **Chapter 4 — Jonah Struggles with God's Mercy**
+
+A useful summary is:
+
+> **Running → Praying → Preaching → Learning**
+
+---
+
+# Chapter Divisions / Outline
+
+| Section                        | Chapters | Description                                           |
+| ------------------------------ | -------- | ----------------------------------------------------- |
+| Jonah's Commission and Flight  | 1        | God sends Jonah to Nineveh; Jonah flees; storm arises |
+| Jonah's Deliverance            | 2        | Jonah is swallowed by the great fish and prays        |
+| Jonah's Mission                | 3        | Jonah preaches; Nineveh repents; God shows mercy      |
+| Jonah's Anger and God's Lesson | 4        | Jonah becomes angry; God teaches him about compassion |
+
+---
+
+# Chapter-by-Chapter Summary
+
+## Chapter 1 – Jonah Flees from God
+
+### Main Events
+
+God commands Jonah to:
+
+> "Arise, go to Nineveh"
+
+But Jonah goes to **Joppa** and boards a ship heading toward **Tarshish**.
+
+God sends a powerful storm.
+
+The sailors become terrified and discover that Jonah is responsible for the crisis because he is fleeing from the LORD.
+
+Jonah tells them:
+
+> "I am a Hebrew, and I fear the LORD, the God of heaven, who made the sea and the dry land."
+> — **Jonah 1:9**
+
+The sailors attempt to save the ship but eventually throw Jonah into the sea.
+
+The sea becomes calm.
+
+The sailors respond by:
+
+* Fearing the LORD
+* Offering sacrifice
+* Making vows
+
+God then appoints a great fish to swallow Jonah.
+
+### Important Teachings
+
+* Disobedience can affect others.
+* God's sovereignty extends over creation.
+* God can use unexpected people to accomplish His purposes.
+* The pagan sailors demonstrate reverence toward God while Jonah is running from Him.
+
+### Spiritual Lessons
+
+**1. We cannot escape God's sovereign presence.**
+
+Compare:
+
+> **Psalm 139:7–10**
+
+**2. Knowing God's identity is not the same as obeying God's command.**
+
+**3. God can use difficult circumstances to redirect His servants.**
+
+---
+
+## Chapter 2 – Jonah Prays from the Fish
+
+Jonah is inside the great fish for three days and three nights.
+
+From there he prays to God.
+
+His prayer contains language drawn from the Psalms and emphasizes:
+
+* Distress
+* God's deliverance
+* Prayer
+* God's sovereignty
+* Thanksgiving
+* Salvation
+
+Jonah concludes:
+
+> "Salvation belongs to the LORD!"
+> — **Jonah 2:9**
+
+God then commands the fish, and it vomits Jonah onto dry land.
+
+### Important Teachings
+
+Jonah's prayer demonstrates that:
+
+* God hears prayer from desperate circumstances.
+* Discipline does not mean abandonment.
+* God can rescue people from situations caused by their own disobedience.
+* Salvation ultimately belongs to God.
+
+### Spiritual Lessons
+
+**1. Pray even when you are experiencing the consequences of your actions.**
+
+**2. God's discipline can become an instrument of restoration.**
+
+**3. Deliverance should produce thanksgiving.**
+
+---
+
+## Chapter 3 – Jonah Preaches and Nineveh Repents
+
+God gives Jonah the command again:
+
+> **Jonah 3:1–2**
+
+This time Jonah obeys.
+
+He enters Nineveh and proclaims:
+
+> "Yet forty days, and Nineveh shall be overthrown!"
+> — **Jonah 3:4**
+
+The people of Nineveh believe God.
+
+They respond with:
+
+* Fasting
+* Sackcloth
+* Humility
+* Repentance
+
+The king also responds and commands the people to turn from their evil ways.
+
+God sees their repentance and does not bring the announced disaster upon them.
+
+### Important Teachings
+
+The contrast is striking:
+
+| Jonah                    | Nineveh                                    |
+| ------------------------ | ------------------------------------------ |
+| Knows God                | Does not have Israel's covenant revelation |
+| Runs from God's word     | Responds to God's word                     |
+| Resists mercy            | Receives mercy                             |
+| Is angry over repentance | Repents                                    |
+
+### Spiritual Lessons
+
+**1. God's warning is intended to lead people toward repentance.**
+
+**2. Genuine repentance involves turning from evil.**
+
+**3. No nation or individual is beyond God's call to repentance.**
+
+---
+
+## Chapter 4 – Jonah's Anger and God's Compassion
+
+Instead of celebrating Nineveh's repentance, Jonah becomes angry.
+
+He tells God:
+
+> "I knew that you are a gracious God and merciful, slow to anger and abounding in steadfast love..."
+
+Jonah had apparently anticipated that God might show mercy.
+
+Jonah sits outside Nineveh and waits to see what will happen.
+
+God provides a plant to give Jonah shade.
+
+Jonah becomes very happy about the plant.
+
+Then God appoints a worm that destroys it.
+
+A scorching east wind follows.
+
+Jonah becomes angry about the plant's death.
+
+God then asks:
+
+> "Do you do well to be angry for the plant?"
+
+Jonah's concern for the plant becomes the basis for God's lesson about Nineveh.
+
+The book ends with God's question concerning the many people and animals in Nineveh.
+
+### Important Teachings
+
+The final chapter exposes the heart of the book.
+
+The greatest problem is not:
+
+> "Will Nineveh repent?"
+
+The deeper question is:
+
+> **"Will God's servant learn to share God's compassion?"**
+
+### Spiritual Lessons
+
+* We can understand God's grace while resisting its application to others.
+* It is possible to care more about personal comfort than human lives.
+* God's compassion is broader than human compassion.
+* Spiritual maturity involves developing God's heart toward others.
+
+---
+
+# Life Lessons from the Book
+
+## 1. Obey God's Call
+
+Jonah demonstrates the danger of deliberately resisting God's command.
+
+> **Jonah 1:1–3**
+
+Christian discipleship involves obedience, not merely knowledge.
+
+---
+
+## 2. God's Mercy Is Greater Than Human Mercy
+
+Jonah wanted judgment.
+
+God desired repentance.
+
+> **Jonah 4:2, 11**
+
+Believers should not limit God's grace according to personal preferences.
+
+---
+
+## 3. Repentance Matters
+
+Nineveh's response demonstrates that repentance is more than feeling sorry.
+
+They:
+
+* Believed God's warning
+* Humbled themselves
+* Fasted
+* Turned from evil
+
+> **Jonah 3:5–10**
+
+---
+
+## 4. God Can Restore a Disobedient Servant
+
+Jonah failed in chapter 1, but God gave him the commission again:
+
+> **Jonah 3:1–2**
+
+Failure does not have to be the final chapter of a believer's ministry.
+
+---
+
+## 5. Religious Knowledge Must Produce Godly Character
+
+Jonah knew:
+
+> "gracious... merciful, slow to anger and abounding in steadfast love"
+
+Yet he struggled to embody those qualities.
+
+This presents an important warning:
+
+> **Correct theology must be accompanied by a transformed heart.**
+
+---
+
+## 6. God Cares About the Lost
+
+Nineveh represents people who were living in evil and spiritual ignorance.
+
+God's concern is evident in:
+
+> **Jonah 4:11**
+
+This provides a powerful foundation for missionary and evangelistic teaching.
+
+---
+
+## 7. God Is Sovereign Over Circumstances
+
+God controls:
+
+* Storm — **Jonah 1:4**
+* Fish — **Jonah 1:17**
+* Plant — **Jonah 4:6**
+* Worm — **Jonah 4:7**
+* Wind — **Jonah 4:8**
+
+The repeated divine appointments emphasize God's sovereign direction of the narrative.
+
+---
+
+# Theological Themes
+
+## God's Character
+
+Jonah 4:2 summarizes several central attributes of God:
+
+* Gracious
+* Merciful
+* Slow to anger
+* Abounding in steadfast love
+* Responsive to repentance
+
+These qualities connect Jonah with the broader Old Testament revelation of God.
+
+Compare:
+
+* **Exodus 34:6–7**
+* **Psalm 103:8**
+* **Joel 2:13**
+
+---
+
+## Salvation
+
+The central declaration is:
+
+> "Salvation belongs to the LORD."
+> — **Jonah 2:9**
+
+Salvation is ultimately God's work.
+
+---
+
+## Grace
+
+Grace is visible throughout the book:
+
+* God spares Jonah
+* God preserves the sailors
+* God sends Jonah again
+* God spares Nineveh
+
+---
+
+## Judgment
+
+Jonah's message contains a warning of judgment:
+
+> **Jonah 3:4**
+
+Biblical judgment is not presented merely as destruction for its own sake. God's warning creates an opportunity for repentance.
+
+---
+
+## Repentance
+
+Nineveh provides one of Scripture's clearest examples of corporate repentance.
+
+> **Jonah 3:5–10**
+
+---
+
+## Obedience
+
+Jonah's first response is disobedience.
+
+His second response is obedience.
+
+The narrative shows that obedience to God matters even when His command is difficult.
+
+---
+
+## God's Sovereignty
+
+The repeated divine appointments demonstrate God's control over circumstances.
+
+> **Jonah 1:4, 17; 4:6–8**
+
+---
+
+## Mission to the Nations
+
+God sends an Israelite prophet to a Gentile city.
+
+This anticipates the broader biblical movement toward God's blessing of the nations.
+
+Compare:
+
+* **Genesis 12:3**
+* **Isaiah 49:6**
+* **Matthew 28:19**
+* **Acts 1:8**
+
+---
+
+## God's Compassion for Humanity
+
+Jonah 4:11 is the theological climax.
+
+God's concern includes:
+
+> "more than 120,000 persons"
+
+and even their animals.
+
+The point is that God's compassion cannot be reduced to Jonah's narrow concern.
+
+---
+
+# Foreshadows / Types of Jesus Christ
+
+The Book of Jonah contains an important **Christological connection**, primarily through Jesus' own interpretation of Jonah.
+
+## The Sign of Jonah
+
+Jesus refers to Jonah in:
+
+> **Matthew 12:38–41**
+
+and
+
+> **Matthew 16:4**
+
+and
+
+> **Luke 11:29–32**
+
+Jesus says that Jonah's experience in the fish provides a "sign."
+
+### Jonah and Christ
+
+| Jonah                                            | Jesus                                                 |
+| ------------------------------------------------ | ----------------------------------------------------- |
+| Jonah enters the depths                          | Jesus enters death                                    |
+| Jonah is in the fish three days and three nights | Jesus is in the tomb until the resurrection           |
+| Jonah emerges alive                              | Jesus rises from the dead                             |
+| Jonah becomes a sign to Nineveh                  | Jesus' death and resurrection become the supreme sign |
+
+Jesus specifically connects Jonah's three-day experience with His own coming death and resurrection.
+
+> **Matthew 12:40**
+
+This is not saying that Jonah is identical to Christ. Rather, Jonah's experience functions typologically as a **sign pointing forward to the greater reality of Christ's death and resurrection**.
+
+---
+
+## Jonah and the Gentiles
+
+Jesus also contrasts the response of Nineveh with the response of people who had heard Him:
+
+> **Matthew 12:41**
+
+Nineveh repented at Jonah's preaching.
+
+Jesus teaches that something greater than Jonah had come.
+
+This highlights:
+
+* The universal scope of God's call to repentance
+* The greater significance of Jesus
+* Human responsibility to respond to Christ
+
+---
+
+# Other Biblical Books Written During This Period
+
+Because the exact date of Jonah's final literary composition is debated, the following table refers primarily to books associated with the **8th-century BC prophetic period**.
+
+| Book       | Time Period                                        | Relationship                                                                             |
+| ---------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| **Amos**   | c. 760s BC                                         | Contemporary northern Israelite prophet addressing injustice and covenant unfaithfulness |
+| **Hosea**  | 8th century BC                                     | Contemporary prophet emphasizing Israel's unfaithfulness and God's covenant love         |
+| **Isaiah** | 8th century BC                                     | Major prophet in Judah addressing judgment, holiness, salvation, and the nations         |
+| **Micah**  | 8th century BC                                     | Contemporary prophet addressing injustice, judgment, restoration, and God's kingdom      |
+| **Jonah**  | 8th century BC ministry; final composition debated | Focuses on God's mercy toward Nineveh and the nations                                    |
+
+---
+
+# Teaching Plan for the Book
+
+| Session | Chapters  | Topic                      | Key Lesson                                         |
+| ------- | --------- | -------------------------- | -------------------------------------------------- |
+| 1       | Jonah 1   | Jonah Runs from God        | God's calling requires obedience                   |
+| 2       | Jonah 2   | Jonah Prays                | Salvation belongs to the LORD                      |
+| 3       | Jonah 3   | Nineveh Repents            | God's warning calls people to repentance           |
+| 4       | Jonah 4   | Jonah's Anger              | God's compassion is greater than ours              |
+| 5       | Jonah 1–4 | Major Themes               | Sovereignty, grace, repentance, mission            |
+| 6       | Jonah 1–4 | Jonah and Jesus            | "The Sign of Jonah" and the resurrection           |
+| 7       | Jonah 1–4 | Ministry Application       | Developing God's heart for the lost                |
+| 8       | Jonah 1–4 | Sermon / Teaching Workshop | Applying Jonah to church and personal discipleship |
+
+### Suggested Teaching Flow
+
+For each session:
+
+1. **Read the entire passage**
+2. Identify the historical setting
+3. Explain important words and concepts
+4. Observe what God does
+5. Observe human responses
+6. Identify theological truths
+7. Connect the passage to the rest of Scripture
+8. Apply the lesson to Christian life and ministry
+9. End with prayer and reflection
+
+---
+
+# Brief Timeline of the Book
+
+| Event                                           | Approximate Date                | Scripture Reference |
+| ----------------------------------------------- | ------------------------------- | ------------------- |
+| Jonah ministers during reign of Jeroboam II     | c. 8th century BC               | 2 Kings 14:25       |
+| God commands Jonah to go to Nineveh             | 8th century BC                  | Jonah 1:1–2         |
+| Jonah travels to Joppa                          | Same period                     | Jonah 1:3           |
+| Storm strikes the ship                          | Same period                     | Jonah 1:4–16        |
+| Jonah is thrown into the sea                    | Same period                     | Jonah 1:15          |
+| Jonah is swallowed by great fish                | Same period                     | Jonah 1:17          |
+| Jonah prays                                     | Three days/three nights context | Jonah 2             |
+| Jonah reaches Nineveh                           | Same period                     | Jonah 3:3           |
+| Nineveh repents                                 | Same period                     | Jonah 3:5–10        |
+| Jonah becomes angry                             | Same period                     | Jonah 4:1–4         |
+| God teaches Jonah through plant, worm, and wind | Same period                     | Jonah 4:5–11        |
+
+**Important:** Exact dates for the individual events cannot be established from the biblical text. The timeline should therefore be treated as a historical framework rather than a precise chronology.
+
+---
+
+# Prophecies in the Book
+
+The Book of Jonah contains prophetic preaching, especially the warning concerning Nineveh.
+
+| Prophecy                                  | Prophet / Speaker         | Reference        | Fulfillment                                                                          |
+| ----------------------------------------- | ------------------------- | ---------------- | ------------------------------------------------------------------------------------ |
+| Nineveh would be overthrown in forty days | Jonah                     | Jonah 3:4        | The announced destruction did not occur because Nineveh repented; compare Jonah 3:10 |
+| God's judgment warning to Nineveh         | Jonah                     | Jonah 1:2; 3:2–4 | Nineveh responded with repentance and received mercy                                 |
+| Sign of Jonah                             | Jesus, referring to Jonah | Matthew 12:39–41 | Jesus connects Jonah's experience with His death and resurrection                    |
+
+### Important Note on Jonah 3:4
+
+Jonah proclaimed:
+
+> "Yet forty days, and Nineveh shall be overthrown!"
+
+Nineveh's repentance changed the immediate outcome.
+
+This illustrates an important biblical principle: prophetic announcements of judgment can function as **warnings intended to provoke repentance**.
+
+Compare:
+
+* **Jeremiah 18:7–10**
+* **Ezekiel 18:21–23**
+
+---
+
+# Summary of the Book
+
+The Book of Jonah tells the story of an Israelite prophet sent by God to preach against Nineveh.
+
+Jonah initially runs away.
+
+God sends a storm.
+
+Jonah is thrown into the sea and swallowed by a great fish.
+
+Inside the fish, Jonah prays.
+
+God delivers him.
+
+Jonah then obeys and preaches to Nineveh.
+
+The people repent.
+
+God shows mercy.
+
+Instead of rejoicing, Jonah becomes angry.
+
+God uses a plant, a worm, and a scorching wind to teach Jonah that he has become more concerned about his own comfort than about the people of Nineveh.
+
+The book therefore moves beyond the question:
+
+> **"Will Nineveh repent?"**
+
+to the deeper question:
+
+> **"Will God's people share God's compassion?"**
+
+### Main Theological Message
+
+The central message can be summarized as:
+
+> **God is sovereign, gracious, merciful, and compassionate, and His concern extends to the nations. His servants are called not only to proclaim His message but also to reflect His character.**
+
+### Spiritual Takeaway
+
+Jonah challenges believers to ask:
+
+* Am I obeying God's call?
+* Do I pray when I am in distress?
+* Do I believe salvation belongs to God?
+* Do I rejoice when sinners repent?
+* Do I desire mercy for people I dislike?
+* Does my character reflect the God I claim to know?
+
+---
+
+# Additional Important Information
+
+## 1. Literary Structure
+
+The book has a remarkably symmetrical structure:
+
+### Chapter 1
+
+**Jonah runs from God**
+
+### Chapter 2
+
+**Jonah prays to God**
+
+### Chapter 3
+
+**Jonah obeys God**
+
+### Chapter 4
+
+**Jonah argues with God**
+
+The narrative progressively exposes Jonah's external actions and internal attitudes.
+
+---
+
+## 2. The Book Ends with a Question
+
+Unlike many biblical narratives, Jonah ends without telling us how Jonah responded to God's final question.
+
+> **Jonah 4:11**
+
+This appears intentional.
+
+The reader is invited to answer the question personally.
+
+### The implied question for God's people is:
+
+**Do we share God's compassion for those who need mercy?**
+
+---
+
+## 3. The "Great Fish"
+
+The Hebrew text says:
+
+> **דָּג גָּדוֹל — dag gadol**
+
+meaning approximately:
+
+> **"great fish"**
+
+The text does not identify the creature as a particular modern species such as a whale.
+
+Jesus refers to Jonah being in the **"belly of the great fish"**:
+
+> **Matthew 12:40**
+
+The central biblical point is not zoological identification but God's miraculous preservation of Jonah.
+
+---
+
+## 4. "Three Days and Three Nights"
+
+Jonah 1:17 says Jonah was in the fish:
+
+> "three days and three nights"
+
+Jesus uses this event as the basis of the **sign of Jonah** in Matthew 12:40.
+
+The comparison points to the significance of Jesus' death, burial, and resurrection.
+
+---
+
+## 5. The Prayer in Jonah 2
+
+Jonah 2 contains language strongly resembling the Psalms.
+
+This suggests that Jonah's prayer is deeply rooted in Israel's worship tradition.
+
+Themes include:
+
+* Crying to God
+* Distress
+* God's presence
+* Deliverance
+* Thanksgiving
+* Salvation
+
+---
+
+## 6. Jonah's Theology Was Correct, but His Heart Was Struggling
+
+One of the book's most profound lessons is found in Jonah 4:2.
+
+Jonah correctly describes God as:
+
+* Gracious
+* Merciful
+* Slow to anger
+* Abounding in steadfast love
+
+Yet he is angry precisely because God acts according to those characteristics.
+
+This creates a powerful teaching point:
+
+> **A person can know correct doctrine while still resisting the practical implications of that doctrine.**
+
+---
+
+## 7. The Contrast Between Jonah and the Gentiles
+
+The narrative contains several surprising reversals.
+
+### The sailors
+
+The sailors pray while Jonah sleeps:
+
+> **Jonah 1:5–6**
+
+### The Ninevites
+
+The Ninevites respond to God's warning:
+
+> **Jonah 3:5**
+
+### Jonah
+
+Jonah, God's prophet, resists God's mission and later becomes angry over God's mercy.
+
+This literary contrast challenges religious complacency.
+
+---
+
+## 8. Jonah and the Gospel
+
+Jonah provides an important Old Testament foundation for understanding God's heart toward the nations.
+
+The biblical storyline progresses from:
+
+**Israel's calling**
+
+to
+
+**God's concern for the nations**
+
+to
+
+**Christ's commission to make disciples of all nations**
+
+Compare:
+
+* **Genesis 12:1–3**
+* **Isaiah 49:6**
+* **Jonah 3–4**
+* **Matthew 28:18–20**
+* **Acts 1:8**
+
+---
+
+## 9. Archaeological and Historical Considerations
+
+Nineveh was a real ancient Assyrian city.
+
+Its ruins are located near modern **Mosul in northern Iraq**, in the vicinity of the Tigris River.
+
+The Assyrian Empire is extensively known from archaeological discoveries and ancient inscriptions.
+
+However, archaeology cannot independently verify every event narrated in Jonah. Archaeological evidence should therefore be used to illuminate the **historical setting**, rather than claiming that it proves every detail of the narrative.
+
+---
+
+## 10. Nineveh's "Three Days"
+
+Jonah 3:3 describes Nineveh as an exceedingly great city, and Jonah 3:4 describes Jonah beginning to enter the city.
+
+The phrase concerning a **three-day journey** has generated different interpretations among scholars.
+
+Possible understandings include:
+
+* The time required to traverse or visit the city and its surrounding administrative area
+* A description of the extent of the city
+* A literary way of emphasizing Nineveh's enormous size and importance
+
+The text does not require us to identify the phrase with a precise archaeological measurement.
+
+---
+
+## 11. "More Than 120,000 Persons"
+
+God says in Jonah 4:11 that Nineveh contained:
+
+> "more than 120,000 persons who do not know their right hand from their left"
+
+Scholars have proposed different interpretations of this phrase.
+
+It may refer to:
+
+* Very young children
+* People lacking moral/spiritual understanding
+* The broader population characterized by ignorance
+
+The inclusion of animals at the end of the verse reinforces the theme of God's compassion over His creation.
+
+---
+
+## 12. Jonah in the New Testament
+
+Jonah is specifically mentioned by Jesus.
+
+### Matthew 12:38–41
+
+Jesus identifies Jonah as a sign pointing to His own death and resurrection.
+
+### Matthew 16:4
+
+Jesus again refers to:
+
+> "the sign of Jonah"
+
+### Luke 11:29–32
+
+Jesus compares Jonah's preaching to His own ministry and highlights Nineveh's repentance.
+
+Jonah therefore has a direct and important place in **New Testament Christology**.
+
+---
+
+# Conclusion
+
+The Book of Jonah is far more than a story about a prophet and a great fish.
+
+It is a profound study of **God's character and the human heart**.
+
+Jonah knew that God was:
+
+* Gracious
+* Merciful
+* Slow to anger
+* Abounding in steadfast love
+
+Yet Jonah struggled to accept God's mercy when it was extended to people he considered undeserving.
+
+The book therefore calls God's people to move beyond merely **knowing God's character** to actually **reflecting God's character**.
+
+Jonah teaches that:
+
+* **God is sovereign.**
+* **God hears prayer.**
+* **God disciplines and restores His servants.**
+* **God calls people to repentance.**
+* **God shows mercy to those who turn from evil.**
+* **God cares about the nations.**
+* **God's compassion is greater than ours.**
+* **Salvation belongs to the LORD.**
+
+Most importantly, Jesus Himself gives Jonah a place in the Gospel story through the **"sign of Jonah."** Jonah's three-day experience becomes a prophetic sign pointing toward the greater reality of Christ's death, burial, and resurrection.
+
+For Bible teachers and preachers, Jonah provides rich material for teaching **obedience, repentance, missions, grace, God's sovereignty, evangelism, spiritual maturity, and the resurrection of Christ**.
+
+For every believer, the final question of Jonah remains deeply searching:
+
+> **Do we care about the people God cares about?**
+
+The book invites us not merely to study Jonah, but to examine our own hearts—and to ask whether our attitudes toward others reflect the gracious and compassionate heart of God.

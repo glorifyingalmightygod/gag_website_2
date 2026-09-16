@@ -1,11 +1,11 @@
 # GAG Website — Full Progress Report
-_Last updated: 2026-06-29_
+_Last updated: 2026-09-16_
 
 ---
 
 ## ✅ FULLY COMPLETE
 
-### Old Testament Survey — 31 of 39 Books (Full Survey Pages)
+### Old Testament Survey — 39 of 39 Books (Full Survey Pages) 🎉
 
 | Group | Books | Status |
 |-------|-------|--------|
@@ -13,7 +13,9 @@ _Last updated: 2026-06-29_
 | Historical (12) | Joshua, Judges, Ruth, 1 Samuel, 2 Samuel, 1 Kings, 2 Kings, 1 Chronicles, 2 Chronicles, Ezra, Nehemiah, Esther | ✅ Full survey |
 | Poetry & Wisdom (5) | Job, Psalms, Proverbs, Ecclesiastes, Song of Solomon | ✅ Full survey |
 | Major Prophets (5) | Isaiah, Jeremiah, Lamentations, Ezekiel, Daniel | ✅ Full survey |
-| Minor Prophets (4) | Hosea, Joel, Amos, Obadiah | ✅ Full survey |
+| Minor Prophets (12) | Hosea, Joel, Amos, Obadiah, Jonah, Micah, Nahum, Habakkuk, Zephaniah, Haggai, Zechariah, Malachi | ✅ Full survey |
+
+**The entire Old Testament survey is complete — Genesis through Malachi.**
 
 Each OT book page includes: book-meta-bar, 2-col intro + timeline, Key Persons table, Places table, Book Structure, Chapter grids, Key Verses, Foreshadows of Christ, Theme Tags, Teaching Plan, Life Lessons, Summary Banner.
 
@@ -79,25 +81,6 @@ All 27 NT books have **short 2–3 sentence summaries** — NOT full survey page
 
 ## ⏳ PENDING (Not Yet Started)
 
-### OT Minor Prophets — 8 Books Remaining (Placeholder Only)
-
-These all show a 2-sentence placeholder. **No source text files have been uploaded yet.**
-
-| # | Book | File | Source Text? |
-|---|------|------|-------------|
-| 32 | Jonah | `content/ot/jonah.js` | ❌ No txt file |
-| 33 | Micah | `content/ot/micah.js` | ❌ No txt file |
-| 34 | Nahum | `content/ot/nahum.js` | ❌ No txt file |
-| 35 | Habakkuk | `content/ot/habakkuk.js` | ❌ No txt file |
-| 36 | Zephaniah | `content/ot/zephaniah.js` | ❌ No txt file |
-| 37 | Haggai | `content/ot/haggai.js` | ❌ No txt file |
-| 38 | Zechariah | `content/ot/zechariah.js` | ❌ No txt file |
-| 39 | Malachi | `content/ot/malachi.js` | ❌ No txt file |
-
-**To start:** Upload the Minor Prophet .txt survey files into `content/ot-survey-text/` and say the book name to begin.
-
----
-
 ### Bible Maps
 
 - **Status:** Placeholder only — shows a quote and one sentence
@@ -114,7 +97,7 @@ These all show a 2-sentence placeholder. **No source text files have been upload
 
 | Section | Complete | Remaining | % Done |
 |---------|----------|-----------|--------|
-| OT Books (full surveys) | 31 | 8 Minor Prophets | 79% |
+| OT Books (full surveys) | 39 | 0 | 100% |
 | NT Books (full surveys) | 0 | 27 | 0% |
 | Bible Doctrines | 10 / 10 | — | 100% |
 | Theology Videos (real links) | 0 | 10 video IDs needed | Layout done |
@@ -128,12 +111,11 @@ These all show a 2-sentence placeholder. **No source text files have been upload
 
 ## 🚀 Recommended Next Steps (Priority Order)
 
-1. **Upload Minor Prophet .txt files** → build Jonah, Micah, Nahum... one by one (8 books remaining)
+1. **NT Survey pages** → build full survey pages for the Gospels and key NT books (Matthew, John, Romans, Revelation would be highest impact) — the OT survey is now a complete template to follow
 2. **Update Theology Videos** → replace the placeholder YouTube link with the real video ID for each of the 10 doctrine videos
 3. **Add more Audio Podcast episodes** → drop `.wav`/`.mp3` files in `audio/` folder, add episode cards in `content/pages.js`
-4. **NT Survey pages** → build full survey pages for the Gospels and key NT books (Matthew, John, Romans, Revelation would be highest impact)
-5. **Bible Maps** → add map images or embed resources
-6. **Bible Historical Photos** → add archaeological images
+4. **Bible Maps** → add map images or embed resources
+5. **Bible Historical Photos** → add archaeological images
 
 ---
 
